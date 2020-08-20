@@ -8,19 +8,16 @@ We're so glad that you're thinking about contributing to moja global. We welcome
 This guide is to help new contributors to know more about how they can contribute to moja global.
 It also covers some of the best code contribution practices adopted by moja global to ensure readability and maintainability of code.
 
-Before making a contribution
-----------------------------
+**Before making a contribution**
 
 * Please checkout our `Git and Github guide <DevelopmentSetup/git_and_github_guide>`_ on detailed instructions on how to setup this project and make a pull request.
 * Please follow our `Code of Conduct <coc>`_ at all times.
 
-How to contribute to moja global
---------------------------------
+**How to contribute to moja global**
 
 There are plenty of ways you can contribute to moja global repositories. To know more about how to contribute please click `here <ways_to_contribute>`_.
 
-After making your first contribution
-------------------------------------
+**After making your first contribution**
 
 * Get credit for your contribution
 
