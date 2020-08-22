@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'moja_docs'
+project = 'moja global Technical Guide'
 copyright = '2020, Sneha Mishra'
 author = 'Sneha Mishra'
 
