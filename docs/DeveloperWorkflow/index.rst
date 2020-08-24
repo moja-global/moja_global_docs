@@ -10,3 +10,4 @@ Contents:
 
   reviewing
   manual_testing_pr
+  bots_and_integrations
