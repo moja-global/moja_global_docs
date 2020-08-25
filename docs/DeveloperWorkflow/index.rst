@@ -1,4 +1,4 @@
-.. _DeveloperWorkflow:
+.. Moja Global GitHub workflow best practices:
 
 Developer Workflow
 ##################
