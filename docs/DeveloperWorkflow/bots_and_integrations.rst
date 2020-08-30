@@ -3,7 +3,7 @@
 Bots and Integrations
 #####################
 
-moja global makes use of an array of bots and integrations with GitHub inorder to provide a smooth experience to new contributors and to also make the process of contributing as effortless as possible.
+moja global makes use of an array of bots and integrations with GitHub in order to provide a smooth experience to new contributors and to also make the process of contributing as effortless as possible.
 
 This section focuses on the bots used within the organization and how to maintain them.
 
@@ -26,7 +26,8 @@ This bot is created and maintained by the `all-contributors` organisation `here 
 
 ::
 
-  Jane you are crushing it in documentation and your infrastructure work has been great too. Let's add jane.doe23 for her contributions. cc @all-contributors``
+  Jane you are crushing it in documentation and your infrastructure work has been great too. Let's 
+  add jane.doe23 for her contributions. cc @all-contributors``
 
 * The bot will then create a Pull Request to add the contributor, then reply with the pull request details.
 
@@ -81,7 +82,7 @@ If you wish to help develop and contribute to @botmojaglobal, check out the `moj
 
 Welcome Bot
 -----------
-Welcome Bot is a `github app <https://github.com/apps/welcome>`_ that that welcomes new users based off maintainer defined comments that should be located in a .github/config.yml. This app is configured for moja global in order to provide a richer experience to all new contributors.
+Welcome Bot is a `github app <https://github.com/apps/welcome>`_ that welcomes new users based off maintainer defined comments that should be located in a .github/config.yml. This app is configured for moja global in order to provide a richer experience to all new contributors.
 This bot is created and maintained by the `probot` organisation  `here <https://github.com/probot>`_.
 
 **Usage**
