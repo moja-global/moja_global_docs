@@ -1,7 +1,7 @@
 .. _DeveloperWorkflow:
 
-Developer Workflow
-##################
+GitHub Workflow Best Practices
+##############################
 
 Contents:
 
@@ -11,3 +11,4 @@ Contents:
   reviewing
   manual_testing_pr
   bots_and_integrations
+  repository_maintenance
