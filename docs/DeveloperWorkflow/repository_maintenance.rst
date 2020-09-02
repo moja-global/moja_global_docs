@@ -103,6 +103,18 @@ There are 2 types of project boards available:
 
 Moja global team uses boards for development and documentation at the repository level. It means repository-specific boards for focused work in each repository.
 
+Set up continuous integration (CI) 
+-------------------------
+* Why we need CI <add to issue # 72> 
+
+If you get confused between travis-ci.org and travis-ci.com (heads-up: use travis-ci.com for new repositories; some of our earlier reposistories are on travis-ci.org, but we will wait until Travis CI rolls out their migration plan to take actions)
+
+moja global repositories use Travis CI <add link> for continuous integration. Below is how you can add this service to a new repository:
+
+1. Make sure you have the admin access to the repository.
+2. 
+3. 
+
 Creating your first board
 -------------------------
 
