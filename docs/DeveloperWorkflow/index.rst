@@ -12,3 +12,4 @@ Contents:
   manual_testing_pr
   bots_and_integrations
   repository_maintenance
+  Communicating about development
