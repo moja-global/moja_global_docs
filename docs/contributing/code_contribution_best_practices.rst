@@ -38,7 +38,8 @@ We encourage you to add the mentioned tools as plugins in your editor.
 
   It is possible that exceptions to the google style guide may be specified, in which case they will be listed here. Currently there are no exceptions.
 
-  - Coding enforcement: We know that the style guides are long and detailed and not always easy to adhere to. As such, the intention is to use `Clang-Tidy <http://clang.llvm.org/extra/clang-tidy/>`_ as a tool to check and correct code formatting as determined by the Google C++ style guide. This will be implemented as an automated check through the Continuous Integration system.
+  - Coding enforcement: We know that the style guides are long and detailed and not always easy to adhere to. As such, the intention is to use `Clang-Tidy <http://clang.llvm.org/extra/clang-tidy/>`_ as a tool to check and correct code formatting as determined by the Google C++ style guide. This will be implemented as an automated check through the Continuous Integration system.  
+  
 
 - **Python Repositories**:
 
@@ -46,4 +47,4 @@ We encourage you to add the mentioned tools as plugins in your editor.
 
   This guide can be found at : https://www.python.org/dev/peps/pep-0008/
 
-  - Coding enforcement: In order to enforce the PEP8 conventions along with error detection, `Pylint <https://www.pylint.org/>`_ as a tool can be used and can be integrated with your editor as well.This will be implemented as an automated check through the Continuous Integration system.
+  - Coding enforcement: In order to enforce the PEP8 conventions along with error detection, `Pylint <https://www.pylint.org/>`_ as a tool can be used and can be integrated with your editor as well. This will be implemented as an automated check through the Continuous Integration system.
