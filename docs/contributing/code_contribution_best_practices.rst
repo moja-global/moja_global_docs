@@ -30,6 +30,21 @@ Depending on the language of the repository you are working on, we have an array
 
 We encourage you to add the mentioned tools as plugins in your editor.
 
-- C++ Repositories (FLINT/):
-- Python Repositories ():
-- Javascript Repositories ()
+- **C++ Repositories**:
+
+  moja global follows the C++ style guide developed by Google for their open-source projects. The google style guide is aimed at enable coders to utilise the power of C++ while at the same time managing the potential complexity that can arise when coding in C++.
+
+  The style guide can be found at: https://google.github.io/styleguide/cppguide.html
+
+  It is possible that exceptions to the google style guide may be specified, in which case they will be listed here. Currently there are no exceptions.
+
+  - Coding enforcement: We know that the style guides are long and detailed and not always easy to adhere to. As such, the intention is to use `Clang-Tidy <http://clang.llvm.org/extra/clang-tidy/>`_ as a tool to check and correct code formatting as determined by the Google C++ style guide. This will be implemented as an automated check through the Continuous Integration system.  
+  
+
+- **Python Repositories**:
+
+  moja global follows the Python Style guide PEP8 that provides coding conventions for Python code. It is fairly common for Python code to follow this style guide. It’s a great place to start since it’s already well-defined.
+
+  This guide can be found at : https://www.python.org/dev/peps/pep-0008/
+
+  - Coding enforcement: In order to enforce the PEP8 conventions along with error detection, `Pylint <https://www.pylint.org/>`_ as a tool can be used and can be integrated with your editor as well. This will be implemented as an automated check through the Continuous Integration system.
