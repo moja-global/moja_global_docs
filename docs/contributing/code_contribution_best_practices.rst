@@ -21,6 +21,18 @@ Commit Message Guidelines
 * Try to write the commit messages in an imperative tone for example:- 'Fix', 'Update', 'Add' instead of 'Fixed', 'Updated', 'Added'.
 * Reference the issue solved in the commit message, for example:- `Fixes #8293: Add login api unit tests`. This will automatically close the issue referenced when your pull request gets merged.
 
+Developer Certificate of Origin
+-------------------------------
+
+moja global follows `Developer Certificate of Origin(DCO) <https://developercertificate.org/>`_ as a method to certify that the contribution you have submitted was created in whole or in part by you and you
+have the right to submit it under the open source license to moja global.
+
+To apply this, please sign off all your commit messages with a line like this:
+
+``Signed-off-by: Random J Developer <random@developer.example.org>``
+
+Alternatively, you may also add the ``--signoff`` flag to the ``git commit`` command that will automatically add this line to your commit message.
+
 Code Style & Conventions
 ------------------------
 
@@ -38,8 +50,8 @@ We encourage you to add the mentioned tools as plugins in your editor.
 
   It is possible that exceptions to the google style guide may be specified, in which case they will be listed here. Currently there are no exceptions.
 
-  - Coding enforcement: We know that the style guides are long and detailed and not always easy to adhere to. As such, the intention is to use `Clang-Tidy <http://clang.llvm.org/extra/clang-tidy/>`_ as a tool to check and correct code formatting as determined by the Google C++ style guide. This will be implemented as an automated check through the Continuous Integration system.  
-  
+  - Coding enforcement: We know that the style guides are long and detailed and not always easy to adhere to. As such, the intention is to use `Clang-Tidy <http://clang.llvm.org/extra/clang-tidy/>`_ as a tool to check and correct code formatting as determined by the Google C++ style guide. This will be implemented as an automated check through the Continuous Integration system.
+
 
 - **Python Repositories**:
 
