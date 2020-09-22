@@ -10,18 +10,18 @@ In-order to setup FLINT by using docker containers, please follow the instructio
 
     sudo apt-get update
 
-* Now inorder to install docker, type the following command:
+* Now in order to install docker, type the following command:
 ::
 
     sudo apt install docker.io
 
-* The Docker service needs to be setup to run at startup. To do so, type in each command followed by enter:
+* The docker service needs to be setup to run at startup. To do so, type in each command followed by enter:
 ::
 
     sudo systemctl start docker
     sudo systemctl enable docker
 
-* Verify if the docker installation is successful by running the following command. If the following command does not return the version of the docker, your installation has been unsuccesful please try again.
+* Verify if the docker installation is successful by running the following command. If the following command does not return the version of the docker, your installation has been unsuccessful, please try again.
 ::
 
     docker --version
