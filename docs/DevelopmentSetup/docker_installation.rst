@@ -5,20 +5,20 @@ Docker Installation (for Linux Variants)
 
 This section guides first-time contributors through installing FLINT development environment.
 
-Before proceeding further, make sure you have setup the project using Git by following our guide `here `.
+Before proceeding further, make sure you have setup the project using Git by following our `Git and GitHub Guide <git_and_github_guide.html>`_.
 Also make sure you have the following prerequisites setup -
 
-.. toctree::
-  :maxdepth: 1
+Prerequisites
+-------------
 
-  ../prerequisites/docker
+* `Docker <../prerequisites/docker.html>`_
 
 Now that you have all the necessary prerequisites, you can proceed with the Installation.
 
 Setup Docker Container
 ----------------------
 
-Containers are a simple way to build FLINT and all required dependencies. Before setting up please check out the FLINT.example repository first.
+Containers are a simple way to build FLINT and all required dependencies. Before setting up, it is recommended to install the `FLINT.example <FLINT.example_installation.html>`_ repository first.
 
 Building the containers
 -----------------------
@@ -50,8 +50,8 @@ Once in, you should be able to run the CLI program moja.cli
 
 That should respond with the following options:
 
-Allowed options:
-----------------
+Allowed options
+---------------
 
 ::
 
