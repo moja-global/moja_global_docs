@@ -60,3 +60,79 @@ We encourage you to add the mentioned tools as plugins in your editor.
   This guide can be found at : https://www.python.org/dev/peps/pep-0008/
 
   - Coding enforcement: In order to enforce the PEP8 conventions along with error detection, `Pylint <https://www.pylint.org/>`_ as a tool can be used and can be integrated with your editor as well. This will be implemented as an automated check through the Continuous Integration system.
+
+Writing Documentation
+---------------------
+
+Whenever making a contribution, please add relevant documentation to support your contribution.
+You may also refer to this section for a guide on how to improve/add documentation for moja global.
+There are five levels of documentation under moja global. Depending on your contribution, you may choose to change docs in one or more of these levels:
+
+Documentation in the code base
+==============================
+
+Whenever making a significant code change like adding a new function, it is recommended to add documentation for the same in the codebase itself in form of comments.
+
+* Before commenting in the code try to clarify the code with `better naming and structuring <https://medium.com/@andrewgoldis/how-to-document-source-code-responsibly-2b2f303aa525>`_.
+* Use comments mainly to provide context to the reader of the code
+* Ensure comments are easy to maintain
+
+Documentation in md-files
+=========================
+
+Whenever adding a contribution that requires future contributors to refer that for installation and proper development of the repository, it is recommended to include the contribution supporting docs in the repository as ``.md`` files.
+You may choose to include it in the ``README.md`` file if the change requires immediate attention or you may make separate ``.md`` files as per the guidelines below.
+
+* Modify the ``README.md`` file for documentation that changes the quick installation process, usage or description of the project.
+* Use separate md-files for documentation that needs change in any of the following :
+
+  * How-To information
+  * Plans
+  * Procedures
+  * Governance documents
+* Submit changes using a pull-request that will be reviewed by maintainers.
+
+Documentation (readthedocs)
+===========================
+
+If the proposed contribution requires a change in the documentation that you are currently reading on readthedocs, then follow these steps to make the changes.
+
+* Fork and clone this docs repository from `here <https://github.com/moja-global/GSoD.moja_global_docs>`_.
+* Since readthedocs follows ``.rst`` file structure, please make sure the format of your documentation is right.
+* Submit a pull request under the above mentioned repository for the same. You may also check how the documentation build looks under the Pull requests checks tab.
+
+Documentation in the repository wiki
+====================================
+
+Use the repository wiki for information that can be changed by all collaborators without review, including
+
+  * Tutorials
+  * Explanations
+  * Reference Information
+* Make changes and commit directly to the wiki
+
+Since this mode of adding documentation does not require any review, we urge you to proof-read and make sure the documentation added is accurate and simple enough to understand.
+
+Documentation in Google Docs-files
+==================================
+
+If your contribution involves changes in the following, you may change the Google Docs for the collaborative development of documents (text equivalent of features branches), including
+
+  * Science Designs
+  * Architecture
+  * Strategy
+
+You may make changes/suggestions in line with the guidelines provided in this `template document <https://docs.google.com/document/d/1feo9G91bbjth9RZ4606Rag4tAdRxuYpfnlWecs-gbbY/edit?usp=sharing>`_. The maintainer then may decide to accept/reject the suggestions offered.
+
+Documentation in PDF-files
+==========================
+
+If your contribution involves changes in the following, you may change the PDF-files for documentation (text equivalent of a release), including
+
+  * Science Designs
+  * Architecture
+  * Strategy
+  * Meeting notes
+
+You may suggest changes to the document maintainer.
+Since these PDF files are released on a version basis from the Google Doc equivalent files, if there are any errors in the current PDF the changes pointed out by you will only be released in the next version.
