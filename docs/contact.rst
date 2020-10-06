@@ -1,7 +1,17 @@
 Join the moja global family
 ###########################
 
+Welcome to the moja global family! Thank you for taking the first step in connecting with us. We at moja global believe in healthy collaboration and invite you to join hands.
 
+moja global Slack
+=================
+
+moja global Slack provides a platform for contributors to communicate, discuss ideas and ask questions. It acts as the primary communication tool used under moja global. The moja global slack is also bound bu our `Code Of Conduct <contributing/coc.html>`_.
+Make sure you follow the guidelines before posting. We encourage you to be active participants to make moja global a responsive open source organisation.
+
+In order to receive an invite for the moja global Slack workspace, please email info@moja.global with a description of the project areas you are interested in. After evaluation from the mentors, you will receive a slack workspace invite. Please be patient since it may take time for maintainers to respond.
+
+After joining the Slack Workspace, we encourage you to join project specific channels of your interest. You may also `answer other contributors queries <contributing/ways_to_contribute.html#answer-user-questions>`_ or guide contributors towards resources in case they are stuck.
 
 Outreach and Student Programs
 =============================
@@ -27,3 +37,21 @@ We wish you all the best in your journey!
 Most of our outreach program Alums go on to act as maintainers for their projects and mentor other new contributors in their journey.
 
 Due to limited slots while we can't ensure selection for these programs, if you are passionate to work on the project we will definitely try to find an alternative source of funding.
+
+moja global Outreach
+====================
+
+moja global as an organisation is making efforts to manage Climate Change and act as a Change Maker in the environmental space. We would appreciate if you can spread the word for our initiative and invite more contributors on board to help us build more open source tools available for the world.
+
+Here is how you may help our mission:
+
+* **Star/Fork our projects on GitHub**: Our `GitHub Organization <https://github.com/moja-global/>`_ houses many Open source tools that are under active development. We encourage you to star/fork these repositories. You may also help us in their development.
+* **Follow us on LinkedIn**: Our `LinkedIn page <https://www.linkedin.com/company/moja-global>`_ provides the latest updates about the use of our Software around the world. You may also connect with volunteers at our organisation to discuss and engage in collaborative spirit.
+* **Follow us on Twitter**: Our `Twitter page <https://twitter.com/mojaglobal?lang=en>`_ also provides concise latest developments of the organisation.
+
+If you have been contributing to moja global for sometime now, you may also:
+
+* **Write a Blog**: Blog about your experience working with moja global and the impact it has had on your skillset. This will be a great way to let other contributors know about the atmosphere here at moja global.
+* **Organise meetups**: `Organise meetups <contributing/ways_to_contribute.html#organize-moja-global-events-meetups>`_ to share your experience in open source by working with moja global and moja global's mission.
+
+We appreciate every little step to promote moja global and are extremely grateful for your efforts!
