@@ -5,15 +5,14 @@ Windows Installation
 
 This section guides first-time contributors through installing FLINT development environment.
 
-Before proceeding further, make sure you have setup the project using Git by following our guide `here`.
+Before proceeding further, make sure you have setup the project using Git by following our guide `Git and GitHub Guide <git_and_github_guide.html>`_.
 Also make sure you have the following prerequisites setup -
 
-.. toctree::
-  :maxdepth: 1
-
-  ../prerequisites/cmake
-  ../prerequisites/vcpkg
-  ../prerequisites/visual_studio
+Prerequisites
+-------------
+* `Cmake <../prerequisites/cmake.html>`_
+* `Visual Studio <../prerequisites/visual_studio.html>`_
+* `Vcpkg <../prerequisites/vcpkg.html>`_
 
 Now that you have all the necessary prerequisites, you can proceed with the Installation.
 

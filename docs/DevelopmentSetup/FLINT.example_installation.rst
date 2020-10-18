@@ -1,45 +1,39 @@
 .. _DevelopmentSetup:
 
-FLINT.example: Docker Installation (for Linux Variants)
-#######################################################
+FLINT.example
+#############
 
-Docker file can be found in the Dockerfile
+The FLINT.example gives an example of how to build and run libraries using the FLINT framework. It is recommended to set up FLINT.example repository before setting up FLINT in order to get a better idea of how FLINT works.
 
-Builds fom the image mojaglobal/flint:bionic which can be found in docker hub
+The Docker file used here can be found in the ``Dockerfile`` file at the root of the repository.
+This Docker file builds from the image ``mojaglobal/flint:bionic`` which can be found in docker hub.
 
-Building the docker:
---------------------
+There are 3 different environemnts listed in this document to build and run the examples:
+
+* **Windows - Visual Studio 2019**: develop, run and debug
+* **Visual Studio Code**: develop, run and debug
+* **Docker**: run only
+
+We currently have four different sample runs:
+
+* **Test Module sample** - Point level
+* **RothC sample** - Point level
+* **Chapman richards** - Point sample
+* **Chapman richards** - Spatial sample
+
+The FLINT.example repository is available `here <https://github.com/moja-global/FLINT.Example>`_ under the moja global organisation on GitHub. Before proceeding to the instuctions for installing FLINT.example, please follow the following steps to clone this repository on your fork:
 
 ::
 
-      # from repository root folder
-      cd Docker
-      docker build --build-arg NUM_CPU=8 -t moja/flint.example:bionic .
+    git clone https://github.com/<your-username>/FLINT.example.git
 
-Commands to run using docker - stock result written to screen and results files create (./Run_Env/*.csv):
-::
+For more instructions on our GitHub fork, clone and pull request practices, refer our  `Git and GitHub Guide <git_and_github_guide.html>`_.
 
-    # from repository root folder
-    docker run --rm -v $(pwd)/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_example.json --config config/libs.base.simple.json --logging_config logging.debug_on.conf"
-    docker run --rm -v $(pwd)/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_rothc_example.json --config config/libs.base_rothc.simple.json --logging_config logging.debug_on.conf"
+Contents:
 
-Commands to run moja from within the docker - stock result written to screen and results files create (./Run_Env/*.csv):
-::
-    docker run --rm -v $(pwd)/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash
+.. toctree::
+  :maxdepth: 1
 
-Then inside the running container:
-::
-    cd /usr/local/run_env/
-    moja.cli --config config/point_example.json --config config/libs.base.simple.json --logging_config logging.debug_on.conf
-    moja.cli --config config/point_rothc_example.json --config config/libs.base_rothc.simple.json --logging_config logging.debug_on.conf
-
-Outputs
--------
-
-The runs above will create output files. While Stock values are output to the screen, there will also be some simplace CVS files created with both Stock and Flux values for the simulation.
-::
-
-  Example_Point_Flux.csv
-  Example_Point_Stock.csv
-  Example_Rothc_Point_Flux.csv
-  Example_Rothc_Point_Stock.csv
+  visual_studio_win_example
+  visual_studio_example
+  docker_installation_example
