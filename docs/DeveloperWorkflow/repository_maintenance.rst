@@ -20,14 +20,14 @@ Follow these steps to generate your new repository from Template repository:
 .. image:: ../images/template_1.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Create a new template repository
 
 * Upon selecting the template, please make sure the checkbox for ``include all branches`` is unmarked.
 
 .. image:: ../images/template_2.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: `include all branches`` unmarked
 
 * Now go ahead and add details of your repository name,description and visibility setting (Public or Private).
 * Click on the ``Create repository`` button as the final step!
@@ -44,14 +44,14 @@ They can help improve awareness of different types of contribution methods in th
 .. image:: ../images/label_new.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Labels in a repository
 
 * Configure each issues’ labels in a way that makes sense for your project. The labels should classify the issues/pull requests in an appropriate manner so they can be easily applied for filtering later. Every issue and pull request labels can be found under the Issue tab with the labels button.
 
 .. image:: ../images/label_1.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Classify issues/pull requests using Labels
 
 moja global has the following labels available on an organisational level. You can use the labels depending on the issue, and make new labels specific to the repository, if needed as explained above.
 
@@ -114,14 +114,14 @@ Creating your first board
 .. image:: ../images/project_board_1.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Project Boards under Organization
 
 * Configure the name and description for the project board. You can also choose templates to set up basic columns and sorting for your board. Currently, moja global team selects ``Basic kanban`` for Kanban-style boards.
 
 .. image:: ../images/project_board_2.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Create a new project board
 
 
 * After creating the project board, you may make adjustments to it as needed. You can create new columns, set up automation and add pre-existing GitHub issues and pull requests to the project board.
@@ -147,28 +147,28 @@ In order to add a issue/pull request to a project board, follow these steps:
 .. image:: ../images/project_board_3.png
   :width: 200
   :align: center
-  :alt: Alternative text
+  :alt: Select project board for issue
 
 * After selection of the board, you may classify it into one of the three columns by clicking on the ``Awaiting Triage`` dropdown and selecting any one of the above options (Todo, In progress, Done).
 
 .. image:: ../images/project_board_4.png
   :width: 400
   :align: center
-  :alt: Alternative text
+  :alt: Assign state (todo, in progress, done) to the issue
 
 * Once you have classified your issue/pull request into the correct column, you can see an update for the same shown in your issue.
 
 .. image:: ../images/project_board_5.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Update for issue added to project board
 
 * Now if you need to update the column, navigate to the Projects tab. You can then drag-and-drop issues/pull requests from one column to another as per your convenience.
 
 .. image:: ../images/project_board_6.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Drag/Drop interface to move cards to different columns
 
 
 Build project boards into your workflow
@@ -183,7 +183,7 @@ The following image shows how we can track progress with GitHub project boards.
 .. image:: ../images/project_board_7.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Progress Tracking with Project boards
 
 As moja global is an open-source project and community, consider using the project boards to update other team members, and encourage participation inside of GitHub issues and pull requests.
 

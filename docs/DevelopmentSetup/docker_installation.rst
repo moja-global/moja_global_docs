@@ -23,18 +23,38 @@ Containers are a simple way to build FLINT and all required dependencies. Before
 Building the containers
 -----------------------
 
+.. note::
+   Please make sure that you have checked out to the ``Develop`` Branch for the FLINT Installation. You may refer to our `Git and GitHub Guide <git_and_github_guide.html#make-a-contribution>` for instructions on how to switch to develop branch.
+
 The build has been split into two Dockerfiles, the first to get and build required libraries. The second to get and build the moja FLINT libraries and CLI program.
 ::
 
-    # working from the examples folder "flint/tree/master/Examples/docker"
+    # working from the Docker folder "flint/tree/develop/Docker"
 
     # build the base
     docker build -f Dockerfile.base.ubuntu.18.04 --build-arg NUM_CPU=4 -t moja/baseimage:ubuntu-18.04 .
 
-    # build the flint container
-    docker build  -f Dockerfile.flint.ubuntu.18.04 --build-arg NUM_CPU=4 --build-arg FLINT_BRANCH=master -t moja/flint:ubuntu-18.04 .
+.. figure:: ../images/installation_docker/step1_f_docker.png
+  :width: 600
+  :align: center
+  :alt: Alternative text
 
-    docker build  -f Dockerfile.flint.ubuntu.18.04 --build-arg NUM_CPU=4 --build-arg GITHUB_AT=XXXX --build-arg FLINT_BRANCH=master -t moja/flint:ubuntu-18.04 .
+  Building the base libraries using Docker
+
+::
+
+
+    # build the flint container
+    docker build  -f Dockerfile.flint.ubuntu.18.04 --build-arg NUM_CPU=4 --build-arg FLINT_BRANCH=develop -t moja/flint:ubuntu-18.04 .
+
+    docker build  -f Dockerfile.flint.ubuntu.18.04 --build-arg NUM_CPU=4 --build-arg GITHUB_AT=XXXX --build-arg FLINT_BRANCH=develop -t moja/flint:ubuntu-18.04 .
+
+.. figure:: ../images/installation_docker/step2b_f_docker.png
+  :width: 600
+  :align: center
+  :alt: Alternative text
+
+  Building the FLINT libraries using Docker
 
 How to use the final container depends on the task. However, the following command will bash into the flint container and allow you to use the CLI program.
 ::
@@ -47,6 +67,13 @@ Once in, you should be able to run the CLI program moja.cli
 
     # run CLI
     moja.cli --help
+
+.. figure:: ../images/installation_docker/step3_f_docker.png
+  :width: 600
+  :align: center
+  :alt: Alternative text
+
+  Running moja.cli using Docker
 
 That should respond with the following options:
 
