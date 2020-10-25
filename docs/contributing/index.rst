@@ -12,9 +12,9 @@ Contents:
 
 .. toctree::
   :maxdepth: 1
-  
+
   before_contribute
+  ways_to_contribute
   after_contribute
   code_contribution_best_practices
   coc
-  ways_to_contribute

@@ -1,7 +1,7 @@
 .. _DeveloperWorkflow:
 
-GitHub Workflow Best Practices
-##############################
+GitHub Workflow
+###############
 
 moja global as an Open source organisation wants to provide their users the best possible collaborative experience while meeting their security requirements and limiting their maintenance effort.
 Working on a collaborative platform like GitHub at times can be  overwhelming, especially as the number of users and repositories grow within an organization.
@@ -14,8 +14,8 @@ Contents:
 .. toctree::
   :maxdepth: 1
 
-  reviewing
-  automated_checks
-  manual_testing_pr
-  bots_and_integrations
   repository_maintenance
+  bots_and_integrations
+  automated_checks
+  reviewing
+  manual_testing_pr

@@ -1,7 +1,7 @@
 .. _DeveloperWorkflow:
 
-Repository maintenance under GitHub
-###################################
+GitHub Repository maintenance
+#############################
 
 This section guides contributors and maintainers on the guidelines to follow while setting up a new repository and maintaining it under moja global.
 
@@ -97,6 +97,7 @@ Creating and maintaining Project Boards
 Project boards on GitHub help you organize and prioritize your work by creating them for specific feature work, comprehensive roadmaps, or even release checklists.
 
 There are 2 types of project boards available:
+
 * Repository: Boards for use in a single repository.
 * Organization: Boards for use in a GitHub organization across multiple repositories (but private to organization members)
 

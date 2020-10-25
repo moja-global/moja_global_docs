@@ -1,19 +1,11 @@
 .. _DevelopmentSetup:
 
-Development Setup
-#################
+FLINT Development Setup
+#######################
 
 This section guides first-time contributors through installing FLINT development environment on Windows and Ubuntu.
 
 The recommended method for installing the FLINT development environment is on Windows using cmake, vcpkg and Visual Studio 2017 or 2019. Inorder to setup FLINT on Linux based systems, Docker containers are preferred. This method creates containers which are a simple way to build FLINT and all required dependencies.
-
-Contents:
-
-.. toctree::
-  :maxdepth: 1
-
-  windows_installation
-  docker_installation
 
 **Before Setting Up FLINT**
 
@@ -27,4 +19,6 @@ Contents:
   :maxdepth: 1
 
   git_and_github_guide
+  windows_installation
+  docker_installation
   FLINT.example_installation
