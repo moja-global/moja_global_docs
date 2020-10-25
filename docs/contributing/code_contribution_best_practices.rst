@@ -53,7 +53,6 @@ We encourage you to add the mentioned tools as plugins in your editor.
   - Coding enforcement: We know that the style guides are long and detailed and not always easy to adhere to. As such, the intention is to use `Clang-Tidy <http://clang.llvm.org/extra/clang-tidy/>`_ as a tool to check and correct code formatting as determined by the Google C++ style guide. This will be implemented as an automated check through the Continuous Integration system.
 
 
-
 - **Python Repositories**:
 
   moja global follows the Python Style guide PEP8 that provides coding conventions for Python code. It is fairly common for Python code to follow this style guide. It’s a great place to start since it’s already well-defined.

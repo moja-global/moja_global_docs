@@ -3,25 +3,33 @@
 Setup Docker (for Linux based variants only)
 ############################################
 
-In-order to setup FLINT by using docker containers, please follow the instructions below:
+In-order to setup FLINT by using docker containers, please follow the instructions below based on your Linux Distro.
+If your Linux distro is not listed below, please checkout the `Docker official installation guides <https://docs.docker.com/engine/install/>`_ for more information:
 
-* Open a terminal window (ctrl+alt+T) and type the following to update the default repositories:
-::
+* **Install on CentOS**
 
-    sudo apt-get update
+  In order to setup the latest version of Docker on CentOS, checkout the official `Docker installation guide for CentOS <https://docs.docker.com/engine/install/centos/>`_ .  
 
-* Now in order to install docker, type the following command:
-::
 
-    sudo apt install docker.io
+* **Install on Fedora**
 
-* The docker service needs to be setup to run at startup. To do so, type in each command followed by enter:
-::
+  In order to setup the latest version of Docker on Fedora, checkout the official `Docker installation guide for Fedora <https://docs.docker.com/engine/install/fedora/>`_ .
 
-    sudo systemctl start docker
-    sudo systemctl enable docker
 
-* Verify if the docker installation is successful by running the following command. If the following command does not return the version of the docker, your installation has been unsuccessful, please try again.
+* **Install on Debian**
+
+  In order to setup the latest version of Docker on Debian, checkout the official `Docker installation guide for Debian <https://docs.docker.com/engine/install/debian/>`_ .
+
+
+* **Install on Ubuntu**
+
+  In order to setup the latest version of Docker on Ubuntu, checkout the official `Docker installation guide for Ubuntu <https://docs.docker.com/engine/install/ubuntu/>`_ .
+
+
+Test Docker version
+===================
+
+Verify if the docker installation is successful by running the following command. If the following command does not return the version of the docker, your installation has been unsuccessful, please try again.
 ::
 
     docker --version
