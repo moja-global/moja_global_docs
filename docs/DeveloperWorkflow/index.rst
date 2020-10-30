@@ -17,5 +17,7 @@ Contents:
   repository_maintenance
   bots_and_integrations
   automated_checks
+  flint_architecture
+  flint_performance
   reviewing
   manual_testing_pr
