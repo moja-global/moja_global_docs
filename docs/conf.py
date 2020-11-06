@@ -29,6 +29,7 @@ author = 'Sneha Mishra'
 # ones.
 extensions = ['recommonmark',
 'sphinx_rtd_theme',
+'sphinx_copybutton',
 ]
 
 master_doc = 'index'
