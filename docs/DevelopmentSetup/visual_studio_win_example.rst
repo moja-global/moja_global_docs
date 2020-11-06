@@ -30,7 +30,7 @@ Start a command shell in the Vcpkg repository folder (that you had cloned earlie
 .. figure:: ../images/installation_vs2019_flint.example/Step1b.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Installing required packages using vcpkg in Command Prompt
 
   Installing required packages using vcpkg in Command Prompt
 
@@ -48,7 +48,7 @@ Launch the Windows Powershell and run the following commands:
 .. figure:: ../images/installation_vs2019_flint.example/Step2.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Creating a build Directory for Cloned FLINT.example repo
 
   Creating a build Directory for Cloned FLINT.example repo
 
@@ -84,14 +84,14 @@ In order to run and debug the Visual Studio solution -
 .. figure:: ../images/installation_vs2019_flint.example/VS2019_buildall.jpeg
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
 
   Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
 
 .. figure:: ../images/installation_vs2019_flint.example/Step4.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
 
   Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
 
@@ -169,7 +169,7 @@ These arguments will point at the right configuration files for RothC. Please fo
 .. figure:: ../images/installation_vs2019_flint.example/VS2019_rothcproperties.jpeg
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: ``ALL_BUILD`` properties page for ``moja.FLINT.example.rothc``
 
   ``ALL_BUILD`` properties page for ``moja.FLINT.example.rothc``
 
@@ -178,7 +178,7 @@ You should now be able to select ``Debug->Start Debugging`` to start a debug run
 .. figure:: ../images/installation_vs2019_flint.example/VS2019_debugrothc.jpeg
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Debug run for rothc example
 
   Debug run for rothc example
 

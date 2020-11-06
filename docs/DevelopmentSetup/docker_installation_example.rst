@@ -22,7 +22,7 @@ Building the docker
 .. figure:: ../images/installation_docker/step1_docker.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Building the FLINT.example image using Docker
 
   Building the FLINT.example image using Docker
 
@@ -42,7 +42,7 @@ For the RothC example, you may run this command:-
 .. figure:: ../images/installation_docker/step2_docker.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Running the examples using Docker
 
   Running the examples using Docker
 
@@ -62,7 +62,7 @@ Then inside the running container:
 .. figure:: ../images/installation_docker/step2b_docker.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Running the moja.cli within Docker
 
   Running the moja.cli within Docker
 
@@ -82,6 +82,6 @@ The Output files created are visible in the below screenshot :-
 .. figure:: ../images/installation_docker/step3a_docker.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Output files created from runs
 
   Output files created from runs

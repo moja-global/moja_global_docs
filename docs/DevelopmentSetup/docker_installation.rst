@@ -37,7 +37,7 @@ The build has been split into two Dockerfiles, the first to get and build requir
 .. figure:: ../images/installation_docker/step1_f_docker.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Building the base libraries using Docker
 
   Building the base libraries using Docker
 
@@ -52,7 +52,7 @@ The build has been split into two Dockerfiles, the first to get and build requir
 .. figure:: ../images/installation_docker/step2b_f_docker.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Building the FLINT libraries using Docker
 
   Building the FLINT libraries using Docker
 
@@ -71,7 +71,7 @@ Once in, you should be able to run the CLI program moja.cli
 .. figure:: ../images/installation_docker/step3_f_docker.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Running moja.cli using Docker
 
   Running moja.cli using Docker
 

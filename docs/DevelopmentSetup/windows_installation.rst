@@ -32,7 +32,7 @@ Start a command shell in the Vcpkg repository folder (that you had cloned earlie
 .. figure:: ../images/installation_vs2019_flint.example/Step1b.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Installing required packages using vcpkg in Command Prompt
 
   Installing required packages using vcpkg in Command Prompt
 
@@ -66,7 +66,7 @@ Running the project
 .. figure:: ../images/installation_vs2019_flint.example/Step4.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
 
   Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
 
