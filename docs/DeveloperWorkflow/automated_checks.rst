@@ -19,7 +19,7 @@ This script also uploads our coverage report to `Codecov <https://codecov.io/>`_
 .. figure:: ../images/all_checks.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: GitHub pull request Checks
 
   GitHub pull request Checks
 
@@ -28,7 +28,7 @@ This script also uploads our coverage report to `Codecov <https://codecov.io/>`_
 .. figure:: ../images/build.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: GitHub actions Pull Request Build Console
 
   GitHub actions Pull Request Build Console
 
@@ -53,7 +53,7 @@ If the coverage percentage remains same or higher than before, the check passes.
 .. figure:: ../images/all_checks.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: GitHub pull request Checks
 
   GitHub pull request Checks
 
@@ -62,7 +62,7 @@ If the coverage percentage remains same or higher than before, the check passes.
 .. figure:: ../images/codecov.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Codecov Dashboard
 
   Codecov Dashboard
 
@@ -71,7 +71,7 @@ If the coverage percentage remains same or higher than before, the check passes.
 .. figure:: ../images/codecov_lines.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Codecov File coverage
 
   Codecov File coverage
 
@@ -94,7 +94,7 @@ If any lines of code can be improved according to the programming convention, th
 .. figure:: ../images/all_checks.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: GitHub pull request Checks
 
   GitHub pull request Checks
 
@@ -104,7 +104,7 @@ If any lines of code can be improved according to the programming convention, th
 .. figure:: ../images/code_climate.png
   :width: 600
   :align: center
-  :alt: Alternative text
+  :alt: Codeclimate Dashboard
 
   Codeclimate Dashboard
 

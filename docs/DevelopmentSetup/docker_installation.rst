@@ -18,23 +18,63 @@ Now that you have all the necessary prerequisites, you can proceed with the Inst
 Setup Docker Container
 ----------------------
 
-Containers are a simple way to build FLINT and all required dependencies. Before setting up, it is recommended to install the `FLINT.example <FLINT.example_installation.html>`_ repository first.
+Containers are a simple way to build FLINT and all required dependencies.
+
+.. note::
+   Before setting up, it is recommended to install the `FLINT.example <FLINT.example_installation.html>`_ repository first.
+
+Building using prebuilt image
+-----------------------------
+
+Instead of building the required libraries, pre-built Docker Image is available for FLINT at our `Dockerhub <https://hub.docker.com/r/mojaglobal/flint>`_ .
+You can pull and run FLINT using this prebuilt image using the following commands.
+
+::
+
+    # pull the image
+    docker pull mojaglobal/flint
+    # run a container
+    docker run --rm -ti mojaglobal/flint:latest bash
+    # run CLI
+    moja.cli --help
+
+Alternatively, you can build the libraries by Building using the second option below.
 
 Building the containers
 -----------------------
 
+.. note::
+   Please make sure that you have checked out to the ``Develop`` Branch for the FLINT Installation. You may refer to our `Git and GitHub Guide <git_and_github_guide.html#make-a-contribution>`_ for instructions on how to switch to develop branch.
+
 The build has been split into two Dockerfiles, the first to get and build required libraries. The second to get and build the moja FLINT libraries and CLI program.
 ::
 
-    # working from the examples folder "flint/tree/master/Examples/docker"
+    # working from the Docker folder "flint/tree/develop/Docker"
 
     # build the base
     docker build -f Dockerfile.base.ubuntu.18.04 --build-arg NUM_CPU=4 -t moja/baseimage:ubuntu-18.04 .
 
-    # build the flint container
-    docker build  -f Dockerfile.flint.ubuntu.18.04 --build-arg NUM_CPU=4 --build-arg FLINT_BRANCH=master -t moja/flint:ubuntu-18.04 .
+.. figure:: ../images/installation_docker/step1_f_docker.png
+  :width: 600
+  :align: center
+  :alt: Building the base libraries using Docker
 
-    docker build  -f Dockerfile.flint.ubuntu.18.04 --build-arg NUM_CPU=4 --build-arg GITHUB_AT=XXXX --build-arg FLINT_BRANCH=master -t moja/flint:ubuntu-18.04 .
+  Building the base libraries using Docker
+
+::
+
+
+    # build the flint container
+    docker build  -f Dockerfile.flint.ubuntu.18.04 --build-arg NUM_CPU=4 --build-arg FLINT_BRANCH=develop -t moja/flint:ubuntu-18.04 .
+
+    docker build  -f Dockerfile.flint.ubuntu.18.04 --build-arg NUM_CPU=4 --build-arg GITHUB_AT=XXXX --build-arg FLINT_BRANCH=develop -t moja/flint:ubuntu-18.04 .
+
+.. figure:: ../images/installation_docker/step2b_f_docker.png
+  :width: 600
+  :align: center
+  :alt: Building the FLINT libraries using Docker
+
+  Building the FLINT libraries using Docker
 
 How to use the final container depends on the task. However, the following command will bash into the flint container and allow you to use the CLI program.
 ::
@@ -47,6 +87,13 @@ Once in, you should be able to run the CLI program moja.cli
 
     # run CLI
     moja.cli --help
+
+.. figure:: ../images/installation_docker/step3_f_docker.png
+  :width: 600
+  :align: center
+  :alt: Running moja.cli using Docker
+
+  Running moja.cli using Docker
 
 That should respond with the following options:
 

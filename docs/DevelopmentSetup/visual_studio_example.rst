@@ -31,7 +31,7 @@ To build the project the cmake and C++ extensions will be required. These have b
     		"twxs.cmake",
     		"ms-vscode.cmake-tools"
     	]
-      
+
 Once the project opens the folder in the dev container, use the cmake commands to configure and build the project. Once this is done you should be ready to run/debug one of the samples.
 
 **NOTE** : The libraries require a slightly different paths to work inside the dev-container, so there is a new version of the library configs for VS Code. These commands will work from the terminal in the running container after cmake has been successful.
