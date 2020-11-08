@@ -18,13 +18,33 @@ Now that you have all the necessary prerequisites, you can proceed with the Inst
 Setup Docker Container
 ----------------------
 
-Containers are a simple way to build FLINT and all required dependencies. Before setting up, it is recommended to install the `FLINT.example <FLINT.example_installation.html>`_ repository first.
+Containers are a simple way to build FLINT and all required dependencies.
+
+.. note::
+   Before setting up, it is recommended to install the `FLINT.example <FLINT.example_installation.html>`_ repository first.
+
+Building using prebuilt image
+-----------------------------
+
+Instead of building the required libraries, pre-built Docker Image is available for FLINT at our `Dockerhub <https://hub.docker.com/r/mojaglobal/flint>`_ .
+You can pull and run FLINT using this prebuilt image using the following commands.
+
+::
+
+    # pull the image
+    docker pull mojaglobal/flint
+    # run a container
+    docker run --rm -ti mojaglobal/flint:latest bash
+    # run CLI
+    moja.cli --help
+
+Alternatively, you can build the libraries by Building using the second option below.
 
 Building the containers
 -----------------------
 
 .. note::
-   Please make sure that you have checked out to the ``Develop`` Branch for the FLINT Installation. You may refer to our `Git and GitHub Guide <git_and_github_guide.html#make-a-contribution>` for instructions on how to switch to develop branch.
+   Please make sure that you have checked out to the ``Develop`` Branch for the FLINT Installation. You may refer to our `Git and GitHub Guide <git_and_github_guide.html#make-a-contribution>`_ for instructions on how to switch to develop branch.
 
 The build has been split into two Dockerfiles, the first to get and build required libraries. The second to get and build the moja FLINT libraries and CLI program.
 ::

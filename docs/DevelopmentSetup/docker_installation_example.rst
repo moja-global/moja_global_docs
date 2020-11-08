@@ -19,6 +19,8 @@ Building the docker
       cd Docker
       docker build --build-arg NUM_CPU=8 -t moja/flint.example:bionic .
 
+* Return to top level folder with ``cd ..``
+
 .. figure:: ../images/installation_docker/step1_docker.png
   :width: 600
   :align: center
@@ -30,14 +32,22 @@ Commands to run using docker - stock result written to screen and results files 
 ::
 
     # from repository root folder
+
+    # For Linux
     docker run --rm -v $(pwd)/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_example.json --config config/libs.base.simple.json --logging_config logging.debug_on.conf"
+
+    # For Windows
+    docker run --rm -v %cd%/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_example.json --config config/libs.base.simple.json --logging_config logging.debug_on.conf"
 
 For the RothC example, you may run this command:-
 
 ::
 
-
+    # For Linux
     docker run --rm -v $(pwd)/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_rothc_example.json --config config/libs.base_rothc.simple.json --logging_config logging.debug_on.conf"
+
+    # For Windows
+    docker run --rm -v %cd%/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_rothc_example.json --config config/libs.base_rothc.simple.json --logging_config logging.debug_on.conf"
 
 .. figure:: ../images/installation_docker/step2_docker.png
   :width: 600
@@ -49,7 +59,11 @@ For the RothC example, you may run this command:-
 Commands to run moja from within the docker - stock result written to screen and results files create (./Run_Env/*.csv):
 ::
 
+    # For Linux
     docker run --rm -v $(pwd)/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash
+
+    # For Windows
+    docker run --rm -v %cd%/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash
 
 Then inside the running container:
 ::
