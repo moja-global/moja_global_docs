@@ -1,7 +1,7 @@
-# TITLE 
+# GSoD.moja_global_docs
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-Text 
+Repository for the moja global Technical Onboarding guide developed during GSoD.
 
 ## How to Get Involved?  
 
