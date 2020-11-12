@@ -14,6 +14,7 @@ This Documentation is meant for Developers wishing to contribute to moja global 
 
    prerequisites/index
    DevelopmentSetup/index
+   GCBMDevelopmentSetup/index
    contributing/index
    DeveloperWorkflow/index
    faq

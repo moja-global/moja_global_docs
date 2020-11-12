@@ -1,0 +1,42 @@
+.. _GCBMDevelopmentSetup:
+
+Windows Installation
+####################
+
+This section guides first-time contributors through installing GCBM on Windows.
+
+Before proceeding further, make sure you have the following prerequisites setup:
+
+Prerequisites
+-------------
+* `Python 3.7 <prerequisites/python_3.7.html>`_
+* `Microsoft Access Database Driver <prerequisites/microsoft_access_database_driver.html>`_
+* `Visual C++ Redistributable Packages <prerequisites/visual_c++_redistributable_packages.html>`_
+
+Now that you have all the necessary prerequisites, you can proceed with the Installation.
+
+Update GCBM Run Script
+----------------------
+
+Edit ``run_all.bat`` and update the Python path to the one used in the Python installation step, and the platform bit-ness to match your version of MS Access if needed:
+
+.. figure:: ../images/installation_gcbm/image1.png
+  :width: 600
+  :align: center
+  :alt: Editing ``run_all.bat`` file to update Python path and Platform
+
+  Editing ``run_all.bat`` file to update Python path and Platform
+
+Test GCBM
+---------
+
+Double-click the ``run_gcbm.bat`` file to run GCBM – if the installation steps were performed correctly, the preprocessing tools, GCBM model, and postprocessing tools should run without any error messages.
+
+.. figure:: ../images/installation_gcbm/image5.png
+  :width: 600
+  :align: center
+  :alt: Running the ``run_gcbm.bat`` file to execute GCBM
+
+  Running the ``run_gcbm.bat`` file to execute GCBM
+
+Viola! We are all done.
