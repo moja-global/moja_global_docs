@@ -37,7 +37,7 @@ Is moja global controlled by one country?
 
 Users own and control moja global. More `info on governance can be found here <https://github.com/moja-global/About-moja-global/wiki/moja-global-is-controlled-through-open-governance>`_.
 
-All users have the right to take a seat on the board. The strategy board decides on strategy and budget. Currently the board is comprised of a Kenyan national, an American national, a Polish national, a Canadian national and a Ghanaian representative of the UNFCCC. The board supervises 2 co-directors, one is Belgian and one is Australian. The chair of the technical steering committee is a Canadian national.
+All users have the right to take a seat on the board. The strategy board decides on strategy and budget. The board supervises 2 co-directors. The chair of the technical steering committee is a Canadian national.
 
 At the time FLINT started only two countries in the world had a spatially explicit system using integrating software to estimate land-sector GHG fluxes. Those were Canada and Australia. The strong points of each of these systems were taken on in the FLINT design process. As a result FLINT has a number of key ingredients comparable to the software being used in those two countries.
 
@@ -133,6 +133,42 @@ In addition most modules that can be plugged into the software are open source a
 The aim is to improve the documentation until even those not well versed in IPCC rules can go to the tool, read through the documentation and get a fairly good sense of how the software works in a matter of days. Where documentation is not clear, feedback is used to further improve the documentation or even better, those who have questions are encouraged to suggest improvements to documentation and code.
 
 (Misconception: FLINT is a black box)
+
+FLINT Installation Support
+--------------------------
+
+I am trying to setup FLINT from the master branch but am running into errors. What am I doing wrong?
+====================================================================================================
+
+FLINT's stable development branch is **develop**. **develop** branch is the latest updated branch and should be used as a base branch for development.
+Therefore, we recommend you to checkout to this branch and target your pull requests against **develop** branch. For more instructions on how to do this, please refer to our `Git and GitHub Guide <DevelopmentSetup/git_and_github_guide.html>`_ .
+
+I use the Mac operating system. Is it possible to install FLINT?
+====================================================
+
+Yes Absolutely! You can install FLINT on Mac using `our docker installation <DevelopmentSetup/docker_installation.html>`_ .
+
+What is the difference between FLINT and FLINT.example repositories on moja global GitHub?
+==========================================================================================
+
+FLINT is our framework for estimating emissions and sinks from land use (but in the future also for economics, biodiversity, etc) where the user has to provide the config files or data.
+Whereas, FLINT.example provides the user with some sample example files that the user can run to get a look and feel of FLINT's output. Hence we recommend you to first install FLINT.example prior to FLINT.
+
+How to configure Visual Studio for FLINT?
+==============================================
+
+To smoothly work with C++ Development on Visual Studio, we recommend you to add ``Desktop Development with C++`` workload while undergoing `Visual Studio installation process <https://docs.moja.global/en/latest/prerequisites/visual_studio.html#for-visual-studio-2019>`_ mentioned in our prerequisites section.
+
+I am trying to setup the Docker installation for FLINT but am running into errors. What am I doing wrong?
+=========================================================================================================
+
+In case of the Docker installation for FLINT, it might be possible that the Docker hardware requirements are not met. Please ensure that atleast 4 CPU cores & 4 GB of RAM has been allotted to the Docker machine.
+
+I have tried the above but my errors persist. What should I do?
+===============================================================
+
+We recommend you to join our `Slack workspace <https://mojaglobal.slack.com/>`_ and post your queries in the ``#installation-support`` channel.
+We will try to get back to you as soon as possible!
 
 GCBM
 ----
