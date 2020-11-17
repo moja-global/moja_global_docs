@@ -25,7 +25,7 @@ Start a command shell in the Vcpkg repository folder (that you had cloned earlie
     bootstrap-vcpkg.bat
 
     # install packages
-    vcpkg.exe install boost-test:x64-windows boost-program-options:x64-windows boost-log:x64-windows turtle:x64-windows zipper:x64-windows poco:x64-windows libpq:x64-windows gdal:x64-windows sqlite3:x64-windows boost-ublas:x64-windows
+    vcpkg.exe install boost-test:x64-windows boost-program-options:x64-windows boost-log:x64-windows turtle:x64-windows zipper:x64-windows poco:x64-windows libpq:x64-windows gdal:x64-windows sqlite3:x64-windows boost-ublas:x64-windows fmt:x64-windows
 
 .. figure:: ../images/installation_vs2019_flint.example/Step1b.png
   :width: 600
