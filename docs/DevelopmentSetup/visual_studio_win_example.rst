@@ -182,6 +182,72 @@ You should now be able to select ``Debug->Start Debugging`` to start a debug run
 
   Debug run for rothc example
 
+Enable moja.modules.GDAL
+========================
+
+Before moving on to setting up the Chapman Richards model, we need to enable the moja.modules.GDAL flags.
+We can toggle these flags by clicking on ``BROWSE BUILD`` and setting it to the build directory where we just built the solution.
+
+* Open the solution that CMake created at ``C:\Development\moja-global\FLINT\Source\build\moja.sln`` .
+
+.. figure:: ../images/installation_vs2019_flint.example/gdal/Step3.png
+  :width: 600
+  :align: center
+  :alt: Navigating to Cmake Configuration Page
+
+  Navigating to Cmake Configuration Page
+
+* Check the following Flags present:
+
+ * ENABLE_MOJA.MODULES.GDAL
+ * ENABLE_MOJA.MODULES.LIBPQ
+ * ENABLE_MOJA.MODULES.POCO
+ * ENABLE_MOJA.MODULES.ZIPPER
+
+.. figure:: ../images/installation_vs2019_flint.example/gdal/Step4.png
+ :width: 600
+ :align: center
+ :alt: Checking the flags mentioned
+
+ Checking the flags mentioned
+
+* Now, Click on ``Configure`` option twice.
+
+.. figure:: ../images/installation_vs2019_flint.example/gdal/Step5.png
+  :width: 600
+  :align: center
+  :alt: Configuring the new options highlighted in red
+
+  Configuring the new options highlighted in red
+
+* Click on ``Generate`` and then you may explore all the enabled modules in Solution Explorer by clicking on ``Open Project``.
+
+.. figure:: ../images/installation_vs2019_flint.example/gdal/Step6.png
+  :width: 600
+  :align: center
+  :alt: Generating the new configuration
+
+  Generating the new configuration
+
+* Open ``CMakePredefinedTargets``, right click on ``ALL_BUILD`` and click on Build
+
+.. figure:: ../images/installation_vs2019_flint.example/gdal/Step7.png
+  :width: 600
+  :align: center
+  :alt: Navigate to CMakePredefinedTargets Build
+
+  Navigate to CMakePredefinedTargets Build
+
+.. figure:: ../images/installation_vs2019_flint.example/gdal/Step8.png
+  :width: 600
+  :align: center
+  :alt: CMakePredefinedTargets ``ALL_BUILD`` Screen
+
+  CMakePredefinedTargets ``ALL_BUILD`` Screen
+
+Viola! All libraries have been enabled
+You may now proceed with the Chapman Richards example!
+
 Chapman Richards example
 ========================
 Based on the moja global repository `Chapman Richards <https://github.com/moja-global/FLINT.chapman_richards>`_ , this sample can be run on both point and spatial versions (over Dominica).
