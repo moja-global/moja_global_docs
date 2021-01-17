@@ -1,5 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 #
+import datetime
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
@@ -18,9 +19,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'moja global Technical Guide'
-copyright = '2020, Sneha Mishra'
 author = 'Sneha Mishra'
-
+copyright = '{0} {1}, contributed by {2}.'.format(datetime.datetime.now().year, 'moja global', author)
 
 # -- General configuration ---------------------------------------------------
 
