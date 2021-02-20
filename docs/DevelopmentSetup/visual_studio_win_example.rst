@@ -156,7 +156,7 @@ These arguments will point at the right configuration files for RothC. Please fo
   * Command Arguments:
   ::
 
-      --config config\point_example.json --config config\debug\libs.base.win.json --logging_config logging.debug_on.conf
+      --config config\point_rothc_example.json --config config\debug\libs.base_rothc.win.json --logging_config logging.debug_on.conf
 
   * Working Directory: ``$(SolutionDir)..\..\Run_Env``
 
