@@ -78,3 +78,16 @@ Edit solution using CMake GUI
 * Launch the CMake GUI
 * In the ``Where to build the binaries`` field click ``Browse Build…`` and select the folder you created above (i.e. ``C:\Development\moja-global\FLINT\Source\build``). The ``Where is the source code:`` field should update, if not, set it correctly.
 * You should be able to edit any CMake setting now (i.e. ENABLE flags like ``ENABLE_TESTS``), then click ``Configure`` – assuming all libraries and required software has been installed you should have no errors. Now click ``Generate`` and the Solution with adjustments should be ready to load into Visual Studio.
+
+
+FLINT Core Installation Video Tutorial
+--------------------------------------
+
+The above steps for installation of FLINT on Windows with Visual Studio can also be followed along with the video tutorial:
+
+.. raw:: html 
+
+  <div
+  style="padding-bottom:56.25%; position:relative; margin-bottom: 2em; display:block; width: 100%">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BmHltWrxCTY" title="FLINT Core on Visual Studio 2019" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe>
+  </div>

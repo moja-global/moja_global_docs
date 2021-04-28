@@ -35,7 +35,7 @@ This script also uploads our coverage report to `Codecov <https://codecov.io/>`_
 * After analysis of the test failure, you may then try to debug the test locally as well by running the command:-
 ::
 
-    python -m unittest discover tests -v
+  python -m unittest discover tests -v
 
 * Sometimes tests may also fail if your pull request is not rebased to the latest master. So it is recommended to take a rebase before creating the pull request.
 * If you are still facing issues with the test failure, please reach out to the maintainers of the repository.
@@ -79,7 +79,7 @@ If the coverage percentage remains same or higher than before, the check passes.
 * Check your coverage locally by running:-
 ::
 
-    coverage run --source flintdata -m unittest discover
+  coverage run --source flintdata -m unittest discover
 
 * Now that your coverage is all set! Modify the pull request to retrigger the Codecov check.
 

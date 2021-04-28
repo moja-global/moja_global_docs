@@ -144,7 +144,7 @@ FLINT's stable development branch is **develop**. **develop** branch is the late
 Therefore, we recommend you to checkout to this branch and target your pull requests against **develop** branch. For more instructions on how to do this, please refer to our `Git and GitHub Guide <DevelopmentSetup/git_and_github_guide.html>`_ .
 
 I use the Mac operating system. Is it possible to install FLINT?
-====================================================
+================================================================
 
 Yes Absolutely! You can install FLINT on Mac using `our docker installation <DevelopmentSetup/docker_installation.html>`_ .
 
@@ -155,7 +155,7 @@ FLINT is our framework for estimating emissions and sinks from land use (but in 
 Whereas, FLINT.example provides the user with some sample example files that the user can run to get a look and feel of FLINT's output. Hence we recommend you to first install FLINT.example prior to FLINT.
 
 How to configure Visual Studio for FLINT?
-==============================================
+=========================================
 
 To smoothly work with C++ Development on Visual Studio, we recommend you to add ``Desktop Development with C++`` workload while undergoing `Visual Studio installation process <https://docs.moja.global/en/latest/prerequisites/visual_studio.html#for-visual-studio-2019>`_ mentioned in our prerequisites section.
 

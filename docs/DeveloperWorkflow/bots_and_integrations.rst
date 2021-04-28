@@ -18,9 +18,9 @@ This bot is created and maintained by the `all-contributors` organisation `here 
 * **Add a contributor** : Comment on Issue or Pull Request, asking @all-contributors to add a contributor:
 ::
 
-    @all-contributors please add <username> for <contributions>
+  @all-contributors please add <username> for <contributions>
 
-    * <contribution> : See the `Emoji Key (Contribution Types Reference) <https://allcontributors.org/docs/en/emoji-key>`_ for a list of valid contribution types.
+  * <contribution> : See the `Emoji Key (Contribution Types Reference) <https://allcontributors.org/docs/en/emoji-key>`_ for a list of valid contribution types.
 
 * **Intent-Based Bot** : Your request to the bot doesn't need to be perfect. The bot will use basic Natural Language Parsing to determine your intent. For example, this will work too:
 
