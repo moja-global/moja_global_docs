@@ -31,13 +31,13 @@ Building the docker
 Commands to run using docker - stock result written to screen and results files create (./Run_Env/*.csv):
 ::
 
-    # from repository root folder
+  # from repository root folder
 
-    # For Linux
-    docker run --rm -v $(pwd)/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_example.json --config config/libs.base.simple.json --logging_config logging.debug_on.conf"
+  # For Linux
+  docker run --rm -v $(pwd)/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_example.json --config config/libs.base.simple.json --logging_config logging.debug_on.conf"
 
-    # For Windows
-    docker run --rm -v %cd%/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_example.json --config config/libs.base.simple.json --logging_config logging.debug_on.conf"
+  # For Windows
+  docker run --rm -v %cd%/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_example.json --config config/libs.base.simple.json --logging_config logging.debug_on.conf"
 
 For the RothC example, you may run this command:-
 
