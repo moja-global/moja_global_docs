@@ -10,10 +10,12 @@ Before proceeding further, make sure you have the following prerequisites setup:
 Prerequisites
 -------------
 The prerequisites are:
-* Python 3.7
-* Microsoft Access Database Driver
-* Visual C++ Redistributable Packages
-You can view the details of the prerequisites `here. <https://docs.moja.global/en/master/GCBMDevelopmentSetup/prerequisites.html>`_
+
+* Python 3.7.
+* Microsoft Access Database Driver.
+* Visual C++ Redistributable Packages.
+
+Please set up the prerequisites by following the guide `here. <https://docs.moja.global/en/master/GCBMDevelopmentSetup/prerequisites.html>`_
 
 Now that you have all the necessary prerequisites, you can proceed with the Installation.
 
