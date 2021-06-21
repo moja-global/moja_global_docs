@@ -12,4 +12,4 @@ To install Git, please refer to the official git installation instructions `here
 
 You can sign up for a Github account `here <https://github.com/join>`_.
 
-After successful installation of Git and GitHub account registration, you can proceed with further instructions on how to fork/clone the moja-global repositories `here <../DevelopmentSetup/git_and_github_guide>`_ .
+After successful installation of Git and GitHub account registration, you can proceed with further instructions on how to fork/clone the moja-global repositories `here <https://docs.moja.global/en/latest/DevelopmentSetup/git_and_github_guide.html>`_ .
