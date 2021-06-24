@@ -109,7 +109,7 @@ You can now create a pull request to get your changes merged into the upstream d
 * Please be patient, someone from our team will review your pull request shortly and provide feedback. Incase there are changes requested, you can follow the section below on how to update/modify your pull request.
 * Also make sure that your pull request is in sync with the latest develop at all times.
 
-NOTE: Don't forget to get credits for your contributions once it gets merged by following this guide `here <contributing/index>`_.
+NOTE: Don't forget to get credits for your contributions once it gets merged by following this guide `here <https://docs.moja.global/en/latest/contributing/index.html>`_.
 
 Modify your pull request
 ------------------------
