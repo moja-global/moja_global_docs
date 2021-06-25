@@ -40,7 +40,7 @@ Documentation
 =============
 
 If the code introduces new Features or improves upon existing features that might require documentation to support the change, then don't forget to suggest changes in the pull request to add the same.
-Proper documentation promotes clarity and makes it easier for future contributors to work on the same feature. For a more detailed guide on how documentation is to be added for any change, please checkout `documentation section here <../contributing/code_contribution_best_practices.html#code-style-conventions>`_.
+Proper documentation promotes clarity and makes it easier for future contributors to work on the same feature. For a more detailed guide on how documentation is to be added for any change, please checkout `documentation section here <../contributing/code_contribution_best_practices.html#writing-documentation>`_.
 
 Tests
 =====
