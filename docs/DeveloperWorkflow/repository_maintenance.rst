@@ -91,6 +91,64 @@ Difficulty:
 * ``X = Intermediate`` = Solving this issue requires some experience
 * ``X = VeryDifficult`` = Solving this issue requires advanced expertise
 
+
+How to maintain a GitHub repository
+=======================================
+
+This section focuses on “housekeeping” with GitHub projects, including labels and project boards.
+
+Housekeeping is important to maintain a repository. This organizes bugs, feature requests, and the project itself. Organized projects help active contributors stay on track and make realistic deadlines. It also helps new contributors understand what is going on.
+
+Housekeeping has five parts:
+
+Issue metadata
+Adding labels
+Updating project boards
+Making pull requests
+Reviewing pull requests
+
+
+Update issue and pull request metadata (under How to maintain a GitHub Repo) 
+Every GitHub issue and pull request has four metadata properties:
+
+Assignees: Who is currently working on this and who is the best point-of-contact for updates
+Labels: Visual cues on task status and importance (see below)
+Projects: Advanced business process management (see below)
+Milestone: Relevant feature or version milestone for an issue or pull request
+Assignees and labels should always be used at a minimum. Use projects and milestones when they are available.
+
+Adding labels (under How to maintain a GitHub Repo) 
+Above, labels were mentioned as part of issue and pull request metadata. Maintaining and using labels is a good habit. An issue or pull request might have two to four labels, depending on how the project was set up.
+
+If labels are not yet configured, read Set up useful labels <add the link>.
+
+Once a week, check issues and pull requests to see if tags are up-to-date. Update or change any labels that are stale (such as priority labels). Add labels from the metadata sub-menu when you open an issue or pull request.
+Making pull requests
+All major changes to the project should always be made through a pull request (PR). Pull requests are like a registry of changes for a project. It is easy for someone to see what is going in and out of a project. Outside contributors will always have to make pull requests, so it is good practice for core / trusted developers to use pull requests too.
+
+Follow contributing guidelines
+The contributing guidelines for all MagicBox projects live in the xxxx repository.
+
+Always follow these contributing guidelines when working in the project. These are the standards and rules we ask the community to follow when contributing. As project maintainers, it is our responsibility to hold ourselves to the same standards we ask of others. Thus, always make sure current development practices are in-line with what our guidelines.
+
+Write useful commit messages
+Writing useful commit messages is a good practice to follow. When looking through project commits, it should be somewhat clear what has changed in the project and how. Short or nondescript commit messages are not helpful to maintainers or new contributors. Commit messages do not need to be paragraphs, but they should clearly indicate what changed or why something changed.
+
+Read this blog post for more information about keeping git history clean and tidy with git rebase.
+
+Reviewing pull requests
+Pull requests (often abbreviated as PRs) are the cornerstone of accepting contributions to countless open source projects. All major contributions to a project, from both core contributors and new contributors, should be made as pull requests. It is important to follow consistent practices when reviewing pull requests.
+
+Triage new pull requests
+Update the metadata for all new pull requests, especially if they will be open for longer than one work day. Examples of metadata includes the following:
+
+Assignees: Indicates whose responsibility it is to review or accept a pull request
+Labels: Indicates what type of change the pull request is and what its priority is
+Projects: Provides context to overall project development (if using project boards)
+Milestones: Connects pull request to a specific goal or version (if applicable)
+Triaging new pull requests by updating the metadata keeps the project organized. It is easier for an outsider to understand the project workflow and development by triaging. It is also helpful to give context for a pull request if you have to update it later. For example, if a pull request cannot be merged because of an external problem, label it as blocked.
+
+
 Creating and maintaining Project Boards
 =======================================
 
