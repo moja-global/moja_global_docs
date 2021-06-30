@@ -9,11 +9,14 @@ Before proceeding further, make sure you have the following prerequisites setup:
 
 Prerequisites
 -------------
-* `Python 3.7 <prerequisites/python_3.7.html>`_
-* `Microsoft Access Database Driver <prerequisites/microsoft_access_database_driver.html>`_
-* `Visual C++ Redistributable Packages <prerequisites/visual_c++_redistributable_packages.html>`_
+The prerequisites are:
 
-Now that you have all the necessary prerequisites, you can proceed with the Installation.
+* **Python 3.7.**
+* **Microsoft Access Database Driver.**
+* **Visual C++ Redistributable Packages.**
+
+Please set up the prerequisites by following the guide `here. <https://docs.moja.global/en/master/GCBMDevelopmentSetup/prerequisites.html>`_
+
 
 Update GCBM Run Script
 ----------------------
@@ -40,3 +43,16 @@ Double-click the ``run_gcbm.bat`` file to run GCBM – if the installation steps
   Running the ``run_gcbm.bat`` file to execute GCBM
 
 Viola! We are all done.
+
+
+GCBM Video Tutorial
+-------------------
+
+The above steps for installation of GCBM can also be followed along with the video tutorial:
+
+.. raw:: html 
+
+  <div
+  style="padding-bottom:56.25%; position:relative; margin-bottom: 2em; display:block; width: 100%">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pSfUlDk37Jk" title="Test GCBM using the Training Package" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe>
+  </div>

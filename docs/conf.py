@@ -1,5 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
-#
+import datetime
+
+import sphinx_rtd_theme
+import os
+
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
@@ -18,9 +22,9 @@
 # -- Project information -----------------------------------------------------
 
 project = 'moja global Technical Guide'
-copyright = '2020, Sneha Mishra'
-author = 'Sneha Mishra'
+author = 'moja global docs team'
 
+copyright = '{0} {1}, contributed by {2}'.format(datetime.datetime.now().year, 'moja global', author)
 
 # -- General configuration ---------------------------------------------------
 
@@ -35,7 +39,7 @@ extensions = ['recommonmark',
 master_doc = 'index'
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['source/_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -49,8 +53,19 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+# html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+
+html_favicon = 'favicon.ico'
+
+html_static_path = ['source/_static']
+
+# html_style = os.path.join("css", "custom.css")
+
+html_css_files = [
+    'css/custom.css'
+]

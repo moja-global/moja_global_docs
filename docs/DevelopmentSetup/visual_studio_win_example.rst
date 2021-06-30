@@ -156,7 +156,7 @@ These arguments will point at the right configuration files for RothC. Please fo
   * Command Arguments:
   ::
 
-      --config config\point_example.json --config config\debug\libs.base.win.json --logging_config logging.debug_on.conf
+      --config config\point_rothc_example.json --config config\debug\libs.base_rothc.win.json --logging_config logging.debug_on.conf
 
   * Working Directory: ``$(SolutionDir)..\..\Run_Env``
 
@@ -181,6 +181,19 @@ You should now be able to select ``Debug->Start Debugging`` to start a debug run
   :alt: Debug run for rothc example
 
   Debug run for rothc example
+
+RothC model video tutorial
+==========================
+
+We also have a video tutorial dedicated to RothC model that can be followed along with the commands - 
+
+.. raw:: html 
+
+  <div id="Container"
+  style="padding-bottom:56.25%; position:relative; margin-bottom: 2em; display:block; width: 100%">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Jfi2-vEhfkg" title="FLINT Example (RothC model) on Visual Studio" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe>
+  </div>
+
 
 Enable moja.modules.GDAL
 ========================
@@ -262,3 +275,15 @@ These arguments will point at the right configuration files for Chapman Richards
     --config config/point_forest_config.json --config config/$(Configuration)/libs.gdal.chaprich.win.json
     # Spatial
     --config config/forest_config.json --config config/$(Configuration)/libs.gdal.chaprich.win.json --config_provider config/forest_provider.json
+
+Chapman Richards model video tutorial
+=====================================
+
+We also have a video tutorial dedicated to Chapman Richards model that can be followed along with the commands - 
+
+.. raw:: html 
+
+  <div id="Container"
+  style="padding-bottom:56.25%; position:relative; margin-bottom: 2em; display:block; width: 100%">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JFTyeZQbPjI" title="FLINT Example (Chapman Richards model) on Visual Studio" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe>
+  </div>

@@ -30,7 +30,7 @@ Outreach and Student Programs
 
 moja global participates in outreach and student programs regularly to welcome and provide students and under-represented communities an opportunity to work with moja global.
 
-In the past, we’ve participated in programs like `Google Summer Of Code <https://developers.google.com/open-source/gsoc/>`_  (under DIAL), `Google Season Of Docs <https://developers.google.com/season-of-docs>`_ , `Linux Mentorship Programs <https://people.communitybridge.org/#projects>`_ and other funding and outreach programs.
+In the past, we’ve participated in programs like `Google Summer Of Code <https://developers.google.com/open-source/gsoc/>`_, `Google Season Of Docs <https://developers.google.com/season-of-docs>`_ , `Linux Mentorship Programs <https://people.communitybridge.org/#projects>`_ and other funding and outreach programs.
 
 Since we receive many applications through these programs, moja global encourages applicants to checkout the following guidelines to maximise chances of getting selected -
 
