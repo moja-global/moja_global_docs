@@ -166,7 +166,7 @@ These arguments will point at the right configuration files for RothC. Please fo
 
 	  PATH=C:\Development\moja-global\vcpkg\installed\x64-windows\debug\bin;C:\Development\moja-global\FLINT\Source\build\bin\$(Configuration);%PATH%
 	  LOCAL_LIBS=$(OutDir)
-      MOJA_LIBS=C:\Development\moja-global\FLINT\Source\build\bin\$(Configuration)
+          MOJA_LIBS=C:\Development\moja-global\FLINT\Source\build\bin\$(Configuration)
 
 .. figure:: ../images/installation_vs2019_flint.example/VS2019_rothcproperties.PNG
   :width: 600
