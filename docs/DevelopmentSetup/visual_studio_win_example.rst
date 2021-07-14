@@ -3,14 +3,17 @@
 Environment: Visual Studio
 ##########################
 
-In the Visual Studio environment option for setting up FLINT.example, the options to run, develop and debug the repository code is available.
-Also make sure you have the following prerequisites setup -
+In the Visual Studio environment option for setting up FLINT.example, the options to run, develop and debug the repository code are available.
+Also make sure you have the following prerequisites setup.
 
 Prerequisites
 -------------
 * `Cmake <../prerequisites/cmake.html>`_
 * `Visual Studio <../prerequisites/visual_studio.html>`_
 * `Docker <../prerequisites/docker.html>`_
+* Forked and cloned `FLINT  core repository <https://github.com/moja-global/FLINT>`_
+* Forked and cloned `FLINT.example repository <https://github.com/moja-global/FLINT.Example>`_
+
 
 Now that you have all the necessary prerequisites, you can proceed with the Installation.
 

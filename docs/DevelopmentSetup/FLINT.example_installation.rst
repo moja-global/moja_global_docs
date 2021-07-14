@@ -3,12 +3,12 @@
 FLINT.example
 #############
 
-The FLINT.example gives an example of how to build and run libraries using the FLINT framework. It is recommended to set up FLINT.example repository before setting up FLINT in order to get a better idea of how FLINT works.
+The FLINT.example gives an example of how to build and run libraries using the FLINT framework. It is recommended to practice running simulations using FLINT.example repository after the FLINT core installation is completed. This will help you to familiarise yourself with FLINT and help you to understand how FLINT works.
 
 The Docker file used here can be found in the ``Dockerfile`` file at the root of the repository.
 This Docker file builds from the image ``mojaglobal/flint:bionic`` which can be found in docker hub.
 
-There are 3 different environemnts listed in this document to build and run the examples:
+There are 3 different environments listed in this document to build and run the examples:
 
 * **Windows - Visual Studio 2019**: develop, run and debug
 * **Visual Studio Code**: develop, run and debug
