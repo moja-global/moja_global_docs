@@ -3,7 +3,7 @@
 Environment: Visual Studio (Remote Containers)
 ##############################################
 
-In the Visual Studio environment using Remote Containers option for setting up FLINT.example, the options to run, develop and debug the repository code is available.
+In the Visual Studio environment using Remote Containers option for setting up FLINT.example, the options to run, develop and debug the repository code are available.
 Here remote containers are available in Visual Studio as an extension and can be installed with the help of the link mentioned in the prerequisites section.
 
 Prerequisites

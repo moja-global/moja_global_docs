@@ -6,7 +6,7 @@ Docker Installation (for Mac and Linux Variants)
 This section guides first-time contributors through installing FLINT development environment through Docker on Mac and Linux systems.
 
 Before proceeding further, make sure you have setup the project using Git by following our `Git and GitHub Guide <git_and_github_guide.html>`_.
-Also make sure you have the following prerequisites setup -
+Also make sure you have the following prerequisites setup.
 
 Prerequisites
 -------------

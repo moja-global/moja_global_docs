@@ -6,13 +6,14 @@ Windows Installation
 This section guides first-time contributors through installing FLINT development environment.
 
 Before proceeding further, make sure you have setup the project using Git by following our guide `Git and GitHub Guide <git_and_github_guide.html>`_.
-Also make sure you have the following prerequisites setup -
+Also make sure you have the following prerequisites setup.
 
 Prerequisites
 -------------
 * `Cmake <../prerequisites/cmake.html>`_
 * `Visual Studio <../prerequisites/visual_studio.html>`_
 * `Vcpkg <../prerequisites/vcpkg.html>`_
+* Forked and cloned `FLINT  core repository <https://github.com/moja-global/FLINT>`_
 
 Now that you have all the necessary prerequisites, you can proceed with the Installation.
 
@@ -41,7 +42,7 @@ Using cmake to build the project
 
 .. note::
    Please make sure that you have checked out to the ``Develop`` Branch for the FLINT Installation. You may refer to our `Git and GitHub Guide <git_and_github_guide.html#make-a-contribution>`_ for instructions on how to switch to develop branch.
-Once this has completed, start a command shell in your FLINT repository folder. Now use the following commands to create the Visual Studio solution:
+Once this has completed, start a command shell in your FLINT core repository folder. Now use the following commands to create the Visual Studio solution:
 
 ::
 
