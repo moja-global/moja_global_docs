@@ -97,7 +97,7 @@ Documentation (readthedocs)
 
 If the proposed contribution requires a change in the documentation that you are currently reading on readthedocs, then follow these steps to make the changes.
 
-* Fork and clone this docs repository from `here <https://github.com/moja-global/GSoD.moja_global_docs>`_.
+* Fork and clone this docs repository from `here <https://github.com/moja-global/moja_global_docs>`_.
 * Since readthedocs follows ``.rst`` file structure, please make sure the format of your documentation is right.
 * Submit a pull request under the above mentioned repository for the same. You may also check how the documentation build looks under the Pull requests checks tab.
 
