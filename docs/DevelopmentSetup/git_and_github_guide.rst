@@ -82,8 +82,8 @@ This section will show you step-by-step how to make a contribution to
 FLINT using git.
 
 -  FLINT stable branch is **develop**. Releases are scheduled
-   periodically when codebase is production-ready and develop is merged
-   into master. develop branch
+   periodically when codebase is production-ready and the ``develop``
+   branch is merged into the ``master`` branch.
 
 .. _here: https://support.atlassian.com/bitbucket-cloud/docs/install-and-set-up-git/
 .. _Windows: windows_installation.html

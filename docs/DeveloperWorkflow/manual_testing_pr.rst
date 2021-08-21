@@ -6,11 +6,13 @@ Manually testing a pull request
 This guide is aimed at both authors and reviewers of pull requests to
 properly test the pull request before merging.
 
-\* Checkout to the Pull Request branch by running this command where
-<author> is the GitHub username of the PR author :
+Checkout to the Pull Request branch by running this command where
+``<author>`` is the GitHub username of the PR author :
 
-git clone https://github.com/\ <author>/<repository-name>/ git checkout
-<branch-name>
+::
+
+   git clone https://github.com/<author>/<repository-name>
+   git checkout <branch-name>
 
 -  Run the application locally and try to verify if the issue raised has
    been solved completely by the Pull Request changes.
