@@ -25,6 +25,17 @@
         "mentoring",
         "review"
       ]
+    },
+    {
+      "login": "chicken-biryani",
+      "name": "Shloka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41121520?v=4",
+      "profile": "https://linktr.ee/shlokagupta",
+      "contributions": [
+        "doc",
+        "review",
+        "a11y"
+      ]
     }
   ],
   "contributorsPerLine": 7,
