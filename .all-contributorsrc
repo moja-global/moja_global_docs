@@ -36,6 +36,15 @@
         "review",
         "a11y"
       ]
+    },
+    {
+      "login": "Sukriti-sood",
+      "name": "Sukriti Sood",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55010599?v=4",
+      "profile": "https://github.com/Sukriti-sood",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
