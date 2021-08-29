@@ -81,6 +81,17 @@
         "projectManagement",
         "ideas"
       ]
+    },
+    {
+      "login": "gmajan",
+      "name": "Guy Janssen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8733319?v=4",
+      "profile": "https://github.com/gmajan",
+      "contributions": [
+        "doc",
+        "review",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
