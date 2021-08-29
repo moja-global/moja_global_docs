@@ -45,6 +45,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "sarahhaggarty",
+      "name": "Sarah Haggarty",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81160244?v=4",
+      "profile": "https://sarahhaggarty.github.io/",
+      "contributions": [
+        "doc",
+        "bug",
+        "mentoring",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
