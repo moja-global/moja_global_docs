@@ -92,6 +92,18 @@
         "review",
         "ideas"
       ]
+    },
+    {
+      "login": "shubhamkarande13",
+      "name": "Shubham Karande",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13800316?v=4",
+      "profile": "https://www.linkedin.com/in/shubhamkarande13/",
+      "contributions": [
+        "doc",
+        "review",
+        "ideas",
+        "a11y"
+      ]
     }
   ],
   "contributorsPerLine": 7,
