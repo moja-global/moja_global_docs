@@ -57,6 +57,18 @@
         "mentoring",
         "review"
       ]
+    },
+    {
+      "login": "Patamap",
+      "name": "Patama",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59905399?v=4",
+      "profile": "https://github.com/Patamap",
+      "contributions": [
+        "doc",
+        "review",
+        "mentoring",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
