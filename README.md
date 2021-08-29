@@ -66,6 +66,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Patamap"><img src="https://avatars.githubusercontent.com/u/59905399?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Patama</b></sub></a><br /><a href="https://github.com/moja-global/moja_global_docs/commits?author=Patamap" title="Documentation">📖</a> <a href="https://github.com/moja-global/moja_global_docs/pulls?q=is%3Apr+reviewed-by%3APatamap" title="Reviewed Pull Requests">👀</a> <a href="#mentoring-Patamap" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-Patamap" title="Project Management">📆</a></td>
     <td align="center"><a href="https://github.com/aornugent"><img src="https://avatars.githubusercontent.com/u/20387761?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrew O'Reilly-Nugent</b></sub></a><br /><a href="https://github.com/moja-global/moja_global_docs/commits?author=aornugent" title="Documentation">📖</a> <a href="https://github.com/moja-global/moja_global_docs/pulls?q=is%3Apr+reviewed-by%3Aaornugent" title="Reviewed Pull Requests">👀</a> <a href="#projectManagement-aornugent" title="Project Management">📆</a> <a href="#ideas-aornugent" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/gmajan"><img src="https://avatars.githubusercontent.com/u/8733319?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Guy Janssen</b></sub></a><br /><a href="https://github.com/moja-global/moja_global_docs/commits?author=gmajan" title="Documentation">📖</a> <a href="https://github.com/moja-global/moja_global_docs/pulls?q=is%3Apr+reviewed-by%3Agmajan" title="Reviewed Pull Requests">👀</a> <a href="#ideas-gmajan" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
