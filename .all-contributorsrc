@@ -104,6 +104,18 @@
         "ideas",
         "a11y"
       ]
+    },
+    {
+      "login": "HarshCasper",
+      "name": "Harsh Mishra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47351025?v=4",
+      "profile": "http://harshcasper.github.io",
+      "contributions": [
+        "code",
+        "doc",
+        "review",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
