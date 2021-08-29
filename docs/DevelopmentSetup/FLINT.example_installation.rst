@@ -28,7 +28,7 @@ We currently have four different sample runs:
 -  **Chapman richards** - Spatial sample
 
 The FLINT.example repository is available `here`_ under the moja global
-organisation on GitHub. Before proceeding to the instuctions for
+organisation on GitHub. organisation on GitHub. Before proceeding to the instructions for
 installing FLINT.example, please follow the following steps to clone
 this repository on your fork:
 

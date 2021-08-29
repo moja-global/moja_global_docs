@@ -85,43 +85,40 @@ Commands to run cmake for the spatial simulations:
 .. _FLINT.example repository: https://github.com/moja-global/FLINT.Example
 
 Running the project
-===================
+-------------------
 
 In order to run and debug the Visual Studio solution -
 
 -  Open the visual studio solution that CMake created at
    ``C:\Development\moja-global\FLINT\Source\build\moja.sln``
--  Build the debug configuration ``ALL_BUILD`` target by right clicking
+-  Build the debug configuration ``ALL_BUILD`` target by right-clicking
    the ``ALL_BUILD`` node and selecting ``Build``.
 
 .. figure:: ../images/installation_vs2019_flint.example/VS2019_buildall.jpeg
-   :alt: Navigating to Visual Studio Debugging ``ALL_BUILD`` properties
-   page
-   :align: center
-   :width: 600px
+  :width: 600
+  :align: center
+  :alt: Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
 
-   Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
+  Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
 
 .. figure:: ../images/installation_vs2019_flint.example/Step4.png
-   :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All
-   properties page
-   :align: center
-   :width: 600px
+  :width: 600
+  :align: center
+  :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
 
-   Running ``moja.cli.exe`` in Visual Studio Debugging All properties
-   page
+  Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
 
 Running in the IDE and debugging is a little tricky. This could more
-than likely be resolved with better cmake setups. But for now there is
+than likely be resolved with better cmake setups. But for now, there is
 some setup that can make running and debugging work.
 
 The issue is we want to run with the ``moja.cli.exe`` from the
 moja.FLINT project, but debug in our current IDE (FLINT.example).
 
-The solution is to use properties to setup a Debug run in the IDE,
+The solution is to use properties to set up a Debug run in the IDE,
 making the command run ``moja.cli.exe``.
 
-**NOTE** : All paths used below with ``C:\Development\moja-global`` will
+**NOTE**: All paths used below with ``C:\Development\moja-global`` will
 need to be modified to match your system build location of the moja
 project.
 
@@ -319,8 +316,6 @@ can be run on both point and spatial versions (over Dominica). Inorder
 to run this example, you may modify the following arguments in the above
 test settings command arguments. These arguments will point at the right
 configuration files for Chapman Richards.
-
-:
 
 ::
 

@@ -8,9 +8,9 @@ requests and suggest changes. If you have been contributing to moja
 global repositories, we highly encourage you to review pull requests as
 well. Here's a guide on how to get started!
 
-Quoting GitHub documentation: “Reviews allow for discussion of proposed
+Quoting GitHub documentation: "Reviews allow for discussion of proposed
 changes and help ensure that the changes meet the repository’s
-contributing guidelines and other quality standards.“.
+contributing guidelines and other quality standards.".
 
 As an open source organisation, reviewing pull requests can help to
 build a deeper understanding of the codebase and also incorporate good
@@ -20,9 +20,9 @@ General Guidelines for reviewing
 --------------------------------
 
 -  While suggesting changes in the pull requests, the key is to direct
-   your suggestions at the code and not at the **author**. This promotes
+   your suggestions towards the code and not at the **author**. This promotes
    a healthy discussion instead of making someone feel that their code
-   wasn't upto the mark.
+   wasn't up to the mark.
 -  Make sure the pull request is rebased and is in sync with the latest
    target branch. For providing the author instructions on how to do
    that, please direct them to our `pull request section of Git and
@@ -86,7 +86,7 @@ Design
 ======
 
 If the code changes introduce design changes in terms of UI/UX, please
-ask for screnshots/gif supporting this change. Feel free to ask for
+ask for screenshots/gif supporting this change. Feel free to ask for
 screenshots on devices with different screen sizes such as mobile/tablet
 view to get a better idea if the design promotes responsiveness.
 Responsive design helps the application to be more accessible to people

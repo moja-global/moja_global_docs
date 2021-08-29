@@ -12,7 +12,7 @@ Repository Creation
 
 A new repository under moja global is generated from the template
 repository `Import-me`_. This ensures that the start-up files for a
-standard moja global repo is already included in the new repository and
+standard moja global repo are already included in the new repository and
 the commit history also remains clean.
 
 Follow these steps to generate your new repository from Template
@@ -36,7 +36,7 @@ repository:
    :align: center
    :width: 600px
 
--  Now go ahead and add details of your repository name,description and
+-  Now go ahead and add details of your repository name, description and
    visibility setting (Public or Private).
 -  Click on the ``Create repository`` button as the final step!
 
@@ -85,7 +85,7 @@ each type of label below.
 Category:
 
 -  ``Cat = Blocked`` = Progress on the issue is Blocked, either due to
-   waiting for another code change, or not in control.
+   waiting for another code change, or something outside of our control.
 -  ``Cat = Bug`` = Something isn't working
 -  ``Cat = Comms`` = Propose a way to better communicate a feature
 -  ``Cat = Doc`` = Adding or updating documentation
@@ -101,10 +101,10 @@ Priority:
 
 -  ``Priority = High`` = High Priority issues/pull request that require
    immediate attention
--  ``Priority = Low`` = Low Priority issues/pull request that require
-   attention only after Mid Priority issues are resolved.
 -  ``Priority = Medium`` = Mid Priority issues/pull request that require
    attention after High Priority issues are resolved.
+-  ``Priority = Low`` = Low Priority issues/pull request that require
+   attention only after Mid Priority issues are resolved.
 
 Time:
 
@@ -167,13 +167,13 @@ have to make pull requests, so it is good practice for core / trusted
 developers to use pull requests too.
 
 Follow contributing guidelines The contributing guidelines for all
-MagicBox projects live in the xxxx repository.
+moja global projects live in their respective repositories.
 
 Always follow these contributing guidelines when working in the project.
 These are the standards and rules we ask the community to follow when
 contributing. As project maintainers, it is our responsibility to hold
-ourselves to the same standards we ask of others. Thus, always make sure
-current development practices are in-line with what our guidelines.
+ourselves to the same standards that we ask of others. Thus, always make sure
+that the current development practices are in-line with our guidelines.
 
 Write useful commit messages Writing useful commit messages is a good
 practice to follow. When looking through project commits, it should be
@@ -248,7 +248,7 @@ Creating your first board
    :align: center
    :width: 600px
 
--  After creating the project board, you may make adjustments to it as
+-  After creating the project board, you can make adjustments to it as
    needed. You can create new columns, set up automation and add
    pre-existing GitHub issues and pull requests to the project board.
 
@@ -263,7 +263,7 @@ and pull requests and keep updating the board on a regular basis.
 
 The ``Basic kanban`` template offers the following columns for every
 issue/pull request. You may classify your issues/pull requests into one
-of according to the criteria below.
+of the criteria below.
 
    -  Todo: Open issues/pull requests, Reopened issues/pull requests
    -  In progress: Issues that have been assigned, pull requests that
@@ -334,6 +334,6 @@ As moja global is an open-source project and community, consider using
 the project boards to update other team members, and encourage
 participation inside of GitHub issues and pull requests.
 
-In the meanwhile, we also consider using the project boards for
+Presently, we are also considering using the project boards for
 development. It also helps remind us and other core contributors to
 spend 5 minutes each day updating progress as needed.

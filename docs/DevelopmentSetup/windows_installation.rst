@@ -85,13 +85,11 @@ Running the project
 ===================
 
 .. figure:: ../images/installation_vs2019_flint.example/Step4.png
-   :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All
-   properties page
-   :align: center
-   :width: 600px
+  :width: 600
+  :align: center
+  :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
 
-   Running ``moja.cli.exe`` in Visual Studio Debugging All properties
-   page
+  Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
 
 We are running the ``moja.cli.exe`` from the moja.FLINT project here. In
 order to make edits to the Visual Studio Solution we can use the CMake

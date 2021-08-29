@@ -53,32 +53,6 @@ there, and you can configure how you want ``@all-contributors`` to
 generate the list. Here are more details on the `configuration options`_
 available.
 
-Botmojaglobal
--------------
-
-Botmojaglobal uses **@zulipbot**, a GitHub workflow bot from the zulip
-organisation, to handle issues and pull requests in our repositories in
-order to create a better workflow for contributors. This bot is created
-and maintained by the **zulip** organisation
-`here <https://github.com/zulip/zulipbot>`__.
-
-.. _usage-1:
-
-**Usage**
-~~~~~~~~~
-
--  **Claim an issue** : Comment ``@botmojaglobal claim`` on the issue
-   you want to claim; **@botmojaglobal** will assign you to the issue
-   and label the issue as ``in progress``.
-
-   -  If you’re a new contributor, **@botmojaglobal** will give you
-      read-only collaborator access to the repository and leave a
-      welcome message on the issue you claimed.
-   -  You can also claim an issue that you’ve opened by including
-      ``@botmojaglobal claim`` in the body of your issue.
-   -  If you accidentally claim an issue you didn’t want to claim,
-      comment \`\`
-
 .. _GitHub bot: https://github.com/apps/allcontributors/installations/new
 .. _here: https://github.com/all-contributors/all-contributors
 .. _configuration options: https://allcontributors.org/docs/en/bot/configuration

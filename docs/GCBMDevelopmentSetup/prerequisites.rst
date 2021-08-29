@@ -79,12 +79,11 @@ Install the C++ packages required to run GCBM and supporting tools:
 -  Double-click ``tools\VC_redist\install_vcredist.bat``
 
 .. figure:: ../images/installation_gcbm/image6.png
-   :alt: Installing the C++ packages required to run GCBM and supporting
-   tools
-   :align: center
-   :width: 600px
+  :width: 600
+  :align: center
+  :alt: Installing the C++ packages required to run GCBM and supporting tools
 
-   Installing the C++ packages required to run GCBM and supporting tools
+  Installing the C++ packages required to run GCBM and supporting tools
 
 GCBM Video Tutorial
 -------------------

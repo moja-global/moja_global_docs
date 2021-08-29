@@ -79,11 +79,19 @@ Then inside the running container: :
    moja.cli --config config/point_example.json --config config/libs.base.simple.json --logging_config logging.debug_on.conf
    moja.cli --config config/point_rothc_example.json --config config/libs.base_rothc.simple.json --logging_config logging.debug_on.conf
 
+The Output files created are visible in the below screenshot:-
+
 .. figure:: ../images/installation_docker/step2b_docker.png
    :alt: Running the moja.cli
    :align: center
    :width: 600px
 
    Running the moja.cli
+
+.. figure:: ../images/installation_docker/step3a_docker.png
+  :width: 600
+  :align: center
+  :alt: Output files created from runs
+   Output files created from runs
 
 .. _Docker: ../prerequisites/docker.html

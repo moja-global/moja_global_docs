@@ -12,7 +12,7 @@ organization.
 
 This had led to the adoption of some GitHub workflow practices to ensure
 the smooth working of moja global. These practices include repository
-maintenance practices, automated checks for pull requests as well more
+maintenance practices, automated checks for pull requests as well as more
 advanced testing methodologies and bots to ease the workflow.
 
 Contents:
