@@ -13,11 +13,24 @@
       "contributions": [
         "projectManagement"
       ]
+    },
+    {
+      "login": "Tlazypanda",
+      "name": "Sneha Mishra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33183263?v=4",
+      "profile": "https://github.com/Tlazypanda",
+      "contributions": [
+        "code",
+        "doc",
+        "mentoring",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "Import-Me",
+  "projectName": "moja_global_docs",
   "projectOwner": "moja-global",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
