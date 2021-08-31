@@ -24,11 +24,21 @@ cd docs
 
 Replace the `<GITHUB_USERNAME>` with your GitHub username. You can find your username by clicking on your profile picture in the top right corner of the GitHub website.
 
-We are now in the `docs` directory. Let us set the doucmentation up:
+We are now in the `docs` directory. Let us set the documentation up:
+
+#### For **Linux** Users:
 
 ```sh
 virtualenv env
 source env/bin/activate
+pip install -r requirements.txt
+make html
+```
+#### For **Windows** Users:
+
+```sh
+virtualenv env
+env\Scripts\activate
 pip install -r requirements.txt
 make html
 ```
