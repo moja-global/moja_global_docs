@@ -13,9 +13,12 @@ libraries.
 
 To build the libraries please follow the following steps:
 
-* Clone the Vcpkg repository in the moja-global folder: https://github.com/moja-global/vcpkg
+* Clone the Vcpkg repository in the moja-global folder from `here <https://github.com/moja-global/vcpkg>`__.
 
 * Start a command shell in the vcpkg repository folder and use the following commands:
+
+Note: The process may take one to two hours, depending on the specifications of your system.
+
 ::
 
     # bootstrap
