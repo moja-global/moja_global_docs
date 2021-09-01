@@ -16,7 +16,7 @@ Prerequisites
 -  `Cmake`_
 -  `Visual Studio`_
 -  `Vcpkg`_
--  Fork and clone the `FLINT core repository`_ in the Development/moja-global folder
+-  Fork and clone the `FLINT core repository`_ in the Development/moja-global folder in your system.
 
 Now that you have all the necessary prerequisites, you can proceed with
 the Installation.
