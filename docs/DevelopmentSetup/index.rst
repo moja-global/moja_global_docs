@@ -12,14 +12,16 @@ order to setup FLINT on Linux based systems, Docker containers are
 preferred. This method creates containers which are a simple way to
 build FLINT and all required dependencies.
 
-**Before Setting Up FLINT**
+Before Setting Up FLINT
+----------------------------
 
 -  Please make sure that all the prerequisites required have been
    installed and configured correctly.
 -  The `FLINT core repository`_ has been forked and cloned following the
    Git and Github guide `here`_.
 
-**Datasets for FLINT**
+Datasets for FLINT
+----------------------------
 
 After setting up FLINT, the next step can be to explore and run FLINT on
 different datasets. We have a collection of publicly available
@@ -38,6 +40,27 @@ details about this dataset.
 
 .. _FLINT core repository: https://github.com/moja-global/FLINT
 .. _here: git_and_github_guide.html
+
+Build guides
+----------------------------
+
+moja global also hosts guides that are living documents which would be
+updated form time to time. If you have any feedback or corrections,
+please use the Google Docs below to leave your suggestions so they will
+be included in the next version.
+
+The guides are:
+
+-  `Building moja base libraries`_
+-  `Building moja FLINT libraries`_
+-  `Building moja FLINT implementation`_
+
+A guide on `moja FLINT implementations`_ is also under development
+
+.. _Building moja base libraries: https://docs.google.com/document/d/1i6S0X0nTyxfJwn6KhGo9AahXOH1gBnTdwYdAxGchHsI/edit?usp=sharing
+.. _Building moja FLINT libraries: https://docs.google.com/document/d/1jceIX1E7HOmzmLW6C-E6GDbMz9sxM-nIy90CbY463Lw/edit?usp=sharing
+.. _Building moja FLINT implementation: https://docs.google.com/document/d/139-1Nc5AR0yhN--Jb0W_jIfzUasoItkt4dyYM3m19N4/edit?usp=sharing
+.. _moja FLINT implementations: https://docs.google.com/document/d/185DrAQ9Tpg0XqwMt26ouzIDRKihJU0MZ2VUYX0L5Bys/edit?usp=sharing
 
 Contents:
 
