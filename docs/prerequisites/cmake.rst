@@ -11,7 +11,7 @@ package software.
    for your platform from: https://cmake.org/download/
 
 
-.. image:: ../images/cmake/cmake_release.PNG
+.. figure:: ../images/cmake/cmake_release.PNG
    :alt: Release page of CMake
    :align: center
    :width: 600px
