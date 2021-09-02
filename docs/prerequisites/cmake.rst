@@ -20,9 +20,8 @@ package software.
 
 On opening the installer: 
 
-- Open the installer, click NEXT. 
-- Accept the terms and click NEXT.
-- Select the “Add CMake to the system PATH for all users” option in the Install options section. 
-- Click next and finally click Install
-
-After Cmake is installed, restart your system.
+- Open the installer, click **Next**. 
+- Accept the terms and click **Next**.
+- Select the **Add CMake to the system PATH for all users** option in the Install options section. 
+- Click **Next** and finally click Install
+- After CMake is installed, restart your system.
