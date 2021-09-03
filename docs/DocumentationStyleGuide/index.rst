@@ -43,7 +43,7 @@ our products and services.
 We use Markdown and reStructured documentation to document our products
 and services. Markdown is a markup language that allows us to write
 formatted text. We use `GitHub flavoured Markdown`_, `MDX`_ and
-`reStructuredText`_ majorly among our version-control projects. We use
+`reStructuredText`_ among our version-control projects. We use
 `Google Docs`_ and `HackMD`_ to collaborate internally and share
 feedback among the documentation development teams before pushing it to
 GitHub.
@@ -58,3 +58,10 @@ community to help you out.
 .. _reStructuredText: https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 .. _Google Docs: https://www.google.com/docs/about/
 .. _HackMD: https://hackmd.io/
+
+Contents:
+
+.. toctree::
+  :maxdepth: 1
+
+  accessibility
