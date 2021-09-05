@@ -18,3 +18,8 @@ While using articles we have a set of guidelines that you can follow:
    different when spelt out.
 -  Use articles to increase clarity and give a better context.
 -  Use articles to distinguish between the same nouns.
+
+For example, *File could not be found* is wrong. To increase clarity, we
+can use *The file could not be found*. Similarly, *Empirical Forest
+Growth module is standard module used in FLINT* can be refactored to
+*The Empirical Forest Growth module is a standard module used in FLINT*.

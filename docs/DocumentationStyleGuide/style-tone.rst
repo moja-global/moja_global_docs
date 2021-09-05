@@ -21,7 +21,8 @@ Approaches to be considered
 
 -  Use Active voice wherever possible.
 -  The style and tone should be friendly and come off as natural.
--  Making use of transaction words is quite preferred.
+-  Making use of transaction words is quite preferred, to denote something
+   related to a process or other action.
 -  Simplify the documentation hierarchy for the readers to easily
    follow.
 -  Technical terms, abbreviations, jargon should be documented early on
@@ -38,7 +39,8 @@ Approaches to be not considered
    of speech.
 -  Using biased, unconfirmed or pre-assumed information pieces.
 -  Using pretentious language to convince the reader of a fact or
-   understanding.
+   understanding. For example, *This is the best way to do it*, even though
+   there is no supporting evidence to convince the reader about the same.
 -  Using ableist language that is offensive to a group of people or
    community.
 -  Being too polite; Avoid using words like *“please”* as it betrays the
@@ -59,18 +61,22 @@ For user-based documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 While writing user-based documentation, we should consider that many of
-them would not be native English speakers. Hence using strong words,
-technical jargon, abbreviations would not be very suited for a
+them may not be native English speakers. Hence using strong words,
+technical jargon, abbreviations may not be very suited for a
 documentation piece. The guidelines in this case are:
 
 -  Maintain a clear and concise knowledge transfer from the
    documentation to the user.
 -  Use short and crisp sentences that make easy sense to a user.
--  Use paragraphs to share a single context and point towards one
-   direction only.
+-  Use paragraphs to share a single context with the user. Avoid
+   mixing multiple contexts in the same paragraph.
 -  Consistent vocabulary and phrasing are of the utmost need here.
 -  Actively consider using software or a tool to measure the
+   readability. We suggest using `readability`_ and `write good`_ to improve
    readability.
+
+.. _readability: https://github.com/andreasvc/readability/
+.. _write good: https://github.com/btford/write-good
 
 For developer-based documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,5 +92,9 @@ are:
 -  Avoid using a conversational tone while documenting code and software
    references.
 -  Use *the second person* while keeping the emphasis on the reader.
+   For example, *In this section, the user will run a module on their local
+   machine to get the results* is wrong. Prefer refactoring it into, *In
+   this section, you will run a module on your local machine to get the
+   results.*
 -  Verify the documentation piece with a Subject Matter Expert (SME)
    before publishing.
