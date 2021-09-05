@@ -66,3 +66,4 @@ Contents:
 
   accessibility
   style-tone
+  language-grammar/abbreviations-acronymn
