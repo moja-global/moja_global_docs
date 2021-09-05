@@ -65,3 +65,4 @@ Contents:
   :maxdepth: 1
 
   accessibility
+  style-tone
