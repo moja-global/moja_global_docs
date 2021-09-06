@@ -72,3 +72,4 @@ Contents:
   language-grammar/clauses
   language-grammar/conjunctions-contractions
   language-grammar/direct-indirect
+  language-grammar/plurals
