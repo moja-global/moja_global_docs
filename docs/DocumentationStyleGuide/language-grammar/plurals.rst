@@ -4,10 +4,9 @@ Language & Grammar VII: Plurals
 ===============================
 
 Plurals of most words, abbreviations, letters, and numbers can be done
-by adding a letter *s* alone. Plural *versus* singular is a common topic
-for many writers (and readers) to get confused at. It is always advised
-to reduce the risk of ambiguity by not referring to more than one object
-when an object class is in the question.
+by adding a letter *s* alone. Knowing when to use plural or singular nouns
+can be confusing. It is best to keep it simple by not referring to more than
+one object in a sentence.
 
 For the singular and the plural nouns that don’t end with the letter
 *s,* you can form an apostrophe to provide a clear and to-point
