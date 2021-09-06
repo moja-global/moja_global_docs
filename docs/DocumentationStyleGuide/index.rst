@@ -71,3 +71,4 @@ Contents:
   language-grammar/capitalization
   language-grammar/clauses
   language-grammar/conjunctions-contractions
+  language-grammar/direct-indirect
