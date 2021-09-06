@@ -65,3 +65,7 @@ Contents:
   :maxdepth: 1
 
   accessibility
+  style-tone
+  language-grammar/abbreviations-acronymn
+  language-grammar/articles
+  language-grammar/capitalization
