@@ -25,5 +25,6 @@ maintainers for other reasons, please drop a mail at info@moja.global.
    GCBMDevelopmentSetup/index
    contributing/index
    DeveloperWorkflow/index
+   DocumentationStyleGuide/index
    faq
    contact
