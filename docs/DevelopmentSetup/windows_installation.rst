@@ -16,7 +16,7 @@ Prerequisites
 -  `Cmake`_
 -  `Visual Studio`_
 -  `Vcpkg`_
--  Fork and clone the `FLINT core repository`_ in the Development/moja-global folder in your system.
+.. -  Fork and clone the `FLINT core repository`_ in the Development/moja-global folder in your system.
 
 Now that you have all the necessary prerequisites, you can proceed with
 the Installation.
@@ -42,12 +42,34 @@ cloned earlier) and use the following commands:
 
    Installing required packages using vcpkg in Command Prompt
 
+
+Setting up the FLINT development environment
+--------------------------------------------
+- Clone the FLINT repository in the moja-global folder from `here <https://github.com/moja-global/FLINT>`_
+- After cloning the FLINT repository, switch to ``develop`` branch.
+
+
+.. figure:: ../images/windows_installation/develop_branch.png
+   :alt: Develop branch of FLINT
+   :width: 600
+   :align: center
+
+   Develop Branch of FLINT
+
+-  Start command shell in the FLINT folder of your system and run
+   command:
+
+::
+
+   cd FLINT
+   git checkout develop
+
 Using cmake to build the project
 --------------------------------
 
 .. note::
 
-   Please make sure that you have checked out to the ``Develop`` Branch
+   Please make sure that you have checked out to the ``develop`` Branch
    for the FLINT Installation. You may refer to our `Git and GitHub
    Guide <git_and_github_guide.html#make-a-contribution>`__ for
    instructions on how to switch to develop branch.
@@ -81,6 +103,38 @@ Studio solution:
 .. _Vcpkg: ../prerequisites/vcpkg.html
 .. _FLINT core repository: https://github.com/moja-global/FLINT
 
+Building the FLINT
+===================
+
+Run a command shell inside the build folder.
+- Open it type ``moja.sln`` in the command prompt while you are in the build folder.
+- This will launch the Visual studio.
+- After Visual Studio has loaded completely move to the Solution Explorer in the top right and expand the **CMakePredefinedTargets** and select **ALL_BUILD**
+- Right click on **ALL_BUILD** and click on **Build** in the menu
+
+.. figure:: ../images/windows_installation/all_build_visual_studio.png
+   :alt: ALL_BUILD of Visual Studio
+   :width: 600
+   :align: center
+
+   Solution Explorer in Visual Studio
+
+- If the output says Build 7 succeeded tasks as shown in the image below, FLINT has been built successfully.
+.. figure:: ../images/windows_installation/successful_build.png
+   :alt: Successful Build
+   :width: 600
+   :align: center
+
+   Successful Build of FLINT
+- To see the freshly compiled FLINT executable open the build folder and in the command prompt  use command ``cd bin\debug``
+- Now, type ``moja.cli`` in the command prompt.
+- You will be able to see this as the output:
+.. figure:: ../images/windows_installation/flint_executable_run.png
+   :alt: Output after Successful FLINT run
+   :width: 600
+   :align: center
+
+   Output after Successful FLINT run
 Running the project
 ===================
 
