@@ -34,6 +34,7 @@ Core Components of FLINT System
   modules
   simulation_units
   local_domain
+  synchronized_events
   temporal_distribution
   reporting_indicator
 
