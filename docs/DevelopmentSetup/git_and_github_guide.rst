@@ -48,6 +48,13 @@ upstream is shown or not. :
 
    git remote -v
 
+\* Make sure that you have checked out to the ``develop`` Branch
+for the FLINT Installation. :
+
+::
+
+   git checkout develop
+
 -  Now, the project is setup using Git. Please carry on with
    instructions on how to set this up on `Windows`_ or `Linux`_ here.
    You can revisit this section when you are ready to make a

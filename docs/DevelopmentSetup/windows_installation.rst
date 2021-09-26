@@ -67,14 +67,7 @@ Setting up the FLINT development environment
 Using CMake to build the project
 --------------------------------
 
-.. note::
-
-   Please make sure that you have checked out to the ``develop`` Branch
-   for the FLINT Installation. You may refer to our `Git and GitHub
-   Guide <git_and_github_guide.html#make-a-contribution>`__ for
-   instructions on how to switch to develop branch.
-
-Once this has completed, start a command shell in your FLINT core
+Start a command shell in your FLINT core
 repository folder. Now use the following commands to create the Visual
 Studio solution:
 
