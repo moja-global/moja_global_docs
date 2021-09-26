@@ -64,7 +64,7 @@ Setting up the FLINT development environment
    cd FLINT
    git checkout develop
 
-Using cmake to build the project
+Using CMake to build the project
 --------------------------------
 
 .. note::
