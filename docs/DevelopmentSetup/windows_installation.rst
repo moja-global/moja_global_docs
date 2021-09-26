@@ -118,9 +118,9 @@ Run a command shell and navigate to the build folder.
    :align: center
 
    Successful Build of FLINT
-- To see the freshly compiled FLINT executable open the build folder and in the command prompt  use command ``cd bin\debug``
-- Now, type ``moja.cli`` in the command prompt.
-- You will be able to see this as the output:
+- To see the freshly compiled FLINT executable, open the build folder and in the command prompt type: ``cd bin\debug``.
+- Type ``moja.cli`` in the command prompt.
+- You see this output:
 .. figure:: ../images/windows_installation/flint_executable_run.png
    :alt: Output after Successful FLINT run
    :width: 600
