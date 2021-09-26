@@ -8,10 +8,10 @@ allows users to integrate the carbon model(for estimating greenhouse gas
 emission) and other models with remote sensing data to produce
 greenhouse gas accounts for the land sector.
 
-The overall framework will be based on the simulation of events and
-processes. Key elements of the framework will include the overall
+The overall framework is based on the simulation of events and
+processes. Key elements of the framework includes the overall
 integration module, a transaction service, and individual modules that
-are easily exchanged and modified, and that each serves key functions
+are easily exchanged and modified, and each serves key functions
 such as the representation of growth, decomposition, disturbances,
 forest management actions, and so on.
 
@@ -27,7 +27,7 @@ Core Components of FLINT System
 
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
 
   pool
   operation

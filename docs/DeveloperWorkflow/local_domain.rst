@@ -9,11 +9,11 @@ a particular region.
 
 Within FLINT, Local Domains have three main functions:-
 
--  They are used to store the variable values for all the simulation
+-  Store the variable values for all the simulation
    units which they represent.
--  Through a Local Domain Controller they assign these values to the
-   simulation units during a simulation.
--  They receive the outputs simulation units and update the domain characteristics.
+-  Assign these values to the
+   simulation units during a simulation through a LocalDomain Controller.
+-  Recieves the ourput simulation units and update the domain characteristics.
 
 .. figure:: ../images/architecture/LocalDomain.png
    :alt: Local DOmain:- FLINT Core_Component
