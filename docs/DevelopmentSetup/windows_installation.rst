@@ -112,7 +112,7 @@ Run a command shell inside the build folder.
 
    Solution Explorer in Visual Studio
 
-- If the output says Build 7 succeeded tasks as shown in the image below, FLINT has been built successfully.
+- If the output says Build 7 succeeded as shown in the image below, FLINT has built successfully.
 .. figure:: ../images/windows_installation/successful_build.png
    :alt: Successful Build
    :width: 600
