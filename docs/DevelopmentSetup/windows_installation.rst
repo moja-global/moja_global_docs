@@ -99,11 +99,10 @@ Studio solution:
 Building the FLINT
 ===================
 
-Run a command shell inside the build folder.
-- Open it type ``moja.sln`` in the command prompt while you are in the build folder.
-- This will launch the Visual studio.
-- After Visual Studio has loaded completely move to the Solution Explorer in the top right and expand the **CMakePredefinedTargets** and select **ALL_BUILD**
-- Right click on **ALL_BUILD** and click on **Build** in the menu
+Run a command shell and navigate to the build folder.
+- Type ``moja.sln`` in the command prompt. Visual studio is launched.
+- After Visual Studio has loaded completely, move to the Solution Explorer in the top right, expand the **CMakePredefinedTargets** and select **ALL_BUILD**.
+- Right click on **ALL_BUILD** and click on **Build** in the menu.
 
 .. figure:: ../images/windows_installation/all_build_visual_studio.png
    :alt: ALL_BUILD of Visual Studio
