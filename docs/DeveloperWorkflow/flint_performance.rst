@@ -2,8 +2,8 @@
 
 FLINT Performance
 
-FLINT uses scientific modulesmodels to estimate fluxes of GHGs between pools. 
-There are several models available for each type of GHG flux e.g. Tier 1 
+FLINT uses scientific modules models to estimate fluxes of GHGs between pools. 
+There are several models available for each type of GHG flux for example Tier 1 
 formulas or emission factors and more sophisticated Tier 3 models for forest 
 growth or soil carbon dynamics. The user can start with a simple model 
 for all land uses and can then switch to more accurate models for the most 
