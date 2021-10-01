@@ -29,17 +29,17 @@ The guidelines in this case are:
          - Nouns followed by numerals or letters
          - Proper nouns (such as the names of racial or ethnic groups)
 
-+-------------------------------------+--------------------------------------------+
-| Recommended examples                | Not recommended examples                   |
-+=====================================+============================================+
-| Contents:                           | contents:                                  |
-|  Setup Git                          |    setup git                               |
-|       Install and Configure Git     |        Install and Configure Git           |
-+-------------------------------------+--------------------------------------------+
-| # Github Workflow                   | # github workflow                          |
-|     example of headline style       |     proper headline style capitalization   |
-| capitalization.                     | is a must, modify depending to context.    |
-+-------------------------------------+--------------------------------------------+
-| Issue raised based on FLINT         | issue raised based on FLINT Documentation: |
-| documentation : Self-reported issue | seld-reported issue                        |
-+-------------------------------------+--------------------------------------------+
++----------------------------------------------+------------------------------------------------------+
+| Recommended examples                         | Not recommended examples                             |
++==============================================+======================================================+
+| Contents:                                    | contents:                                            |
+|  - Setup Git                                 |    - setup git                                       |
+|     - Install and Configure Git              |        - Install and Configure Git                   |
++----------------------------------------------+------------------------------------------------------+
+| Github Workflow                              | github workflow                                      |
+|  - example of headline style capitalization. |     - proper headline style capitalization is must   |
+|                                              |     - modify depending to context.                   |
++----------------------------------------------+------------------------------------------------------+
+| Issue raised based on FLINT                  | issue raised based on FLINT Documentation:           |
+| documentation : Self-reported issue          | seld-reported issue                                  |
++----------------------------------------------+------------------------------------------------------+
