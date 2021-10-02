@@ -14,6 +14,8 @@ To edit the documentation you need a [GitHub](github.com) account. Once you have
 
 This will create a "fork" and further you can create a "pull request", which will be approved by one of the existing members of the Docs team. If you have any development experience, you can setup the docs on your local machine to build the documentation locally.
 
+If you choose to setup the docs locally, in order to use virtual environments and pip, you will need to install [Python](https://www.python.org/downloads/) on your local machine.
+
 First make a fork, and then clone the repo:
 
 ```sh
