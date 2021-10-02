@@ -52,11 +52,11 @@ Launch the Windows Powershell and run the following commands:
    cd Source\build
 
 .. figure:: ../images/installation_vs2019_flint.example/Step2.png
-   :alt: Creating a build Directory for Cloned FLINT.example repo
+   :alt: Creating a build Directory for Cloned FLINT.example repository and moving into it using Command Prompt
    :align: center
    :width: 600px
 
-   Creating a build Directory for Cloned FLINT.example repo
+   Creating a build Directory for Cloned FLINT.example repository and moving into it using Command Prompt
 
 Now depending on which type of simulation you want to execute, you may
 run one of the following generate commands:
@@ -73,10 +73,10 @@ Commands to run cmake for the spatial simulations:
 
 ::
 
-    # Spatial simulations
-    # if your planning to run spatial chapman richards example you also need to enable the gdal module
-    # Generate the project files
-    cmake -G "Visual Studio 16 2019" -DCMAKE_INSTALL_PREFIX=C:\Development\Software\moja -DVCPKG_TARGET_TRIPLET=x64-windows -DOPENSSL_ROOT_DIR=c:\Development\moja-global\vcpkg\installed\x64-windows -DENABLE_TESTS=OFF -DENABLE_MOJA.MODULES.GDAL=ON -DCMAKE_TOOLCHAIN_FILE=c:\Development\moja-global\vcpkg\scripts\buildsystems\vcpkg.cmake ..
+   # Spatial simulations
+   # if your planning to run spatial chapman richards example you also need to enable the gdal module
+   # Generate the project files
+   cmake -G "Visual Studio 16 2019" -DCMAKE_INSTALL_PREFIX=C:\Development\Software\moja -DVCPKG_TARGET_TRIPLET=x64-windows -DOPENSSL_ROOT_DIR=c:\Development\moja-global\vcpkg\installed\x64-windows -DENABLE_TESTS=OFF -DENABLE_MOJA.MODULES.GDAL=ON -DCMAKE_TOOLCHAIN_FILE=c:\Development\moja-global\vcpkg\scripts\buildsystems\vcpkg.cmake ..
 
 .. _Cmake: ../prerequisites/cmake.html
 .. _Visual Studio: ../prerequisites/visual_studio.html
@@ -95,18 +95,18 @@ In order to run and debug the Visual Studio solution -
    the ``ALL_BUILD`` node and selecting ``Build``.
 
 .. figure:: ../images/installation_vs2019_flint.example/VS2019_buildall.jpeg
-  :width: 600
-  :align: center
-  :alt: Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
+   :alt: Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
+   :width: 600
+   :align: center
 
-  Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
+   Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
 
 .. figure:: ../images/installation_vs2019_flint.example/Step4.png
-  :width: 600
-  :align: center
-  :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
+   :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
+   :width: 600
+   :align: center
 
-  Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
+   Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
 
 Running in the IDE and debugging is a little tricky. This could more
 than likely be resolved with better cmake setups. But for now, there is
@@ -216,7 +216,7 @@ debug run of the RothC example. You should see something like the
 following:
 
 .. figure:: ../images/installation_vs2019_flint.example/VS2019_debugrothc.jpeg
-   :alt: Debug run for rothc example
+   :alt: Debug run for ``moja.FLINT.example.rothc``
    :align: center
    :width: 600px
 
@@ -247,7 +247,7 @@ we just built the solution.
    ``C:\Development\moja-global\FLINT\Source\build\moja.sln`` .
 
 .. figure:: ../images/installation_vs2019_flint.example/gdal/Step3.png
-   :alt: Navigating to Cmake Configuration Page
+   :alt: Cmake Configuration Page
    :align: center
    :width: 600px
 
@@ -263,7 +263,7 @@ we just built the solution.
    -  ENABLE_MOJA.MODULES.ZIPPER
 
 .. figure:: ../images/installation_vs2019_flint.example/gdal/Step4.png
-   :alt: Checking the flags mentioned
+   :alt: Tick the boxes of the flags mentioned
    :align: center
    :width: 600px
 

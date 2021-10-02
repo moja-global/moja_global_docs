@@ -50,7 +50,7 @@ Setting up the FLINT development environment
 
 
 .. figure:: ../images/windows_installation/develop_branch.png
-   :alt: Develop branch of FLINT
+   :alt: ``develop`` branch of FLINT in github
    :width: 600
    :align: center
 
@@ -105,7 +105,7 @@ Run a command shell and navigate to the build folder.
 - Right click on **ALL_BUILD** and click on **Build** in the menu.
 
 .. figure:: ../images/windows_installation/all_build_visual_studio.png
-   :alt: ALL_BUILD of Visual Studio
+   :alt: Solution Explorer in Visual Studio with ALL_BUILD highlighted
    :width: 600
    :align: center
 
@@ -113,7 +113,7 @@ Run a command shell and navigate to the build folder.
 
 - If the output says Build 7 succeeded as shown in the image below, FLINT has built successfully.
 .. figure:: ../images/windows_installation/successful_build.png
-   :alt: Successful Build
+   :alt: Output of a Successful Build
    :width: 600
    :align: center
 
@@ -131,11 +131,11 @@ Running the project
 ===================
 
 .. figure:: ../images/installation_vs2019_flint.example/Step4.png
-  :width: 600
-  :align: center
-  :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
+   :alt: Running ``moja.cli.exe`` in Debugging tab of ALL_BUILD Property Page
+   :width: 600
+   :align: center
 
-  Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
+   Running ``moja.cli.exe`` in Debugging tab of ALL_BUILD Property Page
 
 We are running the ``moja.cli.exe`` from the moja.FLINT project here. In
 order to make edits to the Visual Studio Solution we can use the CMake

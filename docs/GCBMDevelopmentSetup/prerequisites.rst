@@ -30,11 +30,11 @@ Existing Python Installation
    ``install_modules_only <python path>``
 
 .. figure:: ../images/installation_gcbm/image2.png
-   :alt: Setting up modules for Existing Python Installation
+   :alt: Running the above command in the Command Prompt of the ``python_3_installer`` directory
    :align: center
    :width: 600px
 
-   Setting up modules for Existing Python Installation
+   Running the above command in the Command Prompt of the ``python_3_installer`` directory
 
 New Python Installation
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -46,11 +46,11 @@ New Python Installation
    ``install_python [optional install path]``
 
 .. figure:: ../images/installation_gcbm/image4.png
-   :alt: Setting up Python and modules for New Python Installation
+   :alt: Running the above command in the Command Prompt of the ``python_3_installer`` directory
    :align: center
    :width: 600px
 
-   Setting up Python and modules for New Python Installation
+   Running the above command in the Command Prompt of the ``python_3_installer`` directory
 
 Microsoft Access Database Driver
 --------------------------------
@@ -65,11 +65,11 @@ a driver to connect to this type of database.
    ``python_3_installer\installers\AccessDatabaseEngine_x64.exe``
 
 .. figure:: ../images/installation_gcbm/image3.png
-   :alt: Installing Microsoft Access Database Driver
+   :alt: ``AccessDatabaseEngine_x64.exe`` in ``python_3_installer`` directory
    :align: center
    :width: 600px
 
-   Installing Microsoft Access Database Driver
+   ``AccessDatabaseEngine_x64.exe`` in ``python_3_installer`` directory
 
 Visual C++ Redistributable Packages
 -----------------------------------
@@ -79,11 +79,11 @@ Install the C++ packages required to run GCBM and supporting tools:
 -  Double-click ``tools\VC_redist\install_vcredist.bat``
 
 .. figure:: ../images/installation_gcbm/image6.png
-  :width: 600
-  :align: center
-  :alt: Installing the C++ packages required to run GCBM and supporting tools
+   :alt: ``install_vcredist.bat`` in ``tools\VC_redist`` directory
+   :width: 600
+   :align: center
 
-  Installing the C++ packages required to run GCBM and supporting tools
+   ``install_vcredist.bat`` in ``tools\VC_redist`` directory
 
 GCBM Video Tutorial
 -------------------

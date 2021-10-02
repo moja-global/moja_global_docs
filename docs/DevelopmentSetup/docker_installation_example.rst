@@ -89,9 +89,10 @@ The Output files created are visible in the below screenshot:-
    Running the moja.cli
 
 .. figure:: ../images/installation_docker/step3a_docker.png
-  :width: 600
-  :align: center
-  :alt: Output files created from runs
+   :alt: Output files created from runs
+   :width: 600
+   :align: center
+
    Output files created from runs
 
 .. _Docker: ../prerequisites/docker.html

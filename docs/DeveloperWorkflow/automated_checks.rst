@@ -28,7 +28,7 @@ base coverage percentage.
    **Details** link of the ``Python application / build (push)`` tab.
 
 .. figure:: ../images/all_checks.png
-   :alt: GitHub pull request Checks
+   :alt: GitHub pull request Checks - All 4 checks have passed
    :align: center
    :width: 600px
 
@@ -76,7 +76,7 @@ passes. Otherwise if the percentage is lower, the check fails.
    the Checks tab.
 
 .. figure:: ../images/all_checks.png
-   :alt: GitHub pull request Checks
+   :alt: GitHub pull request Checks - Details link inside Checks tab
    :align: center
    :width: 600px
 
@@ -98,7 +98,7 @@ code that need to be modified.
    **Details** link of the ``codeclimate`` tab.
 
 .. figure:: ../images/all_checks.png
-   :alt: GitHub pull request Checks
+   :alt: GitHub pull request Checks - Details link inside codeclimate tab
    :align: center
    :width: 600px
 
@@ -111,7 +111,7 @@ code that need to be modified.
    the code is ready to be merged!
 
 .. figure:: ../images/code_climate.png
-   :alt: Codeclimate Dashboard
+   :alt: Codeclimate Dashboard - No issues are found and the code is ready to be mearged
    :align: center
    :width: 600px
 
