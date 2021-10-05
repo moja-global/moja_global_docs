@@ -14,3 +14,6 @@ jobs:
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/"
+    - name: Lighthouse Benchmarks
+    - run:  bash Benchmarks/performance.sh
+
