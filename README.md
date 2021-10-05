@@ -14,15 +14,21 @@ To edit the documentation you need a [GitHub](github.com) account. Once you have
 
 This will create a "fork" and further you can create a "pull request", which will be approved by one of the existing members of the Docs team. If you have any development experience, you can setup the docs on your local machine to build the documentation locally.
 
-First make a fork, and then clone the repo:
+1. Fork the repository
 
-```sh
+2. Clone the repository. Replace the `<GITHUB_USERNAME>` with your GitHub username. You can find your username by clicking on your profile picture in the top right corner of the GitHub website.
+```
 git clone https://github.com/<GITHUB_USERNAME>/moja_global_docs.git
+```
+3. Go into the directory containing the project
+```
 cd moja_global_docs
-cd docs
 ```
 
-Replace the `<GITHUB_USERNAME>` with your GitHub username. You can find your username by clicking on your profile picture in the top right corner of the GitHub website.
+4. Navigate to the docs directory
+```
+cd docs
+```
 
 We are now in the `docs` directory. Let us set the documentation up:
 
@@ -42,7 +48,6 @@ env\Scripts\activate
 pip install -r requirements.txt
 make html
 ```
-
 You can now open the documentation site on `_build/html/index.html` in your browser. Make corresponding changes on the documentation site and then run `make clean && make html` to update the documentation. You can now create a pull request to get your changes merged into the upstream develop branch.
 
 ## How to Get Involved?
