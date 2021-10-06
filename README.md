@@ -22,8 +22,6 @@ cd moja_global_docs
 cd docs
 ```
 
-Replace the `<GITHUB_USERNAME>` with your GitHub username. You can find your username by clicking on your profile picture in the top right corner of the GitHub website.
-
 We are now in the `docs` directory. Let us set the documentation up:
 
 #### For **Linux** Users:
