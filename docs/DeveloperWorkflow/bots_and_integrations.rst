@@ -62,7 +62,7 @@ Prose Bot
 --------------------
 **ProseBot** is a `Github Bot <https://github.com/apps/prosebot/installations/new>`__. As changes are made to Markdown files (.md)
 or text files (.txt) it runs various checks against them to give
-feedback regarding the English. This bot is created and maintained by the prosebot ​organization
+feedback regarding the language usage. This bot is created and maintained by the prosebot ​organization
 `here <https://github.com/prosebot/prosebot>`__.
 
 **Usage**
@@ -121,7 +121,7 @@ Stale Bot
 
 **Stale Bot** is a `Github Bot <https://github.com/apps/stale/installations/new>`__ 
 built with `Probot <https://github.com/probot/probot>`__ that closes abandoned 
-Issues and Pull Requests after a period of inactivity.This bot is created and maintained by the probot ​organization
+Issues and Pull Requests after a period of inactivity. This bot is created and maintained by the probot ​organization
 `here <https://github.com/probot/stale>`__.
 
 If the Issue or Pull Request is updated, or anyone comments, then the
