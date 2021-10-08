@@ -4,7 +4,7 @@
 
 Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-Fixes # (issue)
+Fixes (Add the issue link that the PR fixes) #
 
 ## Type of change
 
@@ -13,7 +13,7 @@ Please delete options that are not relevant.
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
+- [ ] This change updates a documentation.
 
 ## How Has This Been Tested?
 
@@ -37,4 +37,5 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] I have tagged the reviewers in a comment below incase my pull request is ready for a review
 - [ ] I have signed the commit message to agree to Developer Certificate of Origin (DCO) (to certify that you wrote or otherwise have the right to submit your contribution to the project.) by adding "--signoff" to my git commit command.
 
+Thanks for opening the Pull Request for Moja Global.Happy contributing✨
 <!--- Thanks for opening this pull request! If the tests fail, please feel free to reach out to us by leaving a comment down below and we will be happy to take a look --->
