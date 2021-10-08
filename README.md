@@ -1,7 +1,5 @@
 # Moja global documentation
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
-
 This repository contains developer documentation for the [Moja global](moja.global) community. You can find the online version of the moja global documentation at **[docs.moja.global](https://docs.moja.global/en/latest/)**.
 
 Issues and contributions for the developer documentation are tracked here. We have a large community using these resources and we would like to make it our best effort to respond to issues in a timely fashion.
@@ -12,19 +10,33 @@ To file a docs issue, use the issue tracker in the [moja-global/moja_global_docs
 
 To edit the documentation you need a [GitHub](github.com) account. Once you have created one and logged in, you can edit any page by navigating to the corresponding file and clicking the edit (pen) icon.
 
-This will create a "fork" and further you can create a "pull request", which will be approved by one of the existing members of the Docs team. If you have any development experience, you can setup the docs on your local machine to build the documentation locally.
+This will create a "fork" and further you can create a "pull request", which will be approved by one of the existing members of the Docs team. If you have any development experience, you can setup the docs on your local machine to build the documentation locally. 
 
-First make a fork, and then clone the repo:
+Here are the steps you can follow while setting up the documentation locally.
+
+1. Fork the repository
+
+2. Clone the repository. Replace the `<GITHUB_USERNAME>` with your GitHub username. You can find your username by clicking on your profile picture in the top right corner of the GitHub website.
 
 ```sh
 git clone https://github.com/<GITHUB_USERNAME>/moja_global_docs.git
+```
+
+3. Go into the directory containing the project
+
+```sh
 cd moja_global_docs
+```
+
+4. Navigate to the docs directory
+
+```sh
 cd docs
 ```
 
-Replace the `<GITHUB_USERNAME>` with your GitHub username. You can find your username by clicking on your profile picture in the top right corner of the GitHub website.
+You are now in the `docs` directory. 
 
-We are now in the `docs` directory. Let us set the documentation up:
+Assuming that you have python & pip already installed. Let us set the documentation up:
 
 #### For **Linux** Users:
 
