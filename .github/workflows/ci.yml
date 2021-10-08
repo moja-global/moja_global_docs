@@ -14,3 +14,9 @@ jobs:
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "docs/"
+
+    - name: Run Lighthouse CI
+      uses: treosh/lighthouse-ci-action@v2
+      with:
+        configPath: "./lighthouserc.json"
+        temporaryPublicStorage: true
