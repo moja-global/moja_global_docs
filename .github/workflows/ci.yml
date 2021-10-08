@@ -20,6 +20,3 @@ jobs:
       with:
         configPath: "./lighthouserc.json"
         temporaryPublicStorage: true
-
-
-
