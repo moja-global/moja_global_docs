@@ -125,6 +125,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Ruchip16",
+      "name": "Ruchi Pakhle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72685035?v=4",
+      "profile": "https://ruchipakhle-portfolio.netlify.app/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
