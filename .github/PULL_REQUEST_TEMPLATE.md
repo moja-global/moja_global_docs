@@ -1,40 +1,14 @@
-# Pull Request Template
-
-## Description
+# Description
 
 Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-Fixes # (issue)
+- [ ] Issue reference: <!-- Refer the issue that you have picked up link it to the Pull Request -->
+- [ ] Subject Matter Expert (SME) reviewer: <!-- Refer the SME who can provide the technical feedback. Add NA if not known -->
+- [ ] Peer reviewer: <!-- Refer the Peer reviewer who can provide the docs feedback. Add NA if not known -->
+- [ ] Preview Links: <!-- Once the ReadTheDocs CI passes, navigate to the built docs and find where your documentation is being referenced. Add the link over here for easy reviews -->
+- [ ] Explain the changes: <!-- Briefly explain the changes and purpose of your PR -->
+- [ ] Dependency changes: <!-- Y/N; Explain if there are any dependency changes -->
 
-## Type of change
-
-Please delete options that are not relevant.
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
-
-## How Has This Been Tested?
-
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
-
-## Additional Context (Please include any Screenshots/gifs if relevant)
-
-...
-
-## Checklist:
-
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
-- [ ] I have checked my code and corrected any misspellings
-- [ ] I have tagged the reviewers in a comment below incase my pull request is ready for a review
-- [ ] I have signed the commit message to agree to Developer Certificate of Origin (DCO) (to certify that you wrote or otherwise have the right to submit your contribution to the project.) by adding "--signoff" to my git commit command.
+Thanks for opening the Pull Request for moja global. Happy contributing ✨
 
 <!--- Thanks for opening this pull request! If the tests fail, please feel free to reach out to us by leaving a comment down below and we will be happy to take a look --->
