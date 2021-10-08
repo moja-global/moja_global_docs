@@ -39,6 +39,3 @@ Thumbs.db
 # Editor backup files #
 #######################
 *~
-
-# Node modules
-node_modules
