@@ -7,7 +7,7 @@ robotic tone and give way to a friendly, inclusive and respectful tone
 of communication. It should call to action in a casual and approachable
 tone and should not sound pushy or dry.
 
-As a Technical Writer, if you are using an entertaining tone to help the
+As a contributor, if you are using an entertaining tone to help the
 readers better understand, do not go over the humour part. We generally
 assume that not every humour piece is universal and can be interpreted
 differently across different regions.
