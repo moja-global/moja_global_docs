@@ -204,7 +204,7 @@ What is FLINT UI?
 
 **A FLINT client, written in Vue, to provide an awesome user interface for configuring simulations using the FLINT.Cloud APIs**
 
-This project provides an intuitive way for new to explore some preconfigured FLINT modules, including the Generic Budget Carbon Model (GCBM), in order to better understand how the FLINT system works. Our client is written as a Web application and can be used in a local or remote environment. 
+`FLINT UI <https://docs.moja.global/projects/flint-ui/en/latest/index.html>`_ provides an intuitive way for new to explore some preconfigured FLINT modules, including the Generic Budget Carbon Model (GCBM), in order to better understand how the FLINT system works. Our client is written as a Web application and can be used in a local or remote environment. 
 
 This project also provides a base for governments to build their own application on top of the FLINT. Every government possess a different FLINT implementation, exclusive and custom modules and configuration, and hence the tool can be customised for every module.
 
@@ -216,12 +216,19 @@ What is FLINT.Reporting?
 
 **Reporting Tool functionality for classifying FLINT output results into standard reporting formats.**
 
-We need to meet two main preconditions in order to successfully contribute Reporting Tool’s development:
+The role of the `Reporting Tool <https://docs.moja.global/projects/flint-reporting/en/latest/index.html>`_ is to provide Business Intelligence for analysing and transforming FLINT output databases into useful information and outputs. The current implementation of the Reporting Tool processes the Flux database into simplified 2006 GL Reporting Tables 
 
-- We need to have sufficient Java development skills
-- We need to have sufficient Angular development skills
+The big picture is that the Reporting Tool takes flux facts and assigns / aggregates them to a land use category, a reporting table and a UNFCCC reporting variable.
 
-Read more about FLINT.Reporting `here <https://docs.moja.global/projects/flint-reporting/en/latest/DevelopmentGuide/index.html>`_
+To do this:
+
+- The Reporting Tool first implements a process that allocates a flux to an IPCC Land Use Category: 
+ This is identified as the **Land Use Decision Process.**
+- Secondly, it implements a process to allocate the flux to a 2006 GL Reporting Table:
+ This is identified as the **Flux Type to Reporting Table Process.**
+- Finally, it aggregates the fluxes according to the UNFCCC variable:
+ This is simply identified as the **Aggregation Process.**
+
 
 Taswira
 --------
