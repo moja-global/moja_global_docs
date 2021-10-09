@@ -23,3 +23,22 @@ For example, *File could not be found* is wrong. To increase clarity, we
 can use *The file could not be found*. Similarly, *Empirical Forest
 Growth module is standard module used in FLINT* can be refactored to
 *The Empirical Forest Growth module is a standard module used in FLINT*.
+
++----------------------------------+----------------------------------+
+| Recommended examples             | Not recommended examples         |
++==================================+==================================+
+| The code needs to be fixed.      | Code needs to be fixed.          |
++----------------------------------+----------------------------------+
+| A one liner code snippet would   | One liner code snippet would     |
+| help.                            | help                             |         
++----------------------------------+----------------------------------+
+| We need ``an`` NPM package here  | We need ``a`` NPM package here   |
+| (NPM is the abbreviation for     | (NPM is the abbreviation for     |  
+| Node Package Manager)            | Node Package Manager)            |
++----------------------------------+----------------------------------+
+| The file with the error could not| File with the error could not    |
+| be found.                        | be found.                        | 
++----------------------------------+----------------------------------+
+| A specific package, the package  | The specific package, the package|
+| that was used in this project    | that was used in this project    |
++----------------------------------+----------------------------------+

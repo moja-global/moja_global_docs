@@ -69,3 +69,8 @@ Contents:
   language-grammar/abbreviations-acronymn
   language-grammar/articles
   language-grammar/capitalization
+  language-grammar/clauses
+  language-grammar/conjunctions-contractions
+  language-grammar/direct-indirect
+  language-grammar/plurals
+  language-grammar/possessives
