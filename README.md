@@ -16,7 +16,7 @@ Here are the steps you can follow while setting up the documentation locally.
 
 1. Fork the repository
 
-If you choose to setup the docs locally, in order to use virtual environments and pip, you will need to install [Python](https://www.python.org/downloads/) on your local machine.
+If you choose to setup the documentation website locally, you need to have Python and the Python package manager `pip` on your local machine. Follow the official [Python installation](https://www.python.org/downloads/) to setup Python on your local machine.
 
 First make a fork, and then clone the repo:
 
