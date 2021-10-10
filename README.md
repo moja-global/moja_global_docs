@@ -16,6 +16,10 @@ Here are the steps you can follow while setting up the documentation locally.
 
 1. Fork the repository
 
+If you choose to setup the documentation website locally, you need to have Python and the Python package manager `pip` on your local machine. Follow the official [Python installation](https://www.python.org/downloads/) to setup Python on your local machine.
+
+First make a fork, and then clone the repo:
+
 2. Clone the repository. Replace the `<GITHUB_USERNAME>` with your GitHub username. You can find your username by clicking on your profile picture in the top right corner of the GitHub website.
 
 ```sh
