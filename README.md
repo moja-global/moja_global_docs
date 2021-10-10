@@ -100,6 +100,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/padmajabhol"><img src="https://avatars.githubusercontent.com/u/75530516?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Padmaja Bhol</b></sub></a><br /><a href="https://github.com/moja-global/moja_global_docs/commits?author=padmajabhol" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/asmijafar20"><img src="https://avatars.githubusercontent.com/u/47150162?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Asmi Jafar</b></sub></a><br /><a href="https://github.com/moja-global/moja_global_docs/commits?author=asmijafar20" title="Documentation">📖</a> <a href="https://github.com/moja-global/moja_global_docs/issues?q=author%3Aasmijafar20" title="Bug reports">🐛</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ShaDe2312"><img src="https://avatars.githubusercontent.com/u/86540850?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shaunak Deshpande</b></sub></a><br /><a href="https://github.com/moja-global/moja_global_docs/commits?author=ShaDe2312" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
