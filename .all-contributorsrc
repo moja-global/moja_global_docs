@@ -153,6 +153,15 @@
         "doc",
         "bug"
       ]
+    },
+    {
+      "login": "ShaDe2312",
+      "name": "Shaunak Deshpande",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86540850?v=4",
+      "profile": "https://github.com/ShaDe2312",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
