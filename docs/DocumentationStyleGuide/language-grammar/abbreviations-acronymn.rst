@@ -26,3 +26,21 @@ the same:
 -  Avoid using the possessive form of the word.
 -  Connect with the Subject Matter Expert (SME) while deciding to put
    common abbreviations (like HTML or PDF) in the user documentation.
+
++----------------------------------+----------------------------------+
+| Recommended examples             | Not recommended examples         |
++==================================+==================================+
+| An element of Moja Global        | An ele of Moja Global docs repo. |
+| documentation repository.        |                                  | 
++----------------------------------+----------------------------------+
+| I don't know why this file is    | IDK why this file is missing.    |
+| missing.                         |                                  |         
++----------------------------------+----------------------------------+
+| We are in a crisis situation     | We are in a crisis* situation    |
++----------------------------------+----------------------------------+
+| John goes to this school.        | This is John's school.           |
+| be found.                        | be found.                        | 
++----------------------------------+----------------------------------+
+| After work, I’ll walk over to a  | After work, I’ll walk over to a  |
+| sports arena, e.g., Thunderdome  | sports arena, e.g. Thunderdome   |
++----------------------------------+----------------------------------+
