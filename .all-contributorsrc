@@ -143,6 +143,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "asmijafar20",
+      "name": "Asmi Jafar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47150162?v=4",
+      "profile": "https://www.linkedin.com/in/asmijafar20",
+      "contributions": [
+        "doc",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
