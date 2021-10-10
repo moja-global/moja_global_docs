@@ -1,6 +1,6 @@
 # Moja global documentation
 
-This repository contains developer documentation for the [Moja global](moja.global) community. You can find the online version of the moja global documentation at **[docs.moja.global](https://docs.moja.global/en/latest/)**.
+This repository contains developer documentation for the [Moja global](https://community.moja.global/) community. You can find the online version of the moja global documentation at **[docs.moja.global](https://docs.moja.global/en/latest/)**.
 
 Issues and contributions for the developer documentation are tracked here. We have a large community using these resources and we would like to make it our best effort to respond to issues in a timely fashion.
 
@@ -63,11 +63,11 @@ moja global welcomes a wide range of contributions as explained in [Contributing
 
 ## FAQ and Other Questions
 
-* You can find FAQs on the [Wiki](https://github.com/moja.global/.github/wiki).
+* You can find FAQs on the [Wiki](https://github.com/moja-global/.github/wiki).
 * If you have a question about the code, submit [user feedback](https://github.com/moja-global/About-moja-global/blob/master/Contributing/How-to-Provide-User-Feedback.md) in the relevant repository.
 * If you have a general question about a project or repository or moja global, [join moja global](https://github.com/moja-global/About-moja-global/blob/master/Contributing/How-to-Join-moja-global.md) and 
     * [submit a discussion](https://help.github.com/en/articles/about-team-discussions) to the project, repository or moja global [team](https://github.com/orgs/moja-global/teams)
-    * [submit a message](https://get.slack.help/hc/en-us/categories/200111606#send-messages) to the relevant channel on [moja global's Slack workspace](mojaglobal.slack.com).
+    * [submit a message](https://get.slack.help/hc/en-us/categories/200111606#send-messages) to the relevant channel on [moja global's Slack workspace](https://mojaglobal.slack.com/).
 * If you have other questions, please write to [info@moja.global](info@moja.global).
 
 
