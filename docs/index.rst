@@ -26,5 +26,6 @@ maintainers for other reasons, please drop a mail at info@moja.global.
    contributing/index
    DeveloperWorkflow/index
    DocumentationStyleGuide/index
+   UnderstandingFlint/index
    faq
    contact
