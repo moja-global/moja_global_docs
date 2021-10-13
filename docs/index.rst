@@ -21,11 +21,11 @@ maintainers for other reasons, please drop a mail at info@moja.global.
    :hidden:
 
    prerequisites/index
+   UnderstandingFlint/index
    DevelopmentSetup/index
    GCBMDevelopmentSetup/index
    contributing/index
    DeveloperWorkflow/index
    DocumentationStyleGuide/index
-   UnderstandingFlint/index
    faq
    contact
