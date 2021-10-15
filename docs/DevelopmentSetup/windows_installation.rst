@@ -104,7 +104,7 @@ Run a command shell and navigate to the build folder.
 - After Visual Studio has loaded completely, move to the Solution Explorer in the top right, expand the **CMakePredefinedTargets** and select **ALL_BUILD**.
 - Right click on **ALL_BUILD** and click on **Build** in the menu.
 
-.. figure:: ../images/windows_installation/all_build_visual_studio.png
+.. figure:: ../images/windows_installation/all_build_visual_studio.PNG
    :alt: ALL_BUILD of Visual Studio
    :width: 600
    :align: center
@@ -112,7 +112,7 @@ Run a command shell and navigate to the build folder.
    Solution Explorer in Visual Studio
 
 - If the output says Build 7 succeeded as shown in the image below, FLINT has built successfully.
-.. figure:: ../images/windows_installation/successful_build.png
+.. figure:: ../images/windows_installation/successful_build.PNG
    :alt: Successful Build
    :width: 600
    :align: center
@@ -121,7 +121,7 @@ Run a command shell and navigate to the build folder.
 - To see the freshly compiled FLINT executable, open the build folder and in the command prompt type: ``cd bin\debug``.
 - Type ``moja.cli`` in the command prompt.
 - You see this output:
-.. figure:: ../images/windows_installation/flint_executable_run.png
+.. figure:: ../images/windows_installation/flint_executable_run.PNG
    :alt: Output after Successful FLINT run
    :width: 600
    :align: center
