@@ -28,4 +28,4 @@ maintainers for other reasons, please drop a mail at info@moja.global.
    DeveloperWorkflow/index
    DocumentationStyleGuide/index
    faq
-   contact
+   join-moja-global

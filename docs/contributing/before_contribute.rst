@@ -31,5 +31,5 @@ through the contact form and share your interesting ideas with us!
 .. _Git and Github guide: ../DevelopmentSetup/git_and_github_guide.html
 .. _Code of Conduct: coc.html
 .. _moja global best contribution practices: code_contribution_best_practices.html
-.. _Join us: ../contact.html
+.. _Join us: ../join-moja-global.html
 .. _Community Website: https://moja-global.vercel.app/
