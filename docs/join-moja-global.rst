@@ -6,7 +6,7 @@ Welcome to the moja global family! Thank you for taking the first step in connec
 moja global Slack
 =================
 
-moja global Slack provides a platform for contributors to communicate, discuss ideas and ask questions. It acts as the primary communication tool used under moja global. `The moja global slack <https://www.google.com/url?q=https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw&sa=D&source=editors&ust=1633078795555000&usg=AFQjCNFbieFLALt9IFd9pqxYz1S54wj-Rg>`_ is also bound bu our `Code Of Conduct <contributing/coc.html>`_.
+moja global Slack provides a platform for contributors to communicate, discuss ideas and ask questions. It acts as the primary communication tool used under moja global. `The moja global slack <https://www.google.com/url?q=https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw&sa=D&source=editors&ust=1633078795555000&usg=AFQjCNFbieFLALt9IFd9pqxYz1S54wj-Rg>`_ is also bound by our `Code Of Conduct <contributing/coc.html>`_.
 Make sure you follow the guidelines before posting. We encourage you to be active participants to make moja global a responsive open source organisation.
 
 In order to receive an invite for the moja global Slack workspace, please email info@moja.global with a description of the project areas you are interested in. After evaluation from the mentors, you will receive a slack workspace invite. Please be patient since it may take time for maintainers to respond.
@@ -30,7 +30,7 @@ Outreach and Student Programs
 
 moja global participates in outreach and student programs regularly to welcome and provide students and under-represented communities an opportunity to work with moja global.
 
-In the past, we’ve participated in programs like `Google Summer Of Code <https://developers.google.com/open-source/gsoc/>`_, `Google Season Of Docs <https://developers.google.com/season-of-docs>`_ , `Linux Mentorship Programs <https://people.communitybridge.org/#projects>`_ ,`Outreachy Internships <https://www.outreachy.org/>`_ and other funding and outreach programs.
+In the past, we’ve participated in programs like `Google Summer Of Code <https://developers.google.com/open-source/gsoc/>`_, `Google Season Of Docs <https://developers.google.com/season-of-docs>`_ , `Linux Mentorship Programs <https://people.communitybridge.org/#projects>`_ , `Outreachy Internships <https://www.outreachy.org/>`_ and other funding and outreach programs.
 
 Since we receive many applications through these programs, moja global encourages applicants to checkout the following guidelines to maximise chances of getting selected -
 
@@ -60,8 +60,8 @@ Here is how you may help our mission:
 * **Star/Fork our projects on GitHub**: Our `GitHub Organization <https://github.com/moja-global/>`_ houses many Open source tools that are under active development. We encourage you to star/fork these repositories. You may also help us in their development.
 * **Follow us on LinkedIn**: Our `LinkedIn page <https://www.linkedin.com/company/moja-global>`_ provides the latest updates about the use of our Software around the world. You may also connect with volunteers at our organisation to discuss and engage in collaborative spirit.
 * **Follow us on Twitter**: Our `Twitter page <https://twitter.com/mojaglobal?lang=en>`_ also provides concise latest developments of the organisation.
-* **Know more about us**: Our `Community Website <https://www.outreachy.org/>`_ provides more information about us.
-* **Connect with us**: Join `Our Slack Channel <https://www.google.com/url?q=https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw&sa=D&source=editors&ust=1633078795555000&usg=AFQjCNFbieFLALt9IFd9pqxYz1S54wj-Rg>`_ to connect with us
+* **Know more about us**: Our `Community Website <https://community.moja.global/>`_ provides more information about us.
+* **Connect with us**: Join `Our Slack Channel <https://www.google.com/url?q=https://join.slack.com/t/mojaglobal/shared_invite>`_ to connect with us
 
 If you have been contributing to moja global for sometime now, you may also:
 
@@ -73,7 +73,26 @@ We appreciate every little step to promote moja global and are extremely gratefu
 Documentation working group
 ===========================
 
-Documentation Working Group
 We are setting up a Documentation Working Group, which is primarily aimed at developing high-quality user and developer documentation. The Documentation Working group is geared towards making sure that all of the important software, tools and projects are well-documented with a standard developer experience defined to help new contributors in getting started with the community.
 
-The Documentation Working Group is specifically used for capability building, bringing onboard new contributors, and helping them to get started, while making sure that the influx of new contributions is not hindered by a lack of good documentation. The next sections of this document describe how the Documentation Working Group is coordinated, and what sort of impact it has in the large and diverse community that makes up moja global.
+The Documentation Working Group is specifically used for capability building, bringing onboard new contributors, and helping them to get started, while making sure that the influx of new contributions is not hindered by a lack of good documentation.
+The primary goal of the Documentation Working Group is to develop documentation for various projects under the moja global umbrella. 
+
+However, to better understand how to connect our efforts on documentation, an understanding of how documentation is currently developed at moja global is required.
+
+* For every project release, a new Documentation plan is created after the epic list for the release is obtained. 
+* The epic list describes the bugs that were fixed, the features that were added, and all the trivial/non-trivial changes that were made that hold importance with respect to users and developers. 
+* Based on the epic prioritization and bandwidths, the Documentation Working Group commits to documenting the epic list for the release.
+
+Apart from software documentation our work is also concerned with the following:
+
+* **Training Material**: Training materials are of utmost importance for new developers and contributors at moja global. moja global publishes its training materials over Moodle learning management system (LMS) which will be expanded over time. 
+
+* **Website maintenance**: We love to have people with some experience in Web Development to maintain our main website and the community website. 
+
+* **Promotion**: As part of the Documentation Working group, we work on promotional content for Social media channels that can be utilized to spread the word about moja global and how people can contribute to our initiative
+
+* **Coordination**: The coordination effort relies on finding the resources that can help contributors which can be integrated with the documentation and coordinate the forums and mailing lists.
+
+The Documentation Working Group is entirely driven by volunteer efforts but we like to keep track of all the contributors who would like to join.
+To get started, please fill `this form <https://forms.gle/ibH2XsaBSAeiyQcX7>`_
