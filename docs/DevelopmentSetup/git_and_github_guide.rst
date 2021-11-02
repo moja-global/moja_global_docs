@@ -48,8 +48,7 @@ upstream is shown or not. :
 
    git remote -v
 
-\* Make sure that you have checked out to the ``develop`` Branch
-for the FLINT Installation. :
+\* Make sure you've switched to the ``develop`` Branch for the FLINT Installation to be updated, it consists of all the latest changes. :
 
 ::
 
