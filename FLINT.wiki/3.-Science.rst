@@ -1,0 +1,19 @@
+This document set describes the underpinning science for the FLINT. This
+is largely driven through the modules, but also includes: ...TBC...
+
+-  [Core science
+-  mass balance
+-  consistent representation of lands
+-  pool transfers
+-  IPCC reporting
+-  Common Reporting Format tables CO2 and non-CO2 emissions
+-  Land area matrices
+-  Generic data sources
+-  Modules
+-  Empirical forest growth
+-  Hybrid forest growth
+-  WOFOST crop growth
+-  Turnover
+-  Decomposition
+-  RothC soil carbon]
+
