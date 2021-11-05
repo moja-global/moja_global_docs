@@ -36,10 +36,3 @@ the same:
 | I don't know why this file is    | IDK why this file is missing.    |
 | missing.                         |                                  |         
 +----------------------------------+----------------------------------+
-| We are in a crisis situation     | We are in a crisis* situation    |
-+----------------------------------+----------------------------------+
-| John goes to this school.        | This is John's school.           |
-+----------------------------------+----------------------------------+
-| After work, I’ll walk over to a  | After work, I’ll walk over to a  |
-| sports arena, e.g., Thunderdome  | sports arena, e.g. Thunderdome   |
-+----------------------------------+----------------------------------+
