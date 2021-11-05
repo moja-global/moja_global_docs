@@ -1,4 +1,4 @@
-**What is a pool?**
+**Definition of a Pool**
 
 A pool is a reservoir within which something can be stored and released.
 For example, a carbon pool is a reservoir from which carbon can be
@@ -7,9 +7,9 @@ Within FLINT, each pool is attributed a value, for example tonnes
 carbon, and at each time step the FLINT can move stores from one pool to
 another using operations.
 
-**How are pools used in FLINT?**
+**How pools are used in the FLINT**
 
-FLINT is able to be configured for sub-regional, regional and national
+The FLINT is able to be configured for sub-regional, regional and national
 circumstances, while complying with the pool definitions of the IPCC
 (aboveground biomass, belowground biomass, deadwood, litter, soil
 (mineral and organic). To achieve this, the FLINT calculates stock and

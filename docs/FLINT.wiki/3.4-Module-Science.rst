@@ -1,4 +1,7 @@
-**Empirical Growth Model**
+
+**Forest  Growth  Modules**
+
+** 1 . Empirical Growth Model**
 
 The empirical growth model is a forest growth module that simulates
 growth in carbon stock within a forest and its components through time.
@@ -26,7 +29,7 @@ the data that is available, and up-dated through time. However, this is
 also one of its limitations, in that it requires up-dating to respond to
 changes in climatic conditions; whereas hybrid models do not.
 
-**Hybrid forest growth**
+**2 .Hybrid forest growth**
 
 Hybrid models are more complex than empirical growth models, as they use
 physiological responses to environmental conditions to derive
@@ -52,16 +55,44 @@ respond to changes in management, by applying growth modifiers. More
 information on Hybrid growth models can be found in Brack & Richards
 (2002) and Waterworth et al (2007).
 
-Input\|Output ------------------\|------------------------------ 1. Time
-step: monthly\|1. Age: Age 2. Region: Province\|2. Pool1: Stemwood 3.
-Species\|3. Pool2: Bark 4. Species: rootshoot\|4. Pool3: Leaves 5. Age:
-Age\|5. Pool4: Course roots 6. Pool1: Stemwood\|6. Pool5: Fine roots 7.
-Pool2: Bark\| 8. Pool3: Leaves\| 9. Pool4: Course roots\| 10. Pool5:
-Fine roots\| 11. Rainfall\| 12. Minimum Temperature\| 13. Maximum
-temperature\| 14. Vapour Pressure Deficit\| 15. Soil water holding
-capacity\|
++----------------------------------+-------------------------+
+| Input                            | Output                  |
++==================================+=========================+
+| 1. Time step: monthly            | 1. Age: Age             |
++----------------------------------+-------------------------+
+| 2. Region: Province              | 2. Pool1: Stemwood      |
++----------------------------------+-------------------------+
+| 3. Species                       | 3. Pool2: Bark          |
++----------------------------------+-------------------------+
+| 4. Species: rootshoot            | 4. Pool3: Leaves        |
++----------------------------------+-------------------------+
+| 5. Age: Age                      | 5. Pool4: Course roots  |
++----------------------------------+-------------------------+
+| 6. Pool1: Stemwood               | 6. Pool5: Fine roots    |
++----------------------------------+-------------------------+
+| 7. Pool2: Bark                   |                         |
++----------------------------------+-------------------------+
+| 8. Pool3: Leaves                 |                         |
++----------------------------------+-------------------------+
+| 9. Pool4: Course roots           |                         |
++----------------------------------+-------------------------+
+| 10. Pool5: Fine roots            |                         |
++----------------------------------+-------------------------+
+| 11. Rainfall                     |                         |
++----------------------------------+-------------------------+
+| 12. Minimum Temperature          |                         |
++----------------------------------+-------------------------+
+| 13. Maximum temperature          |                         |
++----------------------------------+-------------------------+
+| 14. Vapour Pressure Deficit      |                         |
++----------------------------------+-------------------------+
+| 15. Soil water holding capacity  |                         |
++----------------------------------+-------------------------+
 
-**WOFOST** Akin to the Hybrid forest growth model, WOFOST (World FOod
+
+**3 .WOFOST** 
+
+Akin to the Hybrid forest growth model, WOFOST (World FOod
 STudies) is a mechanistic model that simulates crop growth on the basis
 of photosynthesis, respiration, and the prevailing environmental
 conditions. WOFOST also allocates biomass to different plant components,
@@ -72,13 +103,32 @@ attainable production, and actual production for a given site. WOFOST
 runs at daily time steps. More information on WOFOST is available at:
 www.wageningenur.nl/en/Expertise-Services/Research-Institutes/alterra/Facilities-Products/Software-and-models/WOFOST.htm
 
-Input\|Input ------------------\|------------------------------ 1. Time:
-Daily\|1. Age: Age 2. Crop Type\|2. Pool1: stem 3. Pool1: stem\|3.
-Pool2: Leaves 4. Pool2: Leaves\|4. Pool3: Storage organs 5. Pool3:
-Storage organs\|5. Pool4: Roots 6. Pool4: Roots\| 7. Maximum
-temperature\| 8. Minimum temperature\| 9. Global radiation\|
++---------------------------+---------------------------+
+| Input                     | Input                     |
++===========================+===========================+
+| 1. Time: Daily            | 1. Age: Age               |
++---------------------------+---------------------------+
+| 2. Crop Type              | 2. Pool1: stem            |
++---------------------------+---------------------------+
+| 3. Pool1: stem            | 3. Pool2: Leaves          |
++---------------------------+---------------------------+
+| 4. Pool2: Leaves          | 4. Pool3: Storage organs  |
++---------------------------+---------------------------+
+| 5. Pool3: Storage organs  | 5. Pool4: Roots           |
++---------------------------+---------------------------+
+| 6. Pool4: Roots           |                           |
++---------------------------+---------------------------+
+| 7. Maximum temperature    |                           |
++---------------------------+---------------------------+
+| 8. Minimum temperature    |                           |
++---------------------------+---------------------------+
+| 9. Global radiation       |                           |
++---------------------------+---------------------------+
 
-**RothC** RothC is a model for simulating the turnover of soil carbon in
+
+**4 .RothC**
+
+ RothC is a model for simulating the turnover of soil carbon in
 non-waterlogged soils under different vegetation types. It is based on
 the decomposition of organic matter as it relates to mean temperature
 and moisture, and proportion of resistant and decomposable organic
@@ -90,21 +140,37 @@ is also considerable overlap with the hybrid forest growth and WOFOST
 models. For more information on RothC, see
 www.rothamsted.ac.uk/sustainable-soils-and-grassland-systems/rothamsted-carbon-model-rothc.
 
-| Input \| Output ------------------ \| ------------------------------
-1. Time: Monthly \| 1. Total organic carbon 2. Pool 1: Input of plant
-residue \| 2. Microbial biomass carbon 3. Pool 2: Input of farmyard
-manure \|
-| 4. Pool 3: Total organic carbon \|
-| 5. Pool 4: Microbial biomass carbon \|
-| 6. Rainfall \|
-| 7. Open pan evaporation \|
-| 8. Mean air temperature \|
-| 9. Clay content of soil \|
-| 10. Decomposability of incoming plant material \|
-| 11. Soil Cover \|
-| 12. Depth of soil layer sampled. \|
++-------------------------------------------------+------------------------------+
+| Input                                           | Output                       |
++=================================================+==============================+
+| 1. Time: Monthly                                | 1. Total organic carbon      |
++-------------------------------------------------+------------------------------+
+| 2. Pool 1: Input of plant residue               | 2. Microbial biomass carbon  |
++-------------------------------------------------+------------------------------+
+| 3. Pool 2: Input of farmyard manure             |                              |
++-------------------------------------------------+------------------------------+
+| 4. Pool 3: Total organic carbon                 |                              |
++-------------------------------------------------+------------------------------+
+| 5. Pool 4: Microbial biomass carbon             |                              |
++-------------------------------------------------+------------------------------+
+| 6. Rainfall                                     |                              |
++-------------------------------------------------+------------------------------+
+| 7. Open pan evaporation                         |                              |
++-------------------------------------------------+------------------------------+
+| 8. Mean air temperature                         |                              |
++-------------------------------------------------+------------------------------+
+| 9. Clay content of soil                         |                              |
++-------------------------------------------------+------------------------------+
+| 10. Decomposability of incoming plant material  |                              |
++-------------------------------------------------+------------------------------+
+| 11. Soil Cover                                  |                              |
++-------------------------------------------------+------------------------------+
+| 12. Depth of soil layer sampled.                |                              |
++-------------------------------------------------+------------------------------+
 
-**Turnover** Turnover is the movement from a living carbon pool to a
+
+**5 .Turnover** 
+Turnover is the movement from a living carbon pool to a
 dead carbon pool. This is due to the natural senescence of plant
 components, for example a deciduous forest will have near 100 per cent
 turnover of leaves across a year – or an annual turnover rate of 0.99.
@@ -118,7 +184,9 @@ Within the FLINT, the maximum decay rate is set at 0.99 999 999 998, and
 the minimum decay rate is 0.000001. These restrictions are in place to
 ensure there are no invalid calculations (e.g. dividing by zero).
 
-| **Decomposition** Within the FLINT, decomposition represents
+| **6 .Decomposition**
+
+ Within the FLINT, decomposition represents
 heterotrophic respiration of litter and soil organic matter. The process
 of modelling decomposition is akin to turnover in plant material, where
 a proportion of biomass in litter and soil organic matter decays through

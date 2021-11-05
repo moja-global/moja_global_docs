@@ -1,4 +1,4 @@
-**What is a module?**
+**A Module**
 
 A module is a self-contained set of operations that determine the state
 of, or change in, variables across a specified period of time for a
@@ -7,7 +7,7 @@ the FLINT core system (Unit Controller). For example, the empirical
 forest growth module includes all the operations required to simulate
 biomass accumulation.
 
-**How do modules operate?**
+**How modules operate**
 
 Each module reads (or is provided with – see Unit Controller)
 information about the current state variables and the data required to
@@ -38,7 +38,7 @@ Distribution), and include: \* Empirical forest growth module \* Hybrid
 forest growth module \* WOFOST crop growth module \* Turnover module \*
 Decomposition module \* RothC soil carbon module
 
-**Modules for disturbance events**
+**Disturbance events**
 
 Disturbance events are events that occur intermittently (rather than for
 every time step in a simulation) and affect carbon stocks. Disturbance
@@ -56,11 +56,14 @@ event is allowed to affect). This information can be used to attribute
 the disturbance event to Simulation Units using a pre-determined
 criteria (e.g. randomly, weighted, or based on a unit characteristic).
 
-The follow is a disturbance events included in FLINT. Carbon pool events
-are those that directly affect one or more carbon pool, while non-carbon
-pool events indirectly affect one or more non-carbon pool.
+The following are the  disturbance events included in FLINT. 
 
 **Carbon pool events**
+
+Carbon pool events are those that directly affect one or more carbon pool, while non-carbon
+pool events indirectly affect one or more non-carbon pool.
+
+** Examples of Carbon pool events**
 
 -  Fire
 -  Harvest

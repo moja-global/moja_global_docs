@@ -1,4 +1,4 @@
-**Welcome to the Full Land Integration Tool!**
+** Descriotion of the Full Land Integration Tool (FLINT) and what it entails**
 
 The FLINT is a fully modular system that allows users to integrate
 carbon and other models with remote sensing data to produce greenhouse
