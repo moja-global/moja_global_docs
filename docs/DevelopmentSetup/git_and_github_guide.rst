@@ -3,16 +3,16 @@
 Git and Github guide
 ====================
 
-This guide is to help new contributors setup git, github and navigate
+This guide is to help new contributors set up Git, GitHub and navigate
 their way through making contributions to moja global repositories. It
-covers the entire process of contributing right from installing git to
+covers the entire process of contributing right from installing Git to
 opening pull requests.
 
 Setup this project using Git
 ----------------------------
 
 Before setting up this project using Git make sure you have installed
-and configured git by following the instructions `here`_.
+and configured Git by following the instructions `here`_.
 
 Fork and Clone this project
 ---------------------------
@@ -21,35 +21,35 @@ Fork and Clone this project
    upper left corner, there is a **Fork** button. Please click on it to
    create a fork/copy of the repository on your profile.
 
-\* In the terminal screen, clone this repo by running the command where
-``your-username`` represents your Github username. :
+- In a terminal, clone this repo by running the command where ``your-username``
+  represents your Github username.
 
 ::
 
    git clone https://github.com/<your-username>/FLINT/
 
-\* Enter into the newly created project folder by running the command :
+- Enter into the newly created project folder by running this command.
 
 ::
 
    cd FLINT
 
-\* Configure upstream for the fork so that git can sync work from the
-upstream if it is updated by running the command :
+- Configure upstream for the fork so that Git can sync work from the
+  upstream if it is updated by running this command.
 
 ::
 
    git remote add upstream https://github.com/moja-global/FLINT/
 
-\* Check if upstream is configured by running the command and check if
-upstream is shown or not. :
+- Check if upstream is configured by running the command and check if
+  upstream is shown or not.
 
 ::
 
    git remote -v
 
-\* Make sure you've checked out to the ``develop`` Branch to be updated, it consists of all the latest changes 
-for the FLINT Installation. :
+- Make sure you've checked out the ``develop`` branch to be updated. It consists of all the latest changes
+  for the FLINT Installation.
 
 ::
 
@@ -85,8 +85,8 @@ issue and label the issue as ``in progress``. Some additional notes:
 Make a contribution
 -------------------
 
-This section will show you step-by-step how to make a contribution to
-FLINT using git.
+This section shows you step-by-step how to make a contribution to
+FLINT using Git.
 
 -  FLINT stable branch is **develop**. Releases are scheduled
    periodically when codebase is production-ready and the ``develop``

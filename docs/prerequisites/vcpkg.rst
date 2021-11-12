@@ -15,9 +15,7 @@ To build the libraries please follow the following steps:
 
 * Clone the Vcpkg repository in the moja-global folder from `here <https://github.com/moja-global/vcpkg>`__.
 
-* Start a command shell in the vcpkg repository folder and run the following commands:
-
-Note: The process may take one to two hours, depending on the specifications of your system.
+* Start ``cmd`` in the vcpkg repository folder and run the following commands:
 
 ::
 
@@ -26,3 +24,6 @@ Note: The process may take one to two hours, depending on the specifications of 
 
     # install packages
     vcpkg.exe install boost-test:x64-windows boost-program-options:x64-windows boost-log:x64-windows turtle:x64-windows zipper:x64-windows poco:x64-windows libpq:x64-windows gdal:x64-windows sqlite3:x64-windows boost-ublas:x64-windows fmt:x64-windows libpqxx:x64-windows
+
+  
+Note: The process may take one to two hours, depending on the specifications of your system.

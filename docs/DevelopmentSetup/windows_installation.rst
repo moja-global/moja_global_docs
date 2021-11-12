@@ -6,9 +6,9 @@ Windows Installation
 This section guides first-time contributors through installing FLINT
 development environment.
 
-Before proceeding further, make sure you have setup the project using
+Before proceeding further, make sure you have set up the project using
 Git by following our guide `Git and GitHub Guide`_. Also make sure you
-have the following prerequisites setup.
+have the following prerequisites set up.
 
 Prerequisites
 -------------
@@ -24,7 +24,7 @@ the Installation.
 Using vcpkg to install required libraries
 -----------------------------------------
 
-Start a command shell in the Vcpkg repository folder (that you had
+Start ``cmd`` in the Vcpkg repository folder (that you had
 cloned earlier) and use the following commands:
 
 ::
@@ -56,7 +56,7 @@ Setting up the FLINT development environment
 
    Develop Branch of FLINT
 
--  Start command shell in the FLINT folder of your system and run
+-  Start ``cmd`` in the FLINT folder of your system and run
    command:
 
 ::
@@ -67,7 +67,7 @@ Setting up the FLINT development environment
 Using CMake to build the project
 --------------------------------
 
-Start a command shell in your FLINT core
+Start ``cmd`` in your FLINT core
 repository folder. Now use the following commands to create the Visual
 Studio solution:
 
@@ -87,7 +87,7 @@ Studio solution:
 
 .. note::
 
-   All paths used below with ``C:\Development\moja-global`` will need to
+   All paths used below with ``C:\Development\moja-global`` need to
    be modified to match your system build location of the moja project.
 
 .. _Git and GitHub Guide: git_and_github_guide.html
@@ -99,7 +99,8 @@ Studio solution:
 Building the FLINT
 ===================
 
-Run a command shell and navigate to the build folder.
+Run ``cmd`` and navigate to the build folder.
+
 - Type ``moja.sln`` in the command prompt. Visual studio is launched.
 - After Visual Studio has loaded completely, move to the Solution Explorer in the top right, expand the **CMakePredefinedTargets** and select **ALL_BUILD**.
 - Right click on **ALL_BUILD** and click on **Build** in the menu.

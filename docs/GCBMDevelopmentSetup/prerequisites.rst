@@ -26,7 +26,7 @@ Existing Python Installation
 -  Locate your existing Python 3.7 installation (where python.exe is
    located). If you have both 32 and 64-bit versions installed (common
    with ArcGIS), find the path to the 64-bit version.
--  From a command prompt in the ``python_3_installer`` directory, type:
+-  From a terminal in the ``python_3_installer`` directory, type:
    ``install_modules_only <python path>``
 
 .. figure:: ../images/installation_gcbm/image2.png
@@ -42,7 +42,7 @@ New Python Installation
 -  Verify that you have no existing Python 3.7 installation – it is not
    usually possible to install the same version in two different
    locations.
--  From a command prompt in the ``python_3_installer`` directory, type:
+-  From a terminal in the ``python_3_installer`` directory, type:
    ``install_python [optional install path]``
 
 .. figure:: ../images/installation_gcbm/image4.png

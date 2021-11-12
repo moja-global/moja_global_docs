@@ -36,8 +36,6 @@ To build the project the cmake and C++ extensions will be required.
 These have been specified in the ``devcontainer.json`` file. To build
 the library use Cmake Configure, Build and Install.
 
-:
-
 ::
 
    "extensions": [
@@ -55,8 +53,6 @@ should be ready to run/debug one of the samples.
 inside the dev-container, so there is a new version of the library
 configs for VS Code. These commands will work from the terminal in the
 running container after cmake has been successful.
-
-:
 
 ::
 
