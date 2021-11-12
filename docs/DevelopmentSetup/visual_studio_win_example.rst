@@ -22,7 +22,7 @@ the Installation.
 Using vcpkg to install required libraries
 -----------------------------------------
 
-Start a command shell in the Vcpkg repository folder (that you had
+Start ``cmd`` in the Vcpkg repository folder (that you had
 cloned earlier) and use the following commands:
 
 ::
@@ -34,29 +34,23 @@ cloned earlier) and use the following commands:
    vcpkg.exe install boost-test:x64-windows boost-program-options:x64-windows boost-log:x64-windows turtle:x64-windows zipper:x64-windows poco:x64-windows libpq:x64-windows gdal:x64-windows sqlite3:x64-windows boost-ublas:x64-windows fmt:x64-windows libpqxx:x64-windows
 
 .. figure:: ../images/installation_vs2019_flint.example/Step1b.png
-   :alt: Installing required packages using vcpkg in Command Prompt
+   :alt: Install required packages using vcpkg in ``cmd``
    :align: center
    :width: 600px
 
-   Installing required packages using vcpkg in Command Prompt
+   Install required packages using vcpkg in ``cmd``.
 
 Building the project
 --------------------
 
-Launch the Windows Powershell and run the following commands:
+Launch ``cmd`` and run the following commands:
 
 ::
 
    # Create a build folder under the Source folder
-   mkdir -p Source\build
-   cd Source\build
-
-.. figure:: ../images/installation_vs2019_flint.example/Step2.png
-   :alt: Creating a build Directory for Cloned FLINT.example repo
-   :align: center
-   :width: 600px
-
-   Creating a build Directory for Cloned FLINT.example repo
+   cd Source
+   mkdir build
+   cd build
 
 Now depending on which type of simulation you want to execute, you may
 run one of the following generate commands:
@@ -188,7 +182,7 @@ the correct configuration -
    -  Command:
       ``C:\Development\moja-global\FLINT\Source\build\bin\Debug\moja.cli.exe``
 
-   \* Command Arguments: :
+   -  Command Arguments:
 
    ::
 
@@ -196,7 +190,7 @@ the correct configuration -
 
    -  Working Directory: ``$(SolutionDir)..\..\Run_Env``
 
-   \* Environment: :
+   -  Environment: :
 
    ::
 

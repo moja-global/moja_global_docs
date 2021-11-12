@@ -3,8 +3,8 @@
 Setup Git
 =========
 
-If you already have a Git client and Github account, please skip this
-section. Otherwise, keep on reading!
+If you already have a Git client and Github account, please `skip this
+section <https://docs.moja.global/en/latest/prerequisites/cmake.html>`__. Otherwise, keep on reading!
 
 Install and Configure Git
 -------------------------

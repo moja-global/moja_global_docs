@@ -3,37 +3,37 @@
 Setup Docker (for Linux based variants only)
 ============================================
 
-In-order to setup FLINT by using docker containers, please follow the
-instructions below based on your Linux Distro. If your Linux distro is
+In order to set up FLINT by using docker containers, please follow the
+instructions below based on your Linux distro. If your Linux distro is
 not listed below, please checkout the `Docker official installation
 guides`_ for more information:
 
 -  **Install on CentOS**
 
    In order to setup the latest version of Docker on CentOS, checkout
-   the official `Docker installation guide for CentOS`_ .
+   the official `Docker installation guide for CentOS`_.
 
 -  **Install on Fedora**
 
    In order to setup the latest version of Docker on Fedora, checkout
-   the official `Docker installation guide for Fedora`_ .
+   the official `Docker installation guide for Fedora`_.
 
 -  **Install on Debian**
 
    In order to setup the latest version of Docker on Debian, checkout
-   the official `Docker installation guide for Debian`_ .
+   the official `Docker installation guide for Debian`_.
 
 -  **Install on Ubuntu**
 
    In order to setup the latest version of Docker on Ubuntu, checkout
-   the official `Docker installation guide for Ubuntu`_ .
+   the official `Docker installation guide for Ubuntu`_.
 
 Test Docker version
 -------------------
 
 Verify if the docker installation is successful by running the following
-command. If the following command does not return the version of the
-docker, your installation has been unsuccessful, please try again. :
+command. If the following command does not return the docker version,
+your installation has been unsuccessful, please try again.
 
 ::
 

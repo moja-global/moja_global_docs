@@ -29,7 +29,7 @@ After launching the Visual Studio installer:
 -  Click on **Install**
 
 .. figure:: ../images/visual_studio/install_page.PNG
-   :alt: Install Section of Visual Studio 
+   :alt: Install Section of Visual Studio
    :width: 600
    :align: center
 
@@ -41,14 +41,14 @@ After the installation is complete:
 -  Create a folder inside ``C`` Drive and name it ``Development``.
 -  Inside the ``Development`` folder create a folder and name it
    ``moja-global``
--  Open the ``moja-global`` folder in the command prompt.
+-  Using ``cmd``, open the ``moja-global`` folder.
 
 .. figure:: ../images/visual_studio/command_prompt.PNG
    :alt: Command Prompt of Windows
    :width: 600
    :align: center
 
-   Folder Path In Command Prompt
+   Folder Path In `cmd`
 
 
 For Visual Studio 2017
