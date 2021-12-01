@@ -32,4 +32,3 @@ maintainers for other reasons, please drop a mail at info@moja.global.
    DocumentationStyleGuide/index
    faq
    join-moja-global
-  
