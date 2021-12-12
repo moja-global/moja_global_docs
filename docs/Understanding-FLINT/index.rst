@@ -1,4 +1,4 @@
-Understanding Flint
+Understanding FLINT
 ======================
 
 
@@ -11,20 +11,11 @@ The overall framework will be based on the simulation of events and processes. M
 
 This document set provides a high-level overview of the FLINT system and its core components. Including:
 
-
-
-
 Contents:
 
 .. toctree::
   :maxdepth: 1
 
-  pools
-  operations
-  modules
-  simulation_units
-  local_domain
-  synchronized_events
-  temporal_distribution
-  reporting_indicators
-
+  moja-flint/index
+  data-preparation/index
+  science/index

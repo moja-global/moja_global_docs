@@ -40,7 +40,7 @@ You can reach out to us through the following channels:
    :hidden:
 
    prerequisites/index
-   UnderstandingFlint/index
+   Understanding-FLINT/index
    DevelopmentSetup/index
    GCBMDevelopmentSetup/index
    FLINT UI <https://docs.moja.global/projects/flint-ui/en/latest/>
