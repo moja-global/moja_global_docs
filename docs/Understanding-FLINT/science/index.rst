@@ -6,6 +6,5 @@ Contents:
 .. toctree::
   :maxdepth: 1
 
+  consistent-representation-lands
   mass-balance
-  ipcc-reporting
-  module-science
