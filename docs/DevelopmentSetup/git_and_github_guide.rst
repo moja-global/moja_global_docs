@@ -63,17 +63,14 @@ Fork and Clone this project
 Claim an issue
 --------------
 
-This section will demonstrate how to claim an issue to work on using
-botmojaglobal.
+This section will demonstrate how to claim an issue.
 
-To work on an issue, claim it by adding a comment with
-``@botmojaglobal claim`` to the issue thread. botmojaglobal is a GitHub
-workflow bot forked from the `zulipbot`_; it will assign you to the
-issue and label the issue as ``in progress``. Some additional notes:
+To work on an issue, you must claim it by adding a request comment to
+the issue thread and tagging a maintainer/issue triager in it.
+You will be assigned to work on the issue now. Some additional notes:
 
 -  You can only claim issues with the ``Good for newcomers`` or
-   ``Help Wanted`` labels. botmojaglobal will give you an error if you
-   try to claim an issue without one of those labels.
+   ``Help Wanted`` labels.
 -  Please feel free to ask questions on how to approach the issue or if
    the tests are failing. The maintainers/reviewers will try to get back
    to you as soon as possible. You can reach us on the moja-global
@@ -81,6 +78,8 @@ issue and label the issue as ``in progress``. Some additional notes:
 -  If your pull request has some requested changes, after working on it
    don't forget to leave a comment asking for a review since the
    reviewers aren't notified when a pull request is updated.
+
+
 
 Make a contribution
 -------------------
