@@ -29,4 +29,3 @@ its core components. These include:
   local_domain
   synchronized_events
   temporal_distribution
-  reporting_indicators
