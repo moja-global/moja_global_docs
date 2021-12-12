@@ -23,9 +23,9 @@ maintainers for other reasons, please drop a mail at info@moja.global.
    prerequisites/index
    UnderstandingFlint/index
    DevelopmentSetup/index
+   GCBMDevelopmentSetup/index
    FLINT UI <https://docs.moja.global/projects/flint-ui/en/latest/>
    FLINT Reporting <https://docs.moja.global/projects/flint-reporting/en/latest/>
-   GCBMDevelopmentSetup/index
    GCBM Chile Data Preprocessing <https://docs.moja.global/projects/GCBM-Chile-Data-Preprocessing-Tools/en/latest/>
    contributing/index
    DeveloperWorkflow/index
