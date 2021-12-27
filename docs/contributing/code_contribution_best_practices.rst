@@ -27,13 +27,30 @@ in case you missed, you can always fix your history using
 Commit Message Guidelines
 -------------------------
 
--  Keep the commit message short but concise explaining your changes and
+-  Keep the commit message short yet concise explaining your changes and
    the problem you are trying to solve.
--  Try to write the commit messages in an imperative tone for example:-
-   'Fix', 'Update', 'Add' instead of 'Fixed', 'Updated', 'Added'.
+-  After the first line, leave one blank line.
+-  Do not end the first line with a period (full stop).
+-  Give the summary in present tense.
 -  Reference the issue solved in the commit message, for example:-
-   ``Fixes #8293: Add login api unit tests``. This will automatically
+   ``Fix #8293: Add login api unit tests``. This will automatically
    close the issue referenced when your pull request gets merged.
+-  Try to write the commit messages in an imperative tone for example:-
+   'Fix', 'Update', 'Add' instead of 'Fixed'/'Fixes', 'Updated', 'Added'.
+-  Use type prefixes where applicable:
+   - ``feat``: new feature for the user, not a new feature for the build script
+   - ``fix``: a bug fix
+   - ``docs``: changes to the documentation only
+   - ``style``: formatting, white-space, etc; no production code change
+   - ``refactor``: code change that does not fix a bug or add a feature, eg. renaming a variable
+   - ``perf``: code change that improves performance
+   - ``test``: adding missing tests, refactoring tests; no production code change
+   - ``build``: change that affects the build system or external dependencies (example scopes: gulp, npm)
+   - ``ci``: change to the CI configuration files and scripts
+   - ``chore``: change that does not modify src or test files
+   - ``revert``: reverts a previous commit
+
+
 
 Developer Certificate of Origin
 -------------------------------
