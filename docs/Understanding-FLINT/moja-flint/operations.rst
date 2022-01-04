@@ -16,11 +16,11 @@ into and out of pools.
 How are operations used in FLINT?
 ---------------------------------
 
-FLINT uses operations to update simulation units' values and record flux
+FLINT uses operations to update simulation units values and record flux
 values in a flux table. For example, an operation reflecting plant
 growth can be applied to aboveground biomass pools to estimate the
 growth flux. FLINT has been designed to ensure the conservation of mass
-(and area) throughout the calculation process. This means that FLINT
+and area throughout the calculation process. This means that FLINT
 will only transfer carbon stock from one pool to another, ensuring the
 system is balanced so that the sum of the fluxes is equal to the sum of
 the stock changes.
@@ -28,7 +28,7 @@ the stock changes.
 Suppose there is a violation in this principle, for example, that the
 system is unbalanced. In that case, FLINT will report this violation and
 take the appropriate action (e.g., flag the outputs as unreliable).
-FLINT tracks each operation and the resulting fluxes, and depending on
+FLINT tracks each operation and the resulting fluxes and depending on
 which pools the flux relates to, it is classified differently in the
 flux table and the resulting carbon stock tables. For example, the
 output will be 'aboveground biomass.' We can then use the resulting
