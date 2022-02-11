@@ -9,7 +9,7 @@ moja global Slack
 moja global Slack provides a platform for contributors to communicate, discuss ideas and ask questions. It acts as the primary communication tool used under moja global. `The moja global slack <https://www.google.com/url?q=https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw&sa=D&source=editors&ust=1633078795555000&usg=AFQjCNFbieFLALt9IFd9pqxYz1S54wj-Rg>`_ is also bound by our `Code Of Conduct <contributing/coc.html>`_.
 Make sure you follow the guidelines before posting. We encourage you to be active participants to make moja global a responsive open source organisation.
 
-In order to receive an invite for the moja global Slack workspace, please email info@moja.global with a description of the project areas you are interested in. After evaluation from the mentors, you will receive a slack workspace invite. Please be patient since it may take time for maintainers to respond.
+In order to receive an invite for the moja global Slack workspace, please email ``info@moja.global`` with a description of the project areas you are interested in. After evaluation from the mentors, you will receive a slack workspace invite. Please be patient since it may take time for maintainers to respond.
 
 After joining the Slack Workspace, we encourage you to join project specific channels of your interest. You may also `answer other contributors queries <contributing/ways_to_contribute.html#answer-user-questions>`_ or guide contributors towards resources in case they are stuck.
 
