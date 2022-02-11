@@ -39,8 +39,8 @@ You can reach out to us through the following channels:
 .. toctree::
    :hidden:
 
-   prerequisites/index
    Understanding-FLINT/index
+   prerequisites/index
    DevelopmentSetup/index
    GCBMDevelopmentSetup/index
    FLINT UI <https://docs.moja.global/projects/flint-ui/en/latest/>
