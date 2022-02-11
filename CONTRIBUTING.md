@@ -14,28 +14,31 @@ Before asking any questions, please have a look at our [FAQs](https://github.com
 
 If your question concerns the code of a project, then you should create a [new issue] in the relevant project's repository.
 
-You can also [join moja global](Contributing/How-to-Join-moja-global.md) and then ask your question(s) in the relevant channel of our private [Slack workspace](https://mojaglobal.slack.com/).
+You can also [join moja global](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Join-moja-global.md) and then ask your question(s) in the relevant channel of our private [Slack workspace](https://mojaglobal.slack.com/).
 
 ## How to Set Up the Documentation Website Locally?
 
-In order to set up the documentation website locally, make sure you have a [Github](github.com) account. If you do not have an existing Github account, we recommend you to create one. 
+In order to set up the documentation website locally, make sure you have a [Github](https://github.com) account. If you do not have an existing Github account, we recommend you to create one.
 
 Here are the steps you can follow while setting up the documentation locally.
 
 1. Fork the repository.
 
 2. Clone the repository with the following command. Replace the <GITHUB_USERNAME> with your username.
- ```sh
+
+```sh
 git clone https://github.com/<GITHUB_USERNAME>/moja_global_docs.git
 ```
 
 3. Next, go to the directory containing the project.
- ```sh
+
+```sh
 cd moja_global_docs
 ```
 
 4. Navigate to the docs directory
- ```sh
+
+```sh
 cd docs
 ```
 
@@ -49,6 +52,7 @@ source env/bin/activate
 pip install -r requirements.txt
 make html
 ```
+
 #### For **Windows** Users:
 
 ```sh
@@ -67,25 +71,26 @@ There are a lot ways in which you can contribute code!
 The issues list of a project is a great place to find something that you can help us with.
 
 To increase the chances of your code getting merged, please ensure that:
-* You satisfy our [contribution criteria](Governance/Contribution-Criteria.md).
-* Your code follows our [coding guidelines](Governance/Coding-Guidelines.md).
-* Your submission follows [Vincent Driessen's Git Branching](https://nvie.com/posts/a-successful-git-branching-model/) System.
-* Your code's documentation follows our [rules](Contributing/How-to-Document-Your-Contribution.md).
-* Your pull request:
-    * Passes all checks and has no conflicts.
-    * Has a well-written title and message that briefly explains your proposed changes.
+
+- You satisfy our [contribution criteria](https://github.com/moja-global/About_moja_global/blob/master/Governance/README.md).
+- Your code follows our [coding guidelines](https://github.com/moja-global/About_moja_global/blob/master/Governance/CODING-GUIDELINES.md).
+- Your submission follows [Vincent Driessen's Git Branching](https://nvie.com/posts/a-successful-git-branching-model/) System.
+- Your code's documentation follows our [rules](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Document-Your-Contribution.md).
+- Your pull request:
+  - Passes all checks and has no conflicts.
+  - Has a well-written title and message that briefly explains your proposed changes.
 
 ## How to Report Bugs, Provide Feedback or Request Features?
 
 We welcome all kinds of bug reports, user feedback and feature requests!
-We've created some issue templates to assist you in this. Please use them to create a new issue in the relevant project's repository. 
+We've created some issue templates to assist you in this. Please use them to create a new issue in the relevant project's repository.
 If you are not sure how to create an issue, here are the steps:
 
 1. Navigate to the main page of the documentation website repository
 
-2. Click  `Issues` 
+2. Click `Issues`
 
-3. Click `New issue` 
+3. Click `New issue`
 
 4. Our repository uses issue templates, click `Get started` next to the type of issue you'd like to open
 
@@ -105,10 +110,12 @@ After you have cloned the documentation repo to your computer locally, edit the 
 
 4. Use a succinct title and descriptive comments to descibe your Pull Request. Also Ensure maintainers can understand your proposed changes from the description
 
-5. Sign your message with 
+5. Sign your message with
+
 ```
 Signed-off-by: Random J Developer <random@developer.example.org>
 ```
+
 This shows that you agree to the [Developer Certificate of Origin (DCO)](https://developercertificate.org/). It certifies that you wrote (or otherwise have the right to submit) your contribution to the project
 
 6. Ensure your Pull-Request passes all checks and has no conflicts
@@ -133,7 +140,7 @@ After that, the @all-contributors bot will submit a PR to include you in the lis
 
 Yes, there are a lot of other ways in which you can help us!
 
-You can [coach new contributors](Contributing/How-to-Coach-New-Contributors.md), [answer user questions](Contributing/How-to-Answer-User-Questions.md), [organize events](Contributing/How-to-Organise-Events.md), help us in [administration](Contributing/How-to-Assist-with-Admin.md), [fundraising](Contributing/How-to-Assist-with-Fundraising.md), [website development](Contributing/How-to-Improve-the-Website.md), [communication/outreach](Contributing/How-to-Assist-with-Comms.md). You can also offer [strategy advice](Contributing/How-to-Provide-Strategic-Advice.md). You can even [join our strategy board](Contributing/How-to-Join-the-Strategy-Board.md)!
+You can [coach new contributors](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Coach-New-Contributors.md), [answer user questions](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Answer-User-Questions.md), [organize events](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Organise-Events.md), help us in [administration](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Assist-with-Admin.md), [fundraising](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Assist-with-Fundraising.md), [website development](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Improve-the-Website.md), [communication/outreach](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Assist-with-Comms.md). You can also offer [strategy advice](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Provide-Strategic-Advice.md). You can even [join our strategy board](https://github.com/moja-global/About_moja_global/blob/master/Contributing/How-to-Join-the-Strategy-Board.md)!
 
 If there's some other way, not listed above, in which you'd like to help, then please drop us a line at info@moja.global. We'll get in touch with you!
 

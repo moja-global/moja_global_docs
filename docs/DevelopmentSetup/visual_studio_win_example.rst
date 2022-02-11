@@ -325,7 +325,7 @@ Chapman Richards model video tutorial
 We also have a video tutorial dedicated to Chapman Richards model that
 can be followed along with the commands.
 
-.. _Chapman Richards: https://github.com/moja-global/FLINT.chapman_richards
+.. _Chapman Richards: https://github.com/moja-global/FLINT.Module.Chapman_Richards
 
 .. raw:: html
 
