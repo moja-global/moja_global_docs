@@ -61,7 +61,7 @@ other out with queries on Slack/GitHub. This can help new contributors
 in setting up moja global repositories and will drive the path to their
 first contribution. For more details on how to answer queries, please
 follow this guide
-`here <ways_to_contribute.html#answer-user-questions>`__.
+`here <https://docs.moja.global/en/latest/contributing/ways_to_contribute.html#answer-user-questions>`__.
 
 Mentor new contributors
 =======================
@@ -87,8 +87,8 @@ one or more of the following labels ``good-first-issue``,
 ``Good for newcomers`` or ``Help Wanted``.
 
 .. _list: https://allcontributors.org/docs/en/emoji-key
-.. _Bots and Integrations section: ../DeveloperWorkflow/bots_and_integrations.html
-.. _new issue: https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue
-.. _here: ../DeveloperWorkflow/reviewing.html
-.. _guide: ways_to_contribute.html#coach-or-train-new-contributors
+.. _Bots and Integrations section: https://docs.moja.global/en/latest/DeveloperWorkflow/bots_and_integrations.html
+.. _new issue: https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
+.. _here: https://docs.moja.global/en/latest/DeveloperWorkflow/reviewing.html
+.. _guide: https://docs.moja.global/en/latest/contributing/ways_to_contribute.html#coach-or-train-new-contributors
 

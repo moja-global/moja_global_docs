@@ -144,7 +144,7 @@ If there's some other way, not listed above, in which you'd like to
 help, then please drop us a line at info@moja.global. We'll get in touch
 with you!
 
-.. _new issue: https://github.com/moja-global/About_moja_global/issues/new/
-.. _claimed credit: index.html#get-credit-for-your-contribution
+.. _new issue: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmoja-global%2FAbout_moja_global%2Fissues%2Fnew
+.. _claimed credit: https://docs.moja.global/en/latest/contributing/index.html
 .. _GitHub organization: https://github.com/moja-global
-.. _Claim credit: index.html#get-credit-for-your-contribution
+.. _Claim credit: https://docs.moja.global/en/latest/contributing/index.html

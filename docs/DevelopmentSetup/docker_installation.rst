@@ -116,10 +116,10 @@ Once in, you should be able to run the CLI program moja.cli :
 
 That should respond with the following options:
 
-.. _Docker: ../prerequisites/docker.html
-.. _FLINT.example: FLINT.example_installation.html
+.. _Docker: https://docs.moja.global/en/latest/prerequisites/docker.html
+.. _FLINT.example: https://docs.moja.global/en/latest/DevelopmentSetup/FLINT.example_installation.html
 .. _Dockerhub: https://hub.docker.com/r/mojaglobal/flint
-.. _Git and GitHub Guide: git_and_github_guide.html#make-a-contribution
+.. _Git and GitHub Guide: https://docs.moja.global/en/latest/DevelopmentSetup/git_and_github_guide.html#make-a-contribution
 
 Allowed options
 ===============

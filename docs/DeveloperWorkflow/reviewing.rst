@@ -59,9 +59,9 @@ here`_ , please make sure to suggest changes in the pull request for the
 same. Following code style and conventions promotes readability and
 maintainability of code in the longer run.
 
-.. _pull request section of Git and GitHub guide: ../DevelopmentSetup/git_and_github_guide.html#make-a-contribution
-.. _commit message section of Code Contribution Best Practices: ../contributing/code_contribution_best_practices.html#commit-message-guidelines
-.. _style guide here: ../contributing/code_contribution_best_practices.html#code-style-conventions
+.. _pull request section of Git and GitHub guide: https://docs.moja.global/en/latest/DevelopmentSetup/git_and_github_guide.html#make-a-contribution
+.. _commit message section of Code Contribution Best Practices: https://docs.moja.global/en/latest/contributing/code_contribution_best_practices.html#commit-message-guidelines
+.. _style guide here: https://docs.moja.global/en/latest/contributing/code_contribution_best_practices.html#code-style-conventions
 
 Documentation
 =============
@@ -100,5 +100,5 @@ pull request changes will work or not. So in times of doubt, the best
 way to review is to checkout the contributors branch and manually test
 the pull request. Here is detailed guide on `manual testing of a pr`_.
 
-.. _documentation section here: ../contributing/code_contribution_best_practices.html#writing-documentation
-.. _manual testing of a pr: manual_testing_pr.html
+.. _documentation section here: https://docs.moja.global/en/latest/contributing/code_contribution_best_practices.html#writing-documentation
+.. _manual testing of a pr: https://docs.moja.global/en/latest/DeveloperWorkflow/manual_testing_pr.html

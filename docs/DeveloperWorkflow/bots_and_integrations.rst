@@ -53,14 +53,14 @@ there, and you can configure how you want ``@all-contributors`` to
 generate the list. Here are more details on the `configuration options`_
 available.
 
-.. _GitHub bot: https://github.com/apps/allcontributors/installations/new
+.. _GitHub bot: https://github.com/login?integration=allcontributors&return_to=%2Fapps%2Fallcontributors%2Finstallations%2Fnew
 .. _here: https://github.com/all-contributors/all-contributors
 .. _configuration options: https://allcontributors.org/docs/en/bot/configuration
 
 
 Prose Bot
 --------------------
-**ProseBot** is a `Github Bot <https://github.com/apps/prosebot/installations/new>`__. As changes are made to Markdown files (.md)
+**ProseBot** is a `Github Bot <https://github.com/login?integration=prosebot&return_to=%2Fapps%2Fprosebot%2Finstallations%2Fnew>`__. As changes are made to Markdown files (.md)
 or text files (.txt) it runs various checks against them to give
 feedback regarding the language usage. This bot is created and maintained by the prosebot ​organization
 `here <https://github.com/prosebot/prosebot>`__.
@@ -72,7 +72,7 @@ Currently, the app runs the following checks:-
 
 -  Correct spelling (and provides possible corrections).
 -  Use of non-inclusive/profane/offensive language.
--  Various prose-related checks, find the full list `here <https://github.com/btford/write-good#checks>`__.
+-  Various prose-related checks, find the full list `here <https://github.com/btford/write-good>`__.
 
 Here's how it looks in action:
 
@@ -119,7 +119,7 @@ set the provider to ``false``:-
 Stale Bot
 --------------------
 
-**Stale Bot** is a `Github Bot <https://github.com/apps/stale/installations/new>`__ 
+**Stale Bot** is a `Github Bot <https://github.com/login?integration=stale&return_to=%2Fapps%2Fstale%2Finstallations%2Fnew>`__ 
 built with `Probot <https://github.com/probot/probot>`__ that closes abandoned 
 Issues and Pull Requests after a period of inactivity. This bot is created and maintained by the probot ​organization
 `here <https://github.com/probot/stale>`__.
@@ -280,5 +280,5 @@ needs of the repository, you may update the ```.github/workflows/auto-labeller.y
 Consider this `template`_ to configure the trigger events and labels
 accordingly.
 
-.. _template: https://github.com/andymckay/labeler#complete-basic-usage
+.. _template: https://github.com/andymckay/labeler
 

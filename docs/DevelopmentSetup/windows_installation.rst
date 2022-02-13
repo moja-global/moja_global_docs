@@ -90,10 +90,10 @@ Studio solution:
    All paths used below with ``C:\Development\moja-global`` need to
    be modified to match your system build location of the moja project.
 
-.. _Git and GitHub Guide: git_and_github_guide.html
-.. _Cmake: ../prerequisites/cmake.html
-.. _Visual Studio: ../prerequisites/visual_studio.html
-.. _Vcpkg: ../prerequisites/vcpkg.html
+.. _Git and GitHub Guide: https://docs.moja.global/en/latest/DevelopmentSetup/git_and_github_guide.html#make-a-contribution
+.. _Cmake: https://docs.moja.global/en/latest/prerequisites/cmake.html
+.. _Visual Studio: https://docs.moja.global/en/latest/prerequisites/visual_studio.html
+.. _Vcpkg: https://docs.moja.global/en/latest/prerequisites/vcpkg.html
 .. _FLINT core repository: https://github.com/moja-global/FLINT
 
 Building the FLINT

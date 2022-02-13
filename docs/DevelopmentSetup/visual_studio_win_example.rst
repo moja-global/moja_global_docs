@@ -72,9 +72,9 @@ Commands to run cmake for the spatial simulations:
     # Generate the project files
     cmake -G "Visual Studio 16 2019" -DCMAKE_INSTALL_PREFIX=C:\Development\Software\moja -DVCPKG_TARGET_TRIPLET=x64-windows -DOPENSSL_ROOT_DIR=c:\Development\moja-global\vcpkg\installed\x64-windows -DENABLE_TESTS=OFF -DENABLE_MOJA.MODULES.GDAL=ON -DCMAKE_TOOLCHAIN_FILE=c:\Development\moja-global\vcpkg\scripts\buildsystems\vcpkg.cmake ..
 
-.. _Cmake: ../prerequisites/cmake.html
-.. _Visual Studio: ../prerequisites/visual_studio.html
-.. _Docker: ../prerequisites/docker.html
+.. _Cmake: https://docs.moja.global/en/latest/prerequisites/cmake.html
+.. _Visual Studio: https://docs.moja.global/en/latest/prerequisites/visual_studio.html
+.. _Docker: https://docs.moja.global/en/latest/prerequisites/docker.html
 .. _FLINT core repository: https://github.com/moja-global/FLINT
 .. _FLINT.example repository: https://github.com/moja-global/FLINT.Example
 
@@ -325,7 +325,7 @@ Chapman Richards model video tutorial
 We also have a video tutorial dedicated to Chapman Richards model that
 can be followed along with the commands.
 
-.. _Chapman Richards: https://github.com/moja-global/FLINT.chapman_richards
+.. _Chapman Richards: https://github.com/moja-global/FLINT.Module.Chapman_Richards
 
 .. raw:: html
 
