@@ -136,9 +136,9 @@ You may choose to include it in the ``README.md`` file if the change
 requires immediate attention or you may make separate ``.md`` files as
 per the guidelines below.
 
-.. _Clang-Tidy: http://clang.llvm.org/extra/clang-tidy/
+.. _Clang-Tidy: https://clang.llvm.org/extra/clang-tidy/
 .. _Pylint: https://www.pylint.org/
-.. _better naming and structuring: https://medium.com/@andrewgoldis/how-to-document-source-code-responsibly-2b2f303aa525
+.. _better naming and structuring: https://agoldis.medium.com/how-to-document-source-code-responsibly-2b2f303aa525
 
 -  Modify the ``README.md`` file for documentation that changes the
    quick installation process, usage or description of the project.

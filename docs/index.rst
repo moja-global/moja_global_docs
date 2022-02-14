@@ -34,7 +34,7 @@ You can reach out to us through the following channels:
 -  `Slack community`_: Connect with other developers, scientists, policy
    makers and other interested people over our Slack community.
 
-.. _Slack community: https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw
+.. _Slack community: https://mojaglobal.slack.com/join/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw
 
 .. toctree::
    :hidden:

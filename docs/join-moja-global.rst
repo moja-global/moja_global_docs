@@ -6,12 +6,12 @@ Welcome to the moja global family! Thank you for taking the first step in connec
 moja global Slack
 =================
 
-moja global Slack provides a platform for contributors to communicate, discuss ideas and ask questions. It acts as the primary communication tool used under moja global. `The moja global slack <https://www.google.com/url?q=https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw&sa=D&source=editors&ust=1633078795555000&usg=AFQjCNFbieFLALt9IFd9pqxYz1S54wj-Rg>`_ is also bound by our `Code Of Conduct <contributing/coc.html>`_.
+moja global Slack provides a platform for contributors to communicate, discuss ideas and ask questions. It acts as the primary communication tool used under moja global. `The moja global slack <https://www.google.com/url?q=https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw&sa=D&source=editors&ust=1633078795555000&usg=AFQjCNFbieFLALt9IFd9pqxYz1S54wj-Rg>`_ is also bound by our `Code Of Conduct <https://docs.moja.global/en/latest/contributing/coc.html>`_.
 Make sure you follow the guidelines before posting. We encourage you to be active participants to make moja global a responsive open source organisation.
 
 In order to receive an invite for the moja global Slack workspace, please email info@moja.global with a description of the project areas you are interested in. After evaluation from the mentors, you will receive a slack workspace invite. Please be patient since it may take time for maintainers to respond.
 
-After joining the Slack Workspace, we encourage you to join project specific channels of your interest. You may also `answer other contributors queries <contributing/ways_to_contribute.html#answer-user-questions>`_ or guide contributors towards resources in case they are stuck.
+After joining the Slack Workspace, we encourage you to join project specific channels of your interest. You may also `answer other contributors queries <https://docs.moja.global/en/latest/contributing/ways_to_contribute.html#answer-user-questions>`_ or guide contributors towards resources in case they are stuck.
 
 Technical Steering Committee Meetings
 =====================================
@@ -30,7 +30,7 @@ Outreach and Student Programs
 
 moja global participates in outreach and student programs regularly to welcome and provide students and under-represented communities an opportunity to work with moja global.
 
-In the past, we’ve participated in programs like `Google Summer Of Code <https://developers.google.com/open-source/gsoc/>`_, `Google Season Of Docs <https://developers.google.com/season-of-docs>`_ , `Linux Mentorship Programs <https://people.communitybridge.org/#projects>`_ , `Outreachy Internships <https://www.outreachy.org/>`_ and other funding and outreach programs.
+In the past, we’ve participated in programs like `Google Summer Of Code <https://summerofcode.withgoogle.com/>`_, `Google Season Of Docs <https://developers.google.com/season-of-docs>`_ , `Linux Mentorship Programs <https://mentorship.lfx.linuxfoundation.org/>`_ , `Outreachy Internships <https://www.outreachy.org/>`_ and other funding and outreach programs.
 
 Since we receive many applications through these programs, moja global encourages applicants to checkout the following guidelines to maximise chances of getting selected -
 
@@ -66,7 +66,7 @@ Here is how you may help our mission:
 If you have been contributing to moja global for sometime now, you may also:
 
 * **Write a Blog**: Blog about your experience working with moja global and the impact it has had on your skillset. This will be a great way to let other contributors know about the atmosphere here at moja global.
-* **Organise meetups**: `Organise meetups <contributing/ways_to_contribute.html#organize-moja-global-events-meetups>`_ to share your experience in open source by working with moja global and moja global's mission.
+* **Organise meetups**: `Organise meetups <https://docs.moja.global/en/latest/contributing/ways_to_contribute.html#organize-moja-global-events-meetups>`_ to share your experience in open source by working with moja global and moja global's mission.
 
 We appreciate every little step to promote moja global and are extremely grateful for your efforts!
 
@@ -95,4 +95,4 @@ Apart from software documentation our work is also concerned with the following:
 * **Coordination**: The coordination effort relies on finding the resources that can help contributors which can be integrated with the documentation and coordinate the forums and mailing lists.
 
 The Documentation Working Group is entirely driven by volunteer efforts but we like to keep track of all the contributors who would like to join.
-To get started, please fill `this form <https://forms.gle/ibH2XsaBSAeiyQcX7>`_
+To get started, please fill `this form <https://docs.google.com/forms/d/e/1FAIpQLSf_T7WEFPkxrnt3hFwJU6xfFijsqRrI0hp7FH12h-AiNWz_Fg/viewform?usp=send_form>`_

@@ -40,7 +40,7 @@ For more instructions on our GitHub fork, clone and pull request
 practices, refer our `Git and GitHub Guide`_.
 
 .. _here: https://github.com/moja-global/FLINT.Example
-.. _Git and GitHub Guide: git_and_github_guide.html
+.. _Git and GitHub Guide: https://docs.moja.global/en/latest/DevelopmentSetup/git_and_github_guide.html#make-a-contribution
 
 Contents:
 

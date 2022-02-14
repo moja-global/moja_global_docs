@@ -10,7 +10,7 @@ To file a docs issue, use the issue tracker in the [moja-global/moja_global_docs
 
 To edit the documentation you need a [GitHub](github.com) account. Once you have created one and logged in, you can edit any page by navigating to the corresponding file and clicking the edit (pen) icon.
 
-This will create a "fork" and further you can create a "pull request", which will be approved by one of the existing members of the Docs team. If you have any development experience, you can setup the docs on your local machine to build the documentation locally. 
+This will create a "fork" and further you can create a "pull request", which will be approved by one of the existing members of the Docs team. If you have any development experience, you can setup the docs on your local machine to build the documentation locally.
 
 Here are the steps you can follow while setting up the documentation locally.
 
@@ -38,7 +38,7 @@ cd moja_global_docs
 cd docs
 ```
 
-You are now in the `docs` directory. 
+You are now in the `docs` directory.
 
 Assuming that you have python & pip already installed. Let us set the documentation up:
 
@@ -50,6 +50,7 @@ source env/bin/activate
 pip install -r requirements.txt
 make html
 ```
+
 #### For **Windows** Users:
 
 ```sh
@@ -61,18 +62,26 @@ make html
 
 You can now open the documentation site on `_build/html/index.html` in your browser. Make corresponding changes on the documentation site and then run `make clean && make html` to update the documentation. You can now create a pull request to get your changes merged into the upstream develop branch.
 
+#### To look for **broken links**:
+
+```sh
+make linkcheck
+```
+
+You can now look for the broken links, if any, inside `_build/linkcheck/output` .
+
 ## How to Get Involved?
 
 moja global welcomes a wide range of contributions as explained in the [Contributing guide](https://community.moja.global/community/contributing) and in the [About moja global page](https://community.moja.global/docs/about-moja-global).
 
 ## FAQ and Other Questions
 
-* You can know about moja global on the [About moja global page](https://community.moja.global/docs/about-moja-global).
-* If you have a question about the code, submit [user feedback](https://github.com/moja-global/About-moja-global/blob/master/Contributing/How-to-Provide-User-Feedback.md) in the relevant repository.
-* If you have a general question about a project or repository or moja global, [join moja global](https://github.com/moja-global/About-moja-global/blob/master/Contributing/How-to-Join-moja-global.md) and 
-    * [submit a discussion](https://help.github.com/en/articles/about-team-discussions) to the project, repository or moja global [team](https://github.com/orgs/moja-global/teams)
-    * [submit a message](https://get.slack.help/hc/en-us/categories/200111606#send-messages) to the relevant channel on [moja global's Slack workspace](https://mojaglobal.slack.com/).
-* If you have other questions, please write to [info@moja.global](mailto:info@moja.global).
+- You can know about moja global on the [About moja global page](https://community.moja.global/docs/about-moja-global).
+- If you have a question about the code, submit [user feedback](https://github.com/moja-global/About-moja-global/blob/master/Contributing/How-to-Provide-User-Feedback.md) in the relevant repository.
+- If you have a general question about a project or repository or moja global, [join moja global](https://github.com/moja-global/About-moja-global/blob/master/Contributing/How-to-Join-moja-global.md) and
+  - [submit a discussion](https://help.github.com/en/articles/about-team-discussions) to the project, repository or moja global [team](https://github.com/orgs/moja-global/teams)
+  - [submit a message](https://get.slack.help/hc/en-us/categories/200111606#send-messages) to the relevant channel on [moja global's Slack workspace](https://mojaglobal.slack.com/).
+- If you have other questions, please write to [info@moja.global](mailto:info@moja.global).
 
 ## Contributors
 
@@ -112,12 +121,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-
 ## Maintainers Reviewers Ambassadors Coaches
 
 The following people are Maintainers Reviewers Ambassadors or Coaches.
-<table><tr><td align="center"><a href="http://moja.global"><img src="https://avatars1.githubusercontent.com/u/19564969?v=4" width="100px;" alt="moja global"/><br /><sub><b>moja global</b></sub></a><br /><a href="#projectManagement-moja-global" title="Project Management">📆</a></td></tr></table>
 
+<table><tr><td align="center"><a href="http://moja.global"><img src="https://avatars1.githubusercontent.com/u/19564969?v=4" width="100px;" alt="moja global"/><br /><sub><b>moja global</b></sub></a><br /><a href="#projectManagement-moja-global" title="Project Management">📆</a></td></tr></table>
 
 **Maintainers** review and accept proposed changes.
 **Reviewers** check proposed changes before they go to the Maintainers.

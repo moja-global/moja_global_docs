@@ -71,5 +71,5 @@ running container after cmake has been successful.
    # Chapman Richards - forest spatial
    moja.cli --config config/forest_config.json --config config/libs.gdal.chaprich.vscode.json --config_provider config/forest_provider.json
 
-.. _Visual Studio: ../prerequisites/visual_studio.html
+.. _Visual Studio: https://docs.moja.global/en/latest/prerequisites/visual_studio.html
 .. _Remote - Container (VS Extension): https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers

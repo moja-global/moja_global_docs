@@ -31,7 +31,7 @@ because everyone's contributions would have to be dealt with separately.
 Further information is provided on the White Paper - `Governments, open
 source, and moja global`_.
 
-.. _fewer bugs: http://www.zdnet.com/article/coverity-finds-open-source-software-quality-better-than-proprietary-code/
+.. _fewer bugs: https://www.zdnet.com/article/coverity-finds-open-source-software-quality-better-than-proprietary-code/
 .. _Governments, open source, and moja global: https://docs.google.com/document/d/1Q2aVTzWchXQwupbEN7s37xANkPZvrLdfaFyYOT_8Diw/edit?usp=sharing
 
 Are moja global tools free?
@@ -78,7 +78,7 @@ two countries.
 
 (Misconception: Moja global is Australian/Canadian dominated)
 
-.. _info on governance here: https://github.com/moja-global/About-moja-global/wiki/moja-global-is-controlled-through-open-governance
+.. _info on governance here: https://github.com/moja-global/About_moja_global/wiki/moja-global-is-controlled-through-open-governance
 
 How to contract moja global?
 ============================
@@ -250,12 +250,12 @@ target your pull requests against the **develop** branch. For more
 instructions on doing this, please refer to our `Git and GitHub Guide`_
 .
 
-.. _Git and GitHub Guide: DevelopmentSetup/git_and_github_guide.html
+.. _Git and GitHub Guide: https://docs.moja.global/en/latest/DevelopmentSetup/git_and_github_guide.html
 
 I use the Mac operating system. Is it possible to install FLINT?
 ================================================================
 
-Yes Absolutely! You can install FLINT on Mac using `our docker installation <DevelopmentSetup/docker_installation.html>`_ .
+Yes Absolutely! You can install FLINT on Mac using `our docker installation <https://docs.moja.global/en/latest/DevelopmentSetup/docker_installation.html>`_ .
 
 What is the difference between FLINT and FLINT.example repositories on moja global GitHub?
 ==========================================================================================

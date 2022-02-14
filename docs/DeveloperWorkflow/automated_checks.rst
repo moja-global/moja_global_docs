@@ -82,7 +82,7 @@ passes. Otherwise if the percentage is lower, the check fails.
 
 .. _FLINT.data_processing: https://github.com/moja-global/FLINT.Data_Preprocessing
 .. _GitHub Actions: https://github.com/features/actions
-.. _Codecov: https://codecov.io/
+.. _Codecov: https://about.codecov.io/
 
 Code Quality Check
 ==================

@@ -1,0 +1,31 @@
+name: Linkcheck
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+  schedule:
+    # Every Monday at 1p UTC https://crontab.guru/#0_13_*_*_1
+    - cron: "0 13 * * 1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+     - uses: actions/checkout@v2
+     - uses: actions/setup-python@v2
+       with:
+        python-version: '3.9' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+        
+
+     - name: Install dependencies
+       run: |
+           cd docs
+           pip install -r requirements.txt
+     - name: Run linkcheck
+       run: |
+          cd docs
+          make linkcheck

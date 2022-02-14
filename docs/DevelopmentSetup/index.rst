@@ -39,7 +39,7 @@ FLINT, please feel free to reach out to us on info@moja.global to share
 details about this dataset.
 
 .. _FLINT core repository: https://github.com/moja-global/FLINT
-.. _here: git_and_github_guide.html
+.. _here: https://docs.moja.global/en/latest/DevelopmentSetup/git_and_github_guide.html#make-a-contribution
 
 Build guides
 ----------------------------
