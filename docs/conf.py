@@ -36,6 +36,7 @@ nitpicky = True
 extensions = ['recommonmark',
 'sphinx_rtd_theme',
 'sphinx_copybutton',
+'nbsphinx'
 ]
 
 master_doc = 'index'

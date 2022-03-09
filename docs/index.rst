@@ -51,3 +51,4 @@ You can reach out to us through the following channels:
    DocumentationStyleGuide/index
    faq
    join-moja-global
+   FLINT-Inputs/index
