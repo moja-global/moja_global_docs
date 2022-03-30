@@ -18,7 +18,6 @@ Building the docker
 ::
 
    # from repository root folder
-   cd Docker
    docker build --build-arg NUM_CPU=8 -t moja/flint.example:bionic .
 
 -  Return to top level folder with ``cd ..``
