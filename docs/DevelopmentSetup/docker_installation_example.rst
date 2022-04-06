@@ -12,15 +12,13 @@ Prerequisites
 
 -  `Docker`_
 
-Building the docker
--------------------
+Building the docker image
+-------------------------
 
 ::
 
    # from repository root folder
    docker build --build-arg NUM_CPU=8 -t moja/flint.example:bionic .
-
--  Return to top level folder with ``cd ..``
 
 .. figure:: ../images/installation_docker/step1_docker.png
    :alt: Building the FLINT.example image using Docker
@@ -30,7 +28,7 @@ Building the docker
    Building the FLINT.example image using Docker
 
 Commands to run using docker - stock result written to screen and
-results files create (./Run_Env/*.csv):
+results files create (./Run_Env/\*.csv):
 
 ::
 
@@ -60,7 +58,7 @@ For the RothC example, you may run this command:
    Running the examples using Docker
 
 Commands to run moja from within the docker - stock result written to
-screen and results files create (./Run_Env/*.csv):
+screen and results files create (./Run_Env/\*.csv):
 
 ::
 
