@@ -23,6 +23,7 @@ jobs:
        run: |
            cd docs
            pip install -r requirements.txt
+           pip install pandoc
      - name: Run linkcheck
        run: |
           cd docs
