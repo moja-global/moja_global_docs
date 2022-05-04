@@ -36,7 +36,11 @@ nitpicky = True
 extensions = ['recommonmark',
 'sphinx_rtd_theme',
 'sphinx_copybutton',
+'myst_nb',
 ]
+
+# Execution mode for jupyter notebooks
+nb_execution_mode = 'off'
 
 master_doc = 'index'
 
@@ -46,7 +50,7 @@ templates_path = ['source/_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['env/*']
 
 
 # -- Options for HTML output -------------------------------------------------
