@@ -8,6 +8,7 @@ idna==2.10
 imagesize==1.2.0
 Jinja2==2.11.3
 MarkupSafe==1.1.1
+myst-nb==0.14.0
 packaging==20.9
 Pygments==2.8.1
 pyparsing==2.4.7
