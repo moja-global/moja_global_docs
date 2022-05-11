@@ -39,6 +39,9 @@ extensions = ['recommonmark',
 'myst_nb',
 ]
 
+# ignore a particular link during the linkcheck build
+linkcheck_ignore = [r'https://flintpro.com/']
+
 # Execution mode for jupyter notebooks
 nb_execution_mode = 'off'
 
