@@ -65,4 +65,4 @@ Contents:
   moja-flint/index
   data-preparation/index
   science/index
-  FLINT-Inputs/index
+  GCBM-Inputs/index
