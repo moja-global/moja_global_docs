@@ -10,3 +10,4 @@ Contents:
 
   UnderstandingDataTypes/index
   InvestigatingGCBM-Inputs/index
+  InvestigatingGCBM-Inputs/tables
