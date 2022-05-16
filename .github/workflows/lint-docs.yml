@@ -2,6 +2,8 @@ name: Linting Docs
 
 on:
   pull_request:
+  check_run:
+    types: [created, completed]
 
 jobs:
   lint-docs:
