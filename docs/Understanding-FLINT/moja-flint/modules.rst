@@ -47,6 +47,11 @@ Distribution) and include:
 -  Decomposition module
 -  RothC soil carbon module
 
+Refer on our `modules documentation`_.
+
+.. _modules documentation: https://github.com/moja-global/FLINT/wiki/3.4-Module-Science
+
+
 Modules for disturbance events
 ------------------------------
 
