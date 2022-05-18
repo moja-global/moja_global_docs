@@ -2,7 +2,6 @@
 import datetime
 
 import sphinx_rtd_theme
-#import pydata_sphinx_theme
 import os
 
 # This file only contains a selection of the most common options. For a full
