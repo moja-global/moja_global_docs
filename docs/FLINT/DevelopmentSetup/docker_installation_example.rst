@@ -20,7 +20,7 @@ Building the docker image
    # from repository root folder
    docker build --build-arg NUM_CPU=8 -t moja/flint.example:bionic .
 
-.. figure:: ../images/installation_docker/step1_docker.png
+.. figure:: ../imagesinstallation_docker/step1_docker.png
    :alt: Building the FLINT.example image using Docker
    :align: center
    :width: 600px
@@ -50,7 +50,7 @@ For the RothC example, you may run this command:
    # For Windows
    docker run --rm -v %cd%/Run_Env:/usr/local/run_env -ti moja/flint.example:bionic bash -c "cd /usr/local/run_env/; moja.cli --config config/point_rothc_example.json --config config/libs.base_rothc.simple.json --logging_config logging.debug_on.conf"
 
-.. figure:: ../images/installation_docker/step2_docker.png
+.. figure:: ../../images/installation_docker/step2_docker.png
    :alt: Running the examples using Docker
    :align: center
    :width: 600px
@@ -78,14 +78,14 @@ Then inside the running container:
 
 The Output files created are visible in the below screenshot:
 
-.. figure:: ../images/installation_docker/step2b_docker.png
+.. figure:: ../../images/installation_docker/step2b_docker.png
    :alt: Running the moja.cli
    :align: center
    :width: 600px
 
    Running the moja.cli
 
-.. figure:: ../images/installation_docker/step3a_docker.png
+.. figure:: ../../images/installation_docker/step3a_docker.png
   :width: 600
   :align: center
   :alt: Output files created from runs

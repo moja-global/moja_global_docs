@@ -29,7 +29,7 @@ Existing Python Installation
 -  From a terminal in the ``python_3_installer`` directory, type:
    ``install_modules_only <python path>``
 
-.. figure:: ../images/installation_gcbm/image2.png
+.. figure:: ../../images/installation_gcbm/image2.png
    :alt: Setting up modules for Existing Python Installation
    :align: center
    :width: 600px
@@ -45,7 +45,7 @@ New Python Installation
 -  From a terminal in the ``python_3_installer`` directory, type:
    ``install_python [optional install path]``
 
-.. figure:: ../images/installation_gcbm/image4.png
+.. figure:: ../../images/installation_gcbm/image4.png
    :alt: Setting up Python and modules for New Python Installation
    :align: center
    :width: 600px
@@ -64,7 +64,7 @@ a driver to connect to this type of database.
 -  Double-click
    ``python_3_installer\installers\AccessDatabaseEngine_x64.exe``
 
-.. figure:: ../images/installation_gcbm/image3.png
+.. figure:: ../../images/installation_gcbm/image3.png
    :alt: Installing Microsoft Access Database Driver
    :align: center
    :width: 600px
@@ -78,7 +78,7 @@ Install the C++ packages required to run GCBM and supporting tools:
 
 -  Double-click ``tools\VC_redist\install_vcredist.bat``
 
-.. figure:: ../images/installation_gcbm/image6.png
+.. figure:: ../../images/installation_gcbm/image6.png
   :width: 600
   :align: center
   :alt: Installing the C++ packages required to run GCBM and supporting tools

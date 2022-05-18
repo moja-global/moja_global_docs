@@ -28,7 +28,7 @@ After launching the Visual Studio installer:
    faster installation.
 -  Click on **Install**
 
-.. figure:: ../images/visual_studio/install_page.PNG
+.. figure:: ../../images/visual_studio/install_page.PNG
    :alt: Install Section of Visual Studio
    :width: 600
    :align: center
@@ -43,7 +43,7 @@ After the installation is complete:
    ``moja-global``
 -  Using ``cmd``, open the ``moja-global`` folder.
 
-.. figure:: ../images/visual_studio/command_prompt.PNG
+.. figure:: ../../images/visual_studio/command_prompt.PNG
    :alt: Command Prompt of Windows
    :width: 600
    :align: center

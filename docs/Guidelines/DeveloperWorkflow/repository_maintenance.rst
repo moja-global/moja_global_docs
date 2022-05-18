@@ -23,7 +23,7 @@ repository:
 -  On the create repository page, select the template ``Import-me`` from
    the dropdown titled ``Repository Template``.
 
-.. image:: ../images/template_1.png
+.. image:: ../../images/template_1.png
    :alt: Create a new template repository
    :align: center
    :width: 600px
@@ -31,7 +31,7 @@ repository:
 -  Upon selecting the template, please make sure the checkbox for
    ``include all branches`` is unmarked.
 
-.. image:: ../images/template_2.png
+.. image:: ../../images/template_2.png
    :alt: \`include all branches`` unmarked
    :align: center
    :width: 600px
@@ -57,7 +57,7 @@ tasks).
    can find all the labels setup for your repository here. In order to
    create a new label, click on the New Label button.
 
-.. image:: ../images/label_new.png
+.. image:: ../../images/label_new.png
    :alt: Labels in a repository
    :align: center
    :width: 600px
@@ -68,7 +68,7 @@ tasks).
    Every issue and pull request label can be found under the Issue tab
    with the labels button.
 
-.. image:: ../images/label_1.png
+.. image:: ../../images/label_1.png
    :alt: Classify issues/pull requests using Labels
    :align: center
    :width: 600px
@@ -233,7 +233,7 @@ Creating your first board
    organisation member, then you'll be able to create a new project by
    clicking on the green button labeled ``Create Project``.
 
-.. image:: ../images/project_board_1.png
+.. image:: ../../images/project_board_1.png
    :alt: Project Boards under Organization
    :align: center
    :width: 600px
@@ -243,7 +243,7 @@ Creating your first board
    board. Currently, moja global team selects ``Basic kanban`` for
    Kanban-style boards.
 
-.. image:: ../images/project_board_2.png
+.. image:: ../../images/project_board_2.png
    :alt: Create a new project board
    :align: center
    :width: 600px
@@ -280,7 +280,7 @@ steps:
    don't have enough permissions to add an issue/pull request to a
    project board.
 
-.. image:: ../images/project_board_3.png
+.. image:: ../../images/project_board_3.png
    :alt: Select project board for issue
    :align: center
    :width: 200px
@@ -289,7 +289,7 @@ steps:
    three columns by clicking on the ``Awaiting Triage`` dropdown and
    selecting any one of the above options (Todo, In progress, Done).
 
-.. image:: ../images/project_board_4.png
+.. image:: ../../images/project_board_4.png
    :alt: Assign state (todo, in progress, done) to the issue
    :align: center
    :width: 400px
@@ -297,7 +297,7 @@ steps:
 -  Once you have classified your issue/pull request into the correct
    column, you can see an update for the same shown in your issue.
 
-.. image:: ../images/project_board_5.png
+.. image:: ../../images/project_board_5.png
    :alt: Update for issue added to project board
    :align: center
    :width: 600px
@@ -306,7 +306,7 @@ steps:
    You can then drag-and-drop issues/pull requests from one column to
    another as per your convenience.
 
-.. image:: ../images/project_board_6.png
+.. image:: ../../images/project_board_6.png
    :alt: Drag/Drop interface to move cards to different columns
    :align: center
    :width: 600px
@@ -325,7 +325,7 @@ estimate team bandwidth for reaching our milestones.
 The following image shows how we can track progress with GitHub project
 boards.
 
-.. image:: ../images/project_board_7.png
+.. image:: ../../images/project_board_7.png
    :alt: Progress Tracking with Project boards
    :align: center
    :width: 600px

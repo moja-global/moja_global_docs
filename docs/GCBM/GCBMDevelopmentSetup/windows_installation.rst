@@ -27,7 +27,7 @@ Edit ``run_all.bat`` and update the Python path to the one used in the
 Python installation step, and the platform bit-ness to match your
 version of MS Access if needed:
 
-.. figure:: ../images/installation_gcbm/image1.png
+.. figure:: ../../images/installation_gcbm/image1.png
    :alt: Editing ``run_all.bat`` file to update Python path and Platform
    :align: center
    :width: 600px
@@ -41,7 +41,7 @@ Double-click the ``run_gcbm.bat`` file to run GCBM – if the installation
 steps were performed correctly, the preprocessing tools, GCBM model, and
 postprocessing tools should run without any error messages.
 
-.. figure:: ../images/installation_gcbm/image5.png
+.. figure:: ../../images/installation_gcbm/image5.png
    :alt: Running the ``run_gcbm.bat`` file to execute GCBM
    :align: center
    :width: 600px
