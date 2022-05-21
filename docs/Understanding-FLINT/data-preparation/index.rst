@@ -139,3 +139,6 @@ pull data from the Local Domain; however, the FLINT also needs to be
 configured to identify the appropriate data source and transformation
 for each module. The configuration of the FLINT is a relatively
 straightforward exercise.
+
+
+.. include:: ../../feedback.rst

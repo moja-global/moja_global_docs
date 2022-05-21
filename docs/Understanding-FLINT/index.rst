@@ -66,3 +66,5 @@ Contents:
   data-preparation/index
   science/index
   GCBM-Inputs/index
+
+.. include:: ../feedback.rst

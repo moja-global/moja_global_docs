@@ -61,7 +61,8 @@ exclude_patterns = ['env/*']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"
+html_theme = 'furo'
+#html_theme = "sphinx_rtd_theme"
 # html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 
@@ -71,10 +72,15 @@ html_theme = "sphinx_rtd_theme"
 
 html_favicon = 'favicon.ico'
 
+#html_static_path = ['_static']
 html_static_path = ['source/_static']
-
 # html_style = os.path.join("css", "custom.css")
 
 html_css_files = [
-    'css/custom.css'
+    'css/script.css'
 ]
+
+html_js_files = [
+    'js/script.js',
+]
+
