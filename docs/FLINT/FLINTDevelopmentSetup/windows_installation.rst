@@ -35,7 +35,7 @@ cloned earlier) and use the following commands:
    # install packages
    vcpkg.exe install boost-test:x64-windows boost-program-options:x64-windows boost-log:x64-windows turtle:x64-windows zipper:x64-windows poco:x64-windows libpq:x64-windows gdal:x64-windows sqlite3:x64-windows boost-ublas:x64-windows fmt:x64-windows libpqxx:x64-windows
 
-.. figure:: ../images/installation_vs2019_flint.example/Step1b.png
+.. figure:: ../../images/installation_vs2019_flint.example/Step1b.png
    :alt: Installing required packages using vcpkg in Command Prompt
    :align: center
    :width: 600px
@@ -49,7 +49,7 @@ Setting up the FLINT development environment
 - After cloning the FLINT repository, switch to ``develop`` branch.
 
 
-.. figure:: ../images/windows_installation/develop_branch.png
+.. figure:: ../../images/windows_installation/develop_branch.png
    :alt: Develop branch of FLINT
    :width: 600
    :align: center
@@ -105,7 +105,7 @@ Run ``cmd`` and navigate to the build folder.
 - After Visual Studio has loaded completely, move to the Solution Explorer in the top right, expand the **CMakePredefinedTargets** and select **ALL_BUILD**.
 - Right click on **ALL_BUILD** and click on **Build** in the menu.
 
-.. figure:: ../images/windows_installation/all_build_visual_studio.PNG
+.. figure:: ../../images/windows_installation/all_build_visual_studio.PNG
    :alt: ALL_BUILD of Visual Studio
    :width: 600
    :align: center
@@ -113,7 +113,7 @@ Run ``cmd`` and navigate to the build folder.
    Solution Explorer in Visual Studio
 
 - If the output says Build 7 succeeded as shown in the image below, FLINT has built successfully.
-.. figure:: ../images/windows_installation/successful_build.PNG
+.. figure:: ../../images/windows_installation/successful_build.PNG
    :alt: Successful Build
    :width: 600
    :align: center
@@ -122,7 +122,7 @@ Run ``cmd`` and navigate to the build folder.
 - To see the freshly compiled FLINT executable, open the build folder and in the command prompt type: ``cd bin\debug``.
 - Type ``moja.cli`` in the command prompt.
 - You see this output:
-.. figure:: ../images/windows_installation/flint_executable_run.PNG
+.. figure:: ../../images/windows_installation/flint_executable_run.PNG
    :alt: Output after Successful FLINT run
    :width: 600
    :align: center
@@ -131,7 +131,7 @@ Run ``cmd`` and navigate to the build folder.
 Running the project
 ===================
 
-.. figure:: ../images/installation_vs2019_flint.example/Step4.png
+.. figure:: ../../images/installation_vs2019_flint.example/Step4.png
   :width: 600
   :align: center
   :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All properties page

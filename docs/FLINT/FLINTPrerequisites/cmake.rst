@@ -15,13 +15,13 @@ On opening the installer:
 
 - Open the installer, click **Next**. 
 - Accept the terms and click **Next**.
-.. figure:: ../images/cmake/cmake_license.PNG
+.. figure:: ../../images/cmake/cmake_license.PNG
    :alt: License page of CMake
    :align: center
 
    License Page of CMake
 - Select the **Add CMake to the system PATH for all users** option in the Install options section. 
-.. figure:: ../images/cmake/cmake_install.PNG
+.. figure:: ../../images/cmake/cmake_install.PNG
    :alt: Install page of CMake
    :align: center
 

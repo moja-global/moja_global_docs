@@ -68,7 +68,7 @@ libraries and CLI program. :
    # build the base
    docker build -f Dockerfile.base.ubuntu.18.04 --build-arg NUM_CPU=4 -t moja/baseimage:ubuntu-18.04 .
 
-.. figure:: ../images/installation_docker/step1_f_docker.png
+.. figure:: ../../images/installation_docker/step1_f_docker.png
    :alt: Building the base libraries using Docker
    :align: center
    :width: 600px
@@ -84,7 +84,7 @@ libraries and CLI program. :
 
    docker build  -f Dockerfile.flint.ubuntu.18.04 --build-arg NUM_CPU=4 --build-arg GITHUB_AT=XXXX --build-arg FLINT_BRANCH=develop -t moja/flint:ubuntu-18.04 .
 
-.. figure:: ../images/installation_docker/step2b_f_docker.png
+.. figure:: ../../images/installation_docker/step2b_f_docker.png
    :alt: Building the FLINT libraries using Docker
    :align: center
    :width: 600px
@@ -107,7 +107,7 @@ Once in, you should be able to run the CLI program moja.cli :
    # run CLI
    moja.cli --help
 
-.. figure:: ../images/installation_docker/step3_f_docker.png
+.. figure:: ../../images/installation_docker/step3_f_docker.png
    :alt: Running moja.cli using Docker
    :align: center
    :width: 600px

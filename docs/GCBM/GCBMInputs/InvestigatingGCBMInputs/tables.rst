@@ -1,7 +1,7 @@
 Input Tables
 ============
 
-- In the input_database, there are 41 tables in total
+In the input_database, there are 41 tables in total
 
 The following represents the schemas of the tables 
 

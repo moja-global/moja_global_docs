@@ -39,15 +39,9 @@ You can reach out to us through the following channels:
 .. toctree::
    :hidden:
 
-   Understanding-FLINT/index
-   prerequisites/index
-   DevelopmentSetup/index
-   GCBMDevelopmentSetup/index
-   FLINT UI <https://docs.moja.global/projects/flint-ui/en/latest/>
-   FLINT Reporting <https://docs.moja.global/projects/flint-reporting/en/latest/>
-   GCBM Chile Data Preprocessing <https://docs.moja.global/projects/GCBM-Chile-Data-Preprocessing-Tools/en/latest/>
-   contributing/index
-   DeveloperWorkflow/index
-   DocumentationStyleGuide/index
+   FLINT/index
+   GCBM/index
+   Projects/index
+   Guidelines/index
    faq
    join-moja-global

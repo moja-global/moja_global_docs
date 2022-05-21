@@ -33,7 +33,7 @@ cloned earlier) and use the following commands:
    # install packages
    vcpkg.exe install boost-test:x64-windows boost-program-options:x64-windows boost-log:x64-windows turtle:x64-windows zipper:x64-windows poco:x64-windows libpq:x64-windows gdal:x64-windows sqlite3:x64-windows boost-ublas:x64-windows fmt:x64-windows libpqxx:x64-windows
 
-.. figure:: ../images/installation_vs2019_flint.example/Step1b.png
+.. figure:: ../../images/installation_vs2019_flint.example/Step1b.png
    :alt: Install required packages using vcpkg in ``cmd``
    :align: center
    :width: 600px
@@ -88,14 +88,14 @@ In order to run and debug the Visual Studio solution -
 -  Build the debug configuration ``ALL_BUILD`` target by right-clicking
    the ``ALL_BUILD`` node and selecting ``Build``.
 
-.. figure:: ../images/installation_vs2019_flint.example/VS2019_buildall.jpeg
+.. figure:: ../../images/installation_vs2019_flint.example/VS2019_buildall.jpeg
   :width: 600
   :align: center
   :alt: Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
 
   Navigating to Visual Studio Debugging ``ALL_BUILD`` properties page
 
-.. figure:: ../images/installation_vs2019_flint.example/Step4.png
+.. figure:: ../../images/installation_vs2019_flint.example/Step4.png
   :width: 600
   :align: center
   :alt: Running ``moja.cli.exe`` in Visual Studio Debugging All properties page
@@ -198,7 +198,7 @@ the correct configuration -
       LOCAL_LIBS=$(OutDir)
           MOJA_LIBS=C:\Development\moja-global\FLINT\Source\build\bin\$(Configuration)
 
-.. figure:: ../images/installation_vs2019_flint.example/VS2019_rothcproperties.PNG
+.. figure:: ../../images/installation_vs2019_flint.example/VS2019_rothcproperties.PNG
    :alt: ``ALL_BUILD`` properties page for ``moja.FLINT.example.rothc``
    :align: center
    :width: 600px
@@ -209,7 +209,7 @@ You should now be able to select ``Debug->Start Debugging`` to start a
 debug run of the RothC example. You should see something like the
 following:
 
-.. figure:: ../images/installation_vs2019_flint.example/VS2019_debugrothc.jpeg
+.. figure:: ../../images/installation_vs2019_flint.example/VS2019_debugrothc.jpeg
    :alt: Debug run for rothc example
    :align: center
    :width: 600px
@@ -240,7 +240,7 @@ we just built the solution.
 -  Open the solution that CMake created at
    ``C:\Development\moja-global\FLINT\Source\build\moja.sln`` .
 
-.. figure:: ../images/installation_vs2019_flint.example/gdal/Step3.png
+.. figure:: ../../images/installation_vs2019_flint.example/gdal/Step3.png
    :alt: Navigating to Cmake Configuration Page
    :align: center
    :width: 600px
@@ -256,7 +256,7 @@ we just built the solution.
    -  ENABLE_MOJA.MODULES.POCO
    -  ENABLE_MOJA.MODULES.ZIPPER
 
-.. figure:: ../images/installation_vs2019_flint.example/gdal/Step4.png
+.. figure:: ../../images/installation_vs2019_flint.example/gdal/Step4.png
    :alt: Checking the flags mentioned
    :align: center
    :width: 600px
@@ -265,7 +265,7 @@ we just built the solution.
 
 -  Now, Click on ``Configure`` option twice.
 
-.. figure:: ../images/installation_vs2019_flint.example/gdal/Step5.png
+.. figure:: ../../images/installation_vs2019_flint.example/gdal/Step5.png
    :alt: Configuring the new options highlighted in red
    :align: center
    :width: 600px
@@ -275,7 +275,7 @@ we just built the solution.
 -  Click on ``Generate`` and then you may explore all the enabled
    modules in Solution Explorer by clicking on ``Open Project``.
 
-.. figure:: ../images/installation_vs2019_flint.example/gdal/Step6.png
+.. figure:: ../../images/installation_vs2019_flint.example/gdal/Step6.png
    :alt: Generating the new configuration
    :align: center
    :width: 600px
@@ -285,14 +285,14 @@ we just built the solution.
 -  Open ``CMakePredefinedTargets``, right click on ``ALL_BUILD`` and
    click on Build
 
-.. figure:: ../images/installation_vs2019_flint.example/gdal/Step7.png
+.. figure:: ../../images/installation_vs2019_flint.example/gdal/Step7.png
    :alt: Navigate to CMakePredefinedTargets Build
    :align: center
    :width: 600px
 
    Navigate to CMakePredefinedTargets Build
 
-.. figure:: ../images/installation_vs2019_flint.example/gdal/Step8.png
+.. figure:: ../../images/installation_vs2019_flint.example/gdal/Step8.png
    :alt: CMakePredefinedTargets ``ALL_BUILD`` Screen
    :align: center
    :width: 600px

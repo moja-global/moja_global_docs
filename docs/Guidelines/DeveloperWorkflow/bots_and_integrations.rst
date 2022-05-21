@@ -76,14 +76,14 @@ Currently, the app runs the following checks:-
 
 Here's how it looks in action:
 
-.. figure:: ../images/bots/alex.png
+.. figure:: ../../images/bots/alex.png
    :alt: ProsBot Alex Check
    :align: center
    :width: 500px
 
    ProseBot Alex Check
 
-.. figure:: ../images/bots/write-good.png
+.. figure:: ../../images/bots/write-good.png
    :alt: ProsBot WriteGood Check
    :align: center
    :width: 500px
@@ -128,7 +128,7 @@ If the Issue or Pull Request is updated, or anyone comments, then the
 stale label is removed.If no more activity occurs, the Issue or Pull Request will be
 automatically closed with an optional comment.
 
-.. figure:: ../images/bots/stale.png
+.. figure:: ../../images/bots/stale.png
    :alt: ProsBot WriteGood Check
    :align: center
    :width: 600px
@@ -205,7 +205,7 @@ It is a Github Bot that does a merge conflict check on Pull Requests and
 labels them with ``merge-conflicts`` label and comments the solution to
 resolve merge conflicts.
 
-.. figure:: ../images/bots/conflict.png
+.. figure:: ../../images/bots/conflict.png
    :alt: Mege Conflict Watcher in Action
    :align: center
    :width: 600px
@@ -234,7 +234,7 @@ The **Welcome First Time Contributors Bot** is a Github Bot that
 posts a Welcome message on a first issue or PR opened by a new
 contributor.
 
-.. figure:: ../images/bots/welcome.png
+.. figure:: ../../images/bots/welcome.png
    :alt: Welcome Bot in Action
    :align: center
    :width: 600px
@@ -260,7 +260,7 @@ Auto labelled Bot
 **Auto labelled Bot** is Github Bot that automatically labells issue ```needs-triage```
 when it is created.
 
-.. figure:: ../images/bots/labeller.png
+.. figure:: ../../images/bots/labeller.png
    :alt: Issue Labeller
    :align: center
    :width: 600px

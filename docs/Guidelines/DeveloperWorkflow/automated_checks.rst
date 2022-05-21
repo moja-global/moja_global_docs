@@ -27,7 +27,7 @@ base coverage percentage.
 -  In order to view the pull request build, please click on the
    **Details** link of the ``Python application / build (push)`` tab.
 
-.. figure:: ../images/all_checks.png
+.. figure:: ../../images/all_checks.png
    :alt: GitHub pull request Checks
    :align: center
    :width: 600px
@@ -37,7 +37,7 @@ base coverage percentage.
 -  In the case where tests fail, we can debug the problem from going
    through the console output as displayed here.
 
-.. figure:: ../images/build.png
+.. figure:: ../../images/build.png
    :alt: GitHub actions Pull Request Build Console
    :align: center
    :width: 600px
@@ -75,7 +75,7 @@ passes. Otherwise if the percentage is lower, the check fails.
    click on the **Details** tab of the ``codecov/project`` check under
    the Checks tab.
 
-.. figure:: ../images/all_checks.png
+.. figure:: ../../images/all_checks.png
    :alt: GitHub pull request Checks
    :align: center
    :width: 600px
@@ -97,7 +97,7 @@ code that need to be modified.
 -  In order to find the Codeclimate check, please click on the
    **Details** link of the ``codeclimate`` tab.
 
-.. figure:: ../images/all_checks.png
+.. figure:: ../../images/all_checks.png
    :alt: GitHub pull request Checks
    :align: center
    :width: 600px
@@ -110,7 +110,7 @@ code that need to be modified.
    below depicts the scenario where no issues are found in your code and
    the code is ready to be merged!
 
-.. figure:: ../images/code_climate.png
+.. figure:: ../../images/code_climate.png
    :alt: Codeclimate Dashboard
    :align: center
    :width: 600px
