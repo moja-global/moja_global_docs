@@ -9,6 +9,6 @@ emissions and removals from forestry, agriculture and other land uses (AFOLU).
 .. toctree::
    :hidden:
 
-   Understanding-FLINT/index
-   prerequisites/index
-   DevelopmentSetup/index
+   UnderstandingFLINT/index
+   FLINTPrerequisites/index
+   FLINTDevelopmentSetup/index

@@ -53,7 +53,7 @@ Chapman-Richards function as the basis of one of it’s forest growth
 models. GCBM uses growth-and-yield curves that describe the relationship
 between stand age and stand volume.
 
-.. figure:: ../imagesflint-implementation.png
+.. figure:: ../../images/flint-implementation.png
    :alt: Representation of a complete FLINT implementation
    :align: center
 

@@ -125,7 +125,7 @@ in form of comments.
 -  Ensure comments are easy to maintain
 
 Documentation in Markdown files
--------------------------
+-------------------------------
 
 Whenever adding a contribution that requires future contributors to
 refer that for installation and proper development of the repository, it

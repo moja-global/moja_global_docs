@@ -9,5 +9,5 @@ Contents:
   :maxdepth: 1
 
   UnderstandingDataTypes/index
-  InvestigatingGCBM-Inputs/index
-  InvestigatingGCBM-Inputs/tables
+  InvestigatingGCBMInputs/index
+  InvestigatingGCBMInputs/tables

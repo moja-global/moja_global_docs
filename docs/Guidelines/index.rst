@@ -7,6 +7,6 @@ can refer to the following guidelines:
 
 .. toctree::
 
-   contributing/index
+   Contributing/index
    DeveloperWorkflow/index
    DocumentationStyleGuide/index
