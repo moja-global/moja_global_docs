@@ -65,3 +65,5 @@ Contents:
   moja-flint/index
   data-preparation/index
   science/index
+
+.. include:: ../feedback.rst
