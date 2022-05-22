@@ -26,6 +26,9 @@ function choiceFeedback(response){
     data.append('url', window.location.href)
     data.append('type', 'choiceFeedback')
     fetch(appscriptURL, { method: 'POST', body: data})
-    .then(response => alert("Glad the documentation was useful!"))
-    .catch(error => alert("Thank you for the feedback, feel free to raise an issue on our Github page, we will resolve it soon :)"))
+    .then(response => {
+                   if(response === 'Yes') { console.log("Your feedback has been recorded") }
+                   else { console.log("Thank you for the feedback, feel free to raise an issue on our Github page, we will resolve it soon :)") }
+     })
+     .catch(error => alert("An error occured, try again "))
 }
