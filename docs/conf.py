@@ -1,7 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
 import datetime
-
-import sphinx_rtd_theme
 import os
 
 # This file only contains a selection of the most common options. For a full
@@ -33,7 +31,7 @@ nitpicky = True
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark', 'sphinx_copybutton', 'myst_nb']
+extensions = ['recommonmark', 'sphinx_copybutton', 'myst_nb', 'sphinx_design']
 
 # ignore a particular link during the linkcheck build
 linkcheck_ignore = [r'https://flintpro.com/']
@@ -64,7 +62,6 @@ html_theme = 'furo'
 
 html_favicon = 'favicon.ico'
 
-#html_static_path = ['_static']
 html_static_path = ['source/_static']
 # html_style = os.path.join("css", "custom.css")
 
@@ -74,5 +71,5 @@ html_css_files = [
 
 html_js_files = [
     'js/script.js',
+    "https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
 ]
-

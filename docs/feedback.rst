@@ -1,14 +1,19 @@
 .. raw:: html
 
-    <h3> Was the documentation helpful ? </h3>
-    <button onclick="yes()" float="left">Yes</button>  
-    <button onclick="no()" float="left">No</button><br>
-    <br><br>
-    <h3>Any feedback ? </h3>
-   <div>
-      <textarea id="message" name="message" rows="4" cols="100"></textarea>
-      <br>
-      <br>
-      <button onclick="saveFeedback()">Submit feedback</button>
-      <br>
-   </div>
+   <div style="text-align: center;" class="feedback">
+      <h3> Was the documentation helpful ? </h3>
+         <h4 id="choice-feedback-status"></h4>
+            <div id="choice-feedback">
+                <span><button onclick="yes()">Yes</button></span>
+                <button onclick="no()">No</button><br>
+            </div>
+            <br>
+            <button onclick="showFeedbackTextArea()">Send Feedback</button>
+            <h4 id="text-feedback-status"></h4>
+            <div id="text-feedback" style="display: none;">
+                <textarea id="message" name="message" rows="4" cols="60"></textarea>
+                <br>
+                <br>
+                <button onclick="textFeedback()">Submit feedback</button>
+            </div>
+        </div>

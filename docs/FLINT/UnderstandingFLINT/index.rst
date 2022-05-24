@@ -66,4 +66,4 @@ Contents:
   data-preparation/index
   science/index
 
-.. include:: ../feedback.rst
+.. include:: ../../feedback.rst

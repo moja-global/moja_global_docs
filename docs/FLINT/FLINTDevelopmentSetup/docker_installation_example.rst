@@ -20,7 +20,7 @@ Building the docker image
    # from repository root folder
    docker build --build-arg NUM_CPU=8 -t moja/flint.example:bionic .
 
-.. figure:: ../imagesinstallation_docker/step1_docker.png
+.. figure:: ../../images/installation_docker/step1_docker.png
    :alt: Building the FLINT.example image using Docker
    :align: center
    :width: 600px

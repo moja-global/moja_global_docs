@@ -1,31 +1,59 @@
-let appscriptURL = 'https://script.google.com/macros/s/AKfycbwiFzbrrqjXlL8T6FnFzcE2tHvEDIC4mLm-PlyUkgWQnWadyWCOEcG4sA2GZ72JRYVn/exec'
+let appscriptURL = "https://script.google.com/macros/s/AKfycbyOLaQDsSR-4qoVgExNIRXiVYQKsmRj9w12rlHg2yd21M7Wyd1fsSFlwL5czVwggUeP/exec"
 
-function saveFeedback(){
+function showFeedbackTextArea(){
+    let feedback = document.getElementById("text-feedback");
+    document.getElementById("text-feedback-status").innerHTML = ""
+    if (feedback.style.display === "none") {
+        feedback.style.display = "block";
+    } else {
+        feedback.style.display = "none";
+    }
+}
+
+async function textFeedback(){
     let data = new FormData();
-    let msg = document.getElementById('message').value
-    data.append('message', msg) 
-    //textFeedback           
-    data.append('url', window.location.href)
-    data.append('type', 'textFeedback')
-    fetch(appscriptURL, { method: 'POST', body: data})
-    .then(response => alert("Feedback saved successfully"))
-    .catch(error => alert("Feedback not saved, try again"))
+    let msg = document.getElementById("message").value
+    data.append("message", msg)         
+    data.append("url", window.location.href)
+    data.append("type", "textFeedback")
+    let res = await axios.post(appscriptURL, data);
+    // console.log(res.data);
+    if(res.data.result == "success"){
+        document.getElementById("text-feedback").style.display = "none"
+        document.getElementById("text-feedback-status").innerHTML = "Thank you for the feedback"
+    }
+    else {
+        document.getElementById("text-feedback-status").innerHTML = "An error occured, try again"
+    }
 }
 
 function yes(){
-    choiceFeedback('Yes')
+    choiceFeedback("Yes")
 }
 
 function no(){
-    choiceFeedback('No')
+    choiceFeedback("No")
 }
 
-function choiceFeedback(response){
+async function choiceFeedback(response){
     let data = new FormData();
-    data.append('response', response)            
-    data.append('url', window.location.href)
-    data.append('type', 'choiceFeedback')
-    fetch(appscriptURL, { method: 'POST', body: data})
-    .then(response => alert("Glad the documentation was useful!"))
-    .catch(error => alert("Thank you for the feedback, feel free to raise an issue on our Github page, we will resolve it soon :)"))
+    data.append("response", response)            
+    data.append("url", window.location.href)
+    data.append("type", "choiceFeedback")
+    let res = await axios.post(appscriptURL, data);
+    // console.log(res.data);
+    if(res.data.result === "success"){
+        document.getElementById("choice-feedback").style.display = "none"
+        if(res.data.message === "Yes"){
+            document.getElementById("choice-feedback-status").innerHTML = "Glad, the documentation helped!"
+            document.getElementById("choice-feedback-status").style.color = "green"
+        } 
+        else if(res.data.message === "No") {
+            document.getElementById("choice-feedback-status").innerHTML = "Thank you for the response, feel free to submit feedback, we will resolve it soon :)"
+            document.getElementById("choice-feedback-status").style.color = "#ff3333"
+        }
+    }
+    else {
+        document.getElementById("choice-feedback-status").innerHTML = "An error occured, try again"
+    }
 }
