@@ -72,9 +72,6 @@ html_css_files = [
 
 html_js_files = [
     'js/script.js',
-<<<<<<< HEAD
     "https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
-=======
->>>>>>> 0ede0b4bdbecd884083bb86ebe9d82c38f0b1dcc
 ]
 
