@@ -1,5 +1,5 @@
 Style & Tone
-===========
+============
 
 We aim to achieve a simple, easy-to-understand context for our technical
 and non-technical documentation. It aims to overlook the too-formal or

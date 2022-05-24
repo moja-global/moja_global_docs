@@ -31,7 +31,7 @@ nitpicky = True
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark', 'sphinx_copybutton', 'myst_nb', 'sphinx_design']
+extensions = ['recommonmark', 'sphinx_copybutton', 'myst_nb']
 
 # ignore a particular link during the linkcheck build
 linkcheck_ignore = [r'https://flintpro.com/']
