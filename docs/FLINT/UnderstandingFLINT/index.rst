@@ -62,8 +62,7 @@ Contents:
 .. toctree::
   :maxdepth: 1
 
-  moja-flint/index
-  data-preparation/index
-  science/index
+  MojaFlint/index
+  DataPreparation/index
+  Science/index
 
-.. include:: ../../feedback.rst

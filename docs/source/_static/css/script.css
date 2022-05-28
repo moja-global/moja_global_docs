@@ -6,3 +6,19 @@
     border-style: solid; 
     border-width: 1px;
 }
+
+
+
+@media (prefers-color-scheme: light) {
+    button {
+        background-color: white;
+        color: black;
+    }
+}
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    button {
+        background-color: black;
+        color: white;
+    }
+}

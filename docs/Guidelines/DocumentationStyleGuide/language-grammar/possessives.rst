@@ -16,3 +16,5 @@ an apostrophe-s. Some general guidelines for the usage are:
    an apostrophe.
 -  Always prefer an alternate construct if it provides a better context
    to the readers than a possessive form.
+
+.. include:: ../../../section-feedback.rst

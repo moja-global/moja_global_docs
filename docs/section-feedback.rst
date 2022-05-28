@@ -1,7 +1,7 @@
 .. raw:: html
 
    <div style="text-align: center;" class="feedback">
-      <h3> Was the documentation helpful ? </h3>
+      <h3> Was this section helpful ? </h3>
          <h4 id="choice-feedback-status"></h4>
             <div id="choice-feedback">
                 <span><button onclick="yes()">Yes</button></span>

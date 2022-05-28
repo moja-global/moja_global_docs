@@ -96,3 +96,5 @@ FLINT using Git.
 .. _Linux: https://docs.moja.global/en/latest/DevelopmentSetup/docker_installation.html
 .. _zulipbot: https://github.com/zulip/zulipbot/
 .. _slack: https://mojaglobal.slack.com
+
+.. include:: ../../page-feedback.rst

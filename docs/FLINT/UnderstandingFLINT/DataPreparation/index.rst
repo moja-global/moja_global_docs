@@ -141,4 +141,4 @@ for each module. The configuration of the FLINT is a relatively
 straightforward exercise.
 
 
-.. include:: ../../../feedback.rst
+.. include:: ../../../section-feedback.rst

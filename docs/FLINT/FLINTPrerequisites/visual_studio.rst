@@ -60,3 +60,5 @@ For Visual Studio 2017
    for free by clicking on “Create a new Microsoft account” on the login
    page.
 -  Follow the steps prompted by the installer.
+
+.. include:: ../../page-feedback.rst

@@ -20,3 +20,4 @@ merged by following this guide
 `here <https://docs.moja.global/en/latest/contributing/index.html>`__.
 
 .. _here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+

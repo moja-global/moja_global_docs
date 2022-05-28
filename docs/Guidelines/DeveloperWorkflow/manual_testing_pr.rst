@@ -22,3 +22,5 @@ Checkout to the Pull Request branch by running this command where
    warnings/errors that might otherwise go unnoticed.
 -  If the application facilitates multiple user sign up, check with
    different users to catch any permission/security related issues.
+
+.. include:: ../../section-feedback.rst
