@@ -1,5 +1,5 @@
 Understanding FLINT
-======================
+===================
 
 Countries recognise the importance of improving decision making and
 supporting land sector policies to reduce greenhouse gas (GHG) emissions
