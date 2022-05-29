@@ -206,11 +206,11 @@ labels them with ``merge-conflicts`` label and comments the solution to
 resolve merge conflicts.
 
 .. figure:: ../../images/bots/conflict.png
-   :alt: Mege Conflict Watcher in Action
+   :alt: Merge Conflict Watcher in Action
    :align: center
    :width: 600px
 
-   Mege Conflict Watcher in Action
+   Merge Conflict Watcher in Action
 
 It uses `auto-label-merge-conflicts`_\ to checks all open Pull Requests
 for merge conflicts and marks them with a Github label and

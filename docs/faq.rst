@@ -281,7 +281,7 @@ I am trying to setup the Docker installation for FLINT but am running into error
 =========================================================================================================
 
 In case of the Docker installation for FLINT, it might be possible that
-the Docker hardware requirements are not met. Please ensure that atleast
+the Docker hardware requirements are not met. Please ensure that at least
 4 CPU cores & 4 GB of RAM has been allotted to the Docker machine.
 
 I have tried the above but my errors persist. What should I do?
