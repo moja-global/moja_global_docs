@@ -1,7 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
 import datetime
-
-import sphinx_rtd_theme
 import os
 
 # This file only contains a selection of the most common options. For a full
@@ -55,7 +53,7 @@ exclude_patterns = ['env/*']
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-
+#
 html_theme = 'furo'
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -64,10 +62,15 @@ html_theme = 'furo'
 
 html_favicon = 'favicon.ico'
 
+#html_static_path = ['_static']
 html_static_path = ['source/_static']
-
 # html_style = os.path.join("css", "custom.css")
 
 html_css_files = [
-    'css/custom.css'
+    'css/script.css'
+]
+
+html_js_files = [
+    'js/script.js',
+    "https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
 ]

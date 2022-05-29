@@ -333,3 +333,5 @@ can be followed along with the commands.
   style="padding-bottom:56.25%; position:relative; margin-bottom: 2em; display:block; width: 100%">
   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JFTyeZQbPjI" title="FLINT Example (Chapman Richards model) on Visual Studio" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe>
   </div>
+
+.. include:: ../../page-feedback.rst

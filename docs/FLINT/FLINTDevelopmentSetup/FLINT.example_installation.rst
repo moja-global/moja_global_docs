@@ -50,3 +50,6 @@ Contents:
   visual_studio_win_example
   visual_studio_example
   docker_installation_example
+
+
+.. include:: ../../page-feedback.rst

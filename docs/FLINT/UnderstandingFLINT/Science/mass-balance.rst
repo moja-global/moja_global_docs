@@ -15,3 +15,5 @@ While there is mass balance built into the FLINT; there is currently no
 set of logical stock values. For example, it will be possible for a pool
 to have a negative carbon stock. This will be amended in future
 iterations of the FLINT.
+
+.. include:: ../../../section-feedback.rst

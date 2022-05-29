@@ -27,3 +27,5 @@ To build the libraries please follow the following steps:
 
   
 Note: The process may take one to two hours, depending on the specifications of your system.
+
+.. include:: ../../page-feedback.rst

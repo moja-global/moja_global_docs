@@ -76,3 +76,5 @@ this data the model then provides a new data point. This is then grown
 on for a full year from the new data point, and the growth data is then
 proportioned back to the end of the original year using the same process
 described previously.
+
+.. include:: ../../../section-feedback.rst

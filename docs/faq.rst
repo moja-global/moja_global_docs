@@ -356,10 +356,10 @@ configuration, and hence the tool for every module.
 .. _FLINT UI: https://docs.moja.global/projects/flint-ui/en/latest/index.html
 
 FLINT.Reporting
---------
+---------------
 
 What is FLINT.Reporting?
-=================
+========================
 
 Reporting Tool functionality for classifying FLINT output results into
 standard reporting formats.

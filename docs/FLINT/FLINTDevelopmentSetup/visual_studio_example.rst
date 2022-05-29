@@ -73,3 +73,5 @@ running container after cmake has been successful.
 
 .. _Visual Studio: https://docs.moja.global/en/latest/prerequisites/visual_studio.html
 .. _Remote - Container (VS Extension): https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+
+.. include:: ../../page-feedback.rst

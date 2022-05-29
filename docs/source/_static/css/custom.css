@@ -80,3 +80,19 @@ a {
     font-weight: 700;
     font-family: 'DM Sans', sans-serif;
 }
+
+
+
+@media (prefers-color-scheme: light) {
+    button {
+        background-color: white;
+        color: black;
+    }
+}
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    button {
+        background-color: black;
+        color: white;
+    }
+}

@@ -28,3 +28,5 @@ On opening the installer:
    Install Page of CMake
 - Click **Next** and finally click **Install**
 - After CMake is installed, restart your system.
+
+.. include:: ../../page-feedback.rst

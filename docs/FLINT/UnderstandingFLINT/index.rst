@@ -1,5 +1,5 @@
 Understanding FLINT
-======================
+===================
 
 Countries recognise the importance of improving decision making and
 supporting land sector policies to reduce greenhouse gas (GHG) emissions
@@ -62,6 +62,7 @@ Contents:
 .. toctree::
   :maxdepth: 1
 
-  moja-flint/index
-  data-preparation/index
-  science/index
+  MojaFlint/index
+  DataPreparation/index
+  Science/index
+
