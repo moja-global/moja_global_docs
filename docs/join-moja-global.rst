@@ -19,7 +19,7 @@ Technical Steering Committee Meetings
 The moja global team hosts a Technical Steering Committee Meeting on every 2nd Wednesday of the month. These meetings are a way for all the community members to connect, discuss progress and developments from a Technical viewpoint and engage in collaborative discussions for new/existing projects.
 
 If you are new to the community and want to know more about moja global and meet the team, we highly encourage you to attend these meetings. Since the discussions here are not catered to a specific topic, this would be a good place to start and familiarize yourself with our community and work.
-Interestingly, if you have a new idea for a project or improvements to an exisiting one, please do join these meetings and share your thoughts with us!
+Interestingly, if you have a new idea for a project or improvements to an existing one, please do join these meetings and share your thoughts with us!
 
 We also recommend all interested GSoC and other student program apsirants to join these meetings to discuss or ask their queries for any project idea that they might have. The moja global team will be sure to hear you out and provide early feedback to steer you towards your goal!
 
