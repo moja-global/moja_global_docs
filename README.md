@@ -69,6 +69,18 @@ make linkcheck
 ```
 
 You can now look for the broken links, if any, inside `_build/linkcheck/output` .
+#### Setup the pre-commit hook 
+
+In order to ensure that the documentation is free from unforced spelling errors, a [pre-commit](https://pre-commit.com/) hook has been used. On executing `git commit`, [codespell](https://github.com/codespell-project/codespell) checks for spelling errors.
+
+Steps to install pre-commit : 
+
+```
+pip install pre-commit
+pre-commit install
+```
+
+If spelling errors are detected, codespell automatically corrects the spelling. It is required to execute `git add` to stage the changes made.
 
 ## How to Get Involved?
 
