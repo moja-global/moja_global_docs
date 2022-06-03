@@ -250,12 +250,12 @@ target your pull requests against the **develop** branch. For more
 instructions on doing this, please refer to our `Git and GitHub Guide`_
 .
 
-.. _Git and GitHub Guide: https://docs.moja.global/en/latest/DevelopmentSetup/git_and_github_guide.html
+.. _Git and GitHub Guide: https://docs.moja.global/en/master/FLINT/FLINTDevelopmentSetup/git_and_github_guide.html
 
 I use the Mac operating system. Is it possible to install FLINT?
 ================================================================
 
-Yes Absolutely! You can install FLINT on Mac using `our docker installation <https://docs.moja.global/en/latest/DevelopmentSetup/docker_installation.html>`_ .
+Yes Absolutely! You can install FLINT on Mac using `our docker installation <https://docs.moja.global/en/master/FLINT/FLINTPrerequisites/docker.html>`_ .
 
 What is the difference between FLINT and FLINT.example repositories on moja global GitHub?
 ==========================================================================================
@@ -275,7 +275,7 @@ to add ``Desktop Development with C++`` workload while undergoing
 `Visual Studio installation process`_ mentioned in our prerequisites
 section.
 
-.. _Visual Studio installation process: https://docs.moja.global/en/latest/prerequisites/visual_studio.html#for-visual-studio-2019
+.. _Visual Studio installation process: https://docs.moja.global/en/master/FLINT/FLINTPrerequisites/visual_studio.html#for-visual-studio-2019
 
 I am trying to setup the Docker installation for FLINT but am running into errors. What am I doing wrong?
 =========================================================================================================
