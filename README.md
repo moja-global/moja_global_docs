@@ -1,6 +1,6 @@
 # Moja global documentation
 
-This repository contains developer documentation for the [moja global](https://moja.global/) community. You can find the online version of the moja global documentation at **[docs.moja.global](https://docs.moja.global/en/latest/)**.
+This repository contains developer documentation for the [moja global](https://moja.global/) community. You can find the online version of the moja global documentation at **[docs.moja.global](https://docs.moja.global/en/master/)**.
 
 Issues and contributions for the developer documentation are tracked here. We have a large community using these resources and we would like to make it our best effort to respond to issues in a timely fashion.
 

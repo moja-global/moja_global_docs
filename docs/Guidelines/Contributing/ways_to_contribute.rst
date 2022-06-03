@@ -145,6 +145,6 @@ help, then please drop us a line at info@moja.global. We'll get in touch
 with you!
 
 .. _new issue: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmoja-global%2FAbout_moja_global%2Fissues%2Fnew
-.. _claimed credit: https://docs.moja.global/en/latest/contributing/index.html
+.. _claimed credit: https://docs.moja.global/en/master/Guidelines/Contributing/index.html
 .. _GitHub organization: https://github.com/moja-global
-.. _Claim credit: https://docs.moja.global/en/latest/contributing/index.html
+.. _Claim credit: https://docs.moja.global/en/master/Guidelines/Contributing/index.html

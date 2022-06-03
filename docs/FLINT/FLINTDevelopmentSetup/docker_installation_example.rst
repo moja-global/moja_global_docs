@@ -91,6 +91,6 @@ The Output files created are visible in the below screenshot:
   :alt: Output files created from runs
    Output files created from runs
 
-.. _Docker: https://docs.moja.global/en/latest/prerequisites/docker.html
+.. _Docker: https://docs.moja.global/en/master/FLINT/FLINTPrerequisites/docker.html
 
 .. include:: ../../page-feedback.rst

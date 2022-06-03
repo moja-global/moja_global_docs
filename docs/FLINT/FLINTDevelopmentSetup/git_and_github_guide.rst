@@ -92,8 +92,8 @@ FLINT using Git.
    branch is merged into the ``master`` branch.
 
 .. _here: https://support.atlassian.com/bitbucket-cloud/docs/install-and-set-up-git/
-.. _Windows: https://docs.moja.global/en/latest/DevelopmentSetup/windows_installation.html
-.. _Linux: https://docs.moja.global/en/latest/DevelopmentSetup/docker_installation.html
+.. _Windows:https://docs.moja.global/en/master/FLINT/FLINTDevelopmentSetup/windows_installation.html
+.. _Linux: https://docs.moja.global/en/master/FLINT/FLINTDevelopmentSetup/docker_installation.html
 .. _zulipbot: https://github.com/zulip/zulipbot/
 .. _slack: https://mojaglobal.slack.com
 
