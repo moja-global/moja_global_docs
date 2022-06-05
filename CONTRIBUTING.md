@@ -18,7 +18,7 @@ You can also [join moja global](Contributing/How-to-Join-moja-global.md) and the
 
 ## How to Set Up the Documentation Website Locally?
 
-In order to set up the documentation website locally, make sure you have a [Github](github.com) account. If you do not have an existing Github account, we recommend you to create one.
+In order to set up the documentation website locally, make sure you have a [GitHub](github.com) account. If you do not have an existing GitHub account, we recommend you to create one.
 
 Here are the steps you can follow while setting up the documentation locally.
 
@@ -112,9 +112,9 @@ After you have cloned the documentation repo to your computer locally, edit the 
 
 1. `add` and `commit` your changes to your repository
 
-2. Git push your changes to your fork on Github
+2. Git push your changes to your fork on GitHub
 
-3. On Github, click on the `Create a new Pull Request` button.
+3. On GitHub, click on the `Create a new Pull Request` button.
 
 4. Use a succinct title and descriptive comments to descibe your Pull Request. Also Ensure maintainers can understand your proposed changes from the description
 
