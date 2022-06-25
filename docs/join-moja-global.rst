@@ -6,12 +6,12 @@ Welcome to the moja global family! Thank you for taking the first step in connec
 moja global Slack
 =================
 
-moja global Slack provides a platform for contributors to communicate, discuss ideas and ask questions. It acts as the primary communication tool used under moja global. `The moja global slack <https://www.google.com/url?q=https://join.slack.com/t/mojaglobal/shared_invite/zt-o6ta1ug0-rVLjAo460~d7JbZ~HpFFtw&sa=D&source=editors&ust=1633078795555000&usg=AFQjCNFbieFLALt9IFd9pqxYz1S54wj-Rg>`_ is also bound by our `Code Of Conduct <https://docs.moja.global/en/latest/contributing/coc.html>`_.
+moja global Slack provides a platform for contributors to communicate, discuss ideas and ask questions. It acts as the primary communication tool used under moja global. `The moja global slack <https://mojaglobal.slack.com/>`_ is also bound by our `Code Of Conduct <https://docs.moja.global/en/master/Guidelines/Contributing/coc.html>`_.
 Make sure you follow the guidelines before posting. We encourage you to be active participants to make moja global a responsive open source organisation.
 
 In order to receive an invite for the moja global Slack workspace, please email info@moja.global with a description of the project areas you are interested in. After evaluation from the mentors, you will receive a slack workspace invite. Please be patient since it may take time for maintainers to respond.
 
-After joining the Slack Workspace, we encourage you to join project specific channels of your interest. You may also `answer other contributors queries <https://docs.moja.global/en/latest/contributing/ways_to_contribute.html#answer-user-questions>`_ or guide contributors towards resources in case they are stuck.
+After joining the Slack Workspace, we encourage you to join project specific channels of your interest. You may also `answer other contributors queries <https://docs.moja.global/en/master/Guidelines/Contributing/ways_to_contribute.html#answer-user-questions>`_ or guide contributors towards resources in case they are stuck.
 
 Technical Steering Committee Meetings
 =====================================
@@ -66,7 +66,7 @@ Here is how you may help our mission:
 If you have been contributing to moja global for sometime now, you may also:
 
 * **Write a Blog**: Blog about your experience working with moja global and the impact it has had on your skillset. This will be a great way to let other contributors know about the atmosphere here at moja global.
-* **Organise meetups**: `Organise meetups <https://docs.moja.global/en/latest/contributing/ways_to_contribute.html#organize-moja-global-events-meetups>`_ to share your experience in open source by working with moja global and moja global's mission.
+* **Organise meetups**: `Organise meetups <https://docs.moja.global/en/master/Guidelines/Contributing/ways_to_contribute.html#organize-moja-global-events-meetups>`_ to share your experience in open source by working with moja global and moja global's mission.
 
 We appreciate every little step to promote moja global and are extremely grateful for your efforts!
 

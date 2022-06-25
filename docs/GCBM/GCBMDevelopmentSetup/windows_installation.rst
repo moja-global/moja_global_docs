@@ -56,7 +56,7 @@ GCBM Video Tutorial
 The above steps for installation of GCBM can also be followed along with
 the video tutorial:
 
-.. _here.: https://docs.moja.global/en/master/GCBMDevelopmentSetup/prerequisites.html
+.. _here.: https://docs.moja.global/en/master/GCBM/GCBMDevelopmentSetup/prerequisites.html
 
 .. raw:: html
 

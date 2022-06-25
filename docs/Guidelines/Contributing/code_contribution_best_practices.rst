@@ -137,7 +137,7 @@ requires immediate attention or you may make separate ``.md`` files as
 per the guidelines below.
 
 .. _Clang-Tidy: https://clang.llvm.org/extra/clang-tidy/
-.. _Pylint: https://www.pylint.org/
+.. _Pylint: https://pylint.pycqa.org/en/latest/
 .. _better naming and structuring: https://agoldis.medium.com/how-to-document-source-code-responsibly-2b2f303aa525
 
 -  Modify the ``README.md`` file for documentation that changes the

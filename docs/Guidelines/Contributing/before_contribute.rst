@@ -28,8 +28,8 @@ repositories and even get featured as a new contributor! Along with
 checking out our Contributing workflow, you may also reach out to us
 through the contact form and share your interesting ideas with us!
 
-.. _Git and Github guide: https://docs.moja.global/en/latest/DevelopmentSetup/git_and_github_guide.html
-.. _Code of Conduct: https://docs.moja.global/en/latest/contributing/coc.html
-.. _moja global best contribution practices: https://docs.moja.global/en/latest/contributing/code_contribution_best_practices.html
-.. _Join us: https://docs.moja.global/en/latest/join-moja-global.html
+.. _Git and Github guide: https://docs.moja.global/en/master/FLINT/FLINTDevelopmentSetup/git_and_github_guide.html
+.. _Code of Conduct: https://docs.moja.global/en/master/Guidelines/Contributing/coc.html
+.. _moja global best contribution practices: https://docs.moja.global/en/master/Guidelines/Contributing/code_contribution_best_practices.html
+.. _Join us: https://docs.moja.global/en/master/join-moja-global.html
 .. _Community Website: https://moja-global.vercel.app/

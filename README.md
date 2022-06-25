@@ -1,6 +1,6 @@
 # Moja global documentation
 
-This repository contains developer documentation for the [moja global](https://moja.global/) community. You can find the online version of the moja global documentation at **[docs.moja.global](https://docs.moja.global/en/latest/)**.
+This repository contains developer documentation for the [moja global](https://moja.global/) community. You can find the online version of the moja global documentation at **[docs.moja.global](https://docs.moja.global/en/master/)**.
 
 Issues and contributions for the developer documentation are tracked here. We have a large community using these resources and we would like to make it our best effort to respond to issues in a timely fashion.
 
@@ -82,7 +82,7 @@ pre-commit install
 
 If spelling errors are detected, codespell automatically corrects the spelling. It is required to execute `git add` to stage the changes made.
 
-The job `spell-check` in the Github Action named `pre-commit` is used to run the spell check. A failed Github Action indicates the presence of spelling errors. The contributors should correct the spelling errors and commit the changes
+The job `spell-check` in the GitHub Action named `pre-commit` is used to run the spell check. A failed GitHub Action indicates the presence of spelling errors. The contributors should correct the spelling errors and commit the changes
 ## How to Get Involved?
 
 moja global welcomes a wide range of contributions as explained in the [Contributing guide](https://community.moja.global/community/contributing) and in the [About moja global page](https://community.moja.global/docs/about-moja-global).
