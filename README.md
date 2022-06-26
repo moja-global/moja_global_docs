@@ -82,6 +82,8 @@ pre-commit install
 
 If spelling errors are detected, codespell automatically corrects the spelling. It is required to execute `git add` to stage the changes made.
 
+The job `spell-check` in the Github Action named `pre-commit` is used to run the spell check on CI. A failed Github Action indicates the presence of spelling errors. The contributors should correct the spelling errors and commit the changes
+
 ## How to Get Involved?
 
 moja global welcomes a wide range of contributions as explained in the [Contributing guide](https://community.moja.global/community/contributing) and in the [About moja global page](https://community.moja.global/docs/about-moja-global).
