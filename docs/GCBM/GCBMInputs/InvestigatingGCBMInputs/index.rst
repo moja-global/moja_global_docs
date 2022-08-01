@@ -26,3 +26,4 @@ Contents:
   miscellaneous/bounding_box.ipynb
   miscellaneous/initial_age.ipynb
   miscellaneous/mean_annual_temperature.ipynb
+  miscellaneous/study_area.ipynb
