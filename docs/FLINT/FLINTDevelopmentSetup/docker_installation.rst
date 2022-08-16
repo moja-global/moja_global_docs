@@ -33,15 +33,15 @@ Building using prebuilt image
 =============================
 
 Instead of building the required libraries, pre-built Docker Image is
-available for FLINT at our `Dockerhub`_ . You can pull and run FLINT
+available for FLINT at our `GitHub Container Registry`_ . You can pull and run FLINT
 using this prebuilt image using the following commands.
 
 ::
 
    # pull the image
-   docker pull mojaglobal/flint
+   docker pull ghcr.io/moja-global/flint.example:master
    # run a container
-   docker run --rm -ti mojaglobal/flint:latest bash
+   docker run --rm -ti ghcr.io/moja-global/flint.example:master bash
    # run CLI
    moja.cli --help
 
@@ -119,6 +119,7 @@ That should respond with the following options:
 .. _Docker: https://docs.moja.global/en/master/FLINT/FLINTPrerequisites/docker.html
 .. _FLINT.example: https://docs.moja.global/en/master/FLINT/FLINTDevelopmentSetup/FLINT.example_installation.html
 .. _Dockerhub: https://hub.docker.com/r/mojaglobal/flint
+.. _GitHub Container Registry: https://github.com/orgs/moja-global/packages
 .. _Git and GitHub Guide: https://docs.moja.global/en/master/FLINT/FLINTDevelopmentSetup/git_and_github_guide.html#make-a-contribution
 
 Allowed options
