@@ -96,3 +96,8 @@ a {
         color: white;
     }
 }
+
+
+#moja-global-documentation{
+    word-break:break-word !important;
+}
