@@ -13,7 +13,6 @@ of carbon flows.
 
 An Overview
 ===================
-
 The FLINT is a second-generation tool aimed to facilitate the
 implementation and operation of land sector emissions estimation systems
 worldwide. It was developed through cooperation between Kenya, Australia
